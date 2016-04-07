@@ -16,7 +16,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////// 
 
-module ControlDecoder(clk, rst, qusb_ifclk, run_number, qusb_fd, qusb_ren, qusb_wen, 
+module ControlDecoder(clk, rst, qusb_ifclk, run_number, qusb_fd, qusb_ren, qusb_wen, qusb_gpifadr,
         threshold_voltage, bias_voltage, transmit_request_0, transmit_complete_0, acquisition_counter_0,
         transmit_request_1, transmit_complete_1, acquisition_counter_1,
         transmit_request_2, transmit_complete_2, acquisition_counter_2,
@@ -37,6 +37,7 @@ module ControlDecoder(clk, rst, qusb_ifclk, run_number, qusb_fd, qusb_ren, qusb_
     input                           rst;
     output                          qusb_ifclk;
     inout           [15:0]          qusb_fd;
+    input           [8:0]           qusb_gpifadr;
     output          [23:0]          run_number;
     input                           qusb_ren;
     input                           qusb_wen;

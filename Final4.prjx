@@ -128,8 +128,8 @@ SIZE="1881"
 ENDFILE
 VALUE "<project>\hdl\ControlDecoder.v,hdl"
 STATE="utd"
-TIME="1460032975"
-SIZE="23683"
+TIME="1460035643"
+SIZE="23747"
 ENDFILE
 VALUE "<project>\hdl\DACController.vhd,hdl"
 STATE="utd"
@@ -333,7 +333,7 @@ ReportsCurrentItem;Project Summary:Final4.log
 StartPage;StartPage;0
 SmartDesign;TDR;0
 HDL;hdl\ControlDecoder.v;0
-ACTIVEVIEW;TDR
+ACTIVEVIEW;hdl\ControlDecoder.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Adder::work","hdl\Adder.v","FALSE","FALSE"
@@ -440,11 +440,11 @@ ENDLIST
 LIST "TDR::work","component\work\TDR\TDR.cxf","TRUE","FALSE"
 SUBBLOCK "Adder::work","hdl\Adder.v","FALSE","FALSE"
 SUBBLOCK "BunchCounter::work","hdl\BunchCounter.v","FALSE","FALSE"
-SUBBLOCK "ControlDecoder::work","hdl\ControlDecoder.v","FALSE","FALSE"
 SUBBLOCK "Core_sb::work","component\work\Core_sb\Core_sb.cxf","TRUE","FALSE"
 SUBBLOCK "DACController::work","hdl\DACController.vhd","FALSE","FALSE"
 SUBBLOCK "FIFO::work","hdl\FIFO.v","FALSE","FALSE"
 SUBBLOCK "JTAG::work","hdl\JTAG.v","FALSE","FALSE"
+SUBBLOCK "ControlDecoder::work","hdl\ControlDecoder.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
