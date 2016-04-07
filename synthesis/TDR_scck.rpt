@@ -1,7 +1,7 @@
 # Synopsys Constraint Checker(syntax only), version mapact, Build 1659R, built Dec 10 2015
 # Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
-# Written on Fri Mar 04 13:24:57 2016
+# Written on Thu Apr 07 16:17:41 2016
 
 
 ##### DESIGN INFO #######################################################
@@ -21,11 +21,8 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-Start                                                           Requested     Requested     Clock        Clock              
-Clock                                                           Frequency     Period        Type         Group              
-----------------------------------------------------------------------------------------------------------------------------
-Core_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_2
-Core_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_3
-TDR|clk                                                         100.0 MHz     10.000        inferred     Inferred_clkgroup_1
-TDR|ifclk                                                       100.0 MHz     10.000        inferred     Inferred_clkgroup_0
-============================================================================================================================
+Start       Requested     Requested     Clock        Clock              
+Clock       Frequency     Period        Type         Group              
+------------------------------------------------------------------------
+TDR|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+========================================================================

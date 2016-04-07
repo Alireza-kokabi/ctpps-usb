@@ -38,7 +38,7 @@ module Adder( clk, rst, event_number, bunch_number, run_number, address_out, dat
     input   [15:0]                  bunch_number;
     input   [23:0]                  run_number;
     output  [14:0]                  address_out;
-    input   [23:0]                  data_in;
+    input   [31:0]                  data_in;
     input                           empty;
     input                           input_ready;
     output                          read_enable;

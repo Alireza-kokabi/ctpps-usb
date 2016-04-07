@@ -1,4 +1,3 @@
-@E: CG342 :"D:\Dropbox\Documents\Projects\Firmware\Source\Final\hdl\USB.v":160:20:160:35|Expecting target variable, found ccu25_data_temp1 -- possible misspelling
-@E: CS187 :"D:\Dropbox\Documents\Projects\Firmware\Source\Final\hdl\USB.v":241:0:241:8|Expecting endmodule
-@E::Verilog compiler failed
+@E: CS101 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":193:19:193:25|Index 31 is out of range for variable data_in
+@E::Errors, while synthesis of top - TDR.
 

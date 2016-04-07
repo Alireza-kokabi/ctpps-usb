@@ -7,10 +7,10 @@ Preferred HDL Type: Verilog
                   Device Details
 #-----------------------------------------------------
 
-Part Number    : M2S060TS-1FG676
+Part Number    : M2S150-FC1152
 Family         : SmartFusion2
-Die            : M2S060TS
-Package        : 676 FBGA
-Speed          : -1
+Die            : M2S150
+Package        : 1152 FC
+Speed          : STD
 Core Voltage   : 1.2
 Range          : COM

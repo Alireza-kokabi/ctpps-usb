@@ -1,8 +1,7 @@
-# Written by Synplify Pro version mapact, Build 1659R. Synopsys Run ID: sid1457094299 
+# Written by Synplify Pro version mapact, Build 1659R. Synopsys Run ID: sid1460038662 
 # Top Level Design Parameters 
 
 # Clocks 
-create_clock -period 10.000 -waveform {0.000 5.000} -name {TDR|ifclk} [get_ports {ifclk}] 
 create_clock -period 10.000 -waveform {0.000 5.000} -name {TDR|clk} [get_ports {clk}] 
 
 # Virtual Clocks 
@@ -34,11 +33,6 @@ create_clock -period 10.000 -waveform {0.000 5.000} -name {TDR|clk} [get_ports {
 # set_case Attributes 
 
 # Clock Delay Constraints 
-set Inferred_clkgroup_1 [list TDR|clk]
-set Inferred_clkgroup_0 [list TDR|ifclk]
-set_clock_groups -asynchronous -group $Inferred_clkgroup_1
-set_clock_groups -asynchronous -group $Inferred_clkgroup_0
-
 
 # syn_mode Attributes 
 

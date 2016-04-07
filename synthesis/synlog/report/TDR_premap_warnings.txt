@@ -1,17 +1,5 @@
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3626:2:3626:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_15
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3580:2:3580:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_15,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_14
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3534:2:3534:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_14,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_13
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3488:2:3488:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_13,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_12
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3442:2:3442:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_12,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_11
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3396:2:3396:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_11,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3304:2:3304:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_9,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3258:2:3258:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_8,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3212:2:3212:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_7,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3166:2:3166:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_6,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
-@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\usb.v":153:4:153:9|Found inferred clock TDR|ifclk which controls 40 sequential elements including USB_0.pbpd_temp[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\adder.v":90:4:90:9|Found inferred clock TDR|clk which controls 5180 sequential elements including Adder_0.data_out_1[60:59]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\work\core_sb_mss\core_sb_mss.v":271:0:271:13|Found inferred clock Core_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 210 sequential elements including Core_sb_0.Core_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock Core_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 15 sequential elements including Core_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":779:14:779:28|Removing user instance DACController_1,  because it is equivalent to instance DACController_0
+@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Found inferred clock TDR|clk which controls 1219 sequential elements including Adder_0.counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[0] on net Adder_0_address_out[0] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[1] on net Adder_0_address_out[1] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[2] on net Adder_0_address_out[2] has its enable tied to GND (module TDR) 
@@ -80,10 +68,55 @@
 @W: MO111 :|Tristate driver Adder_3_address_out_t[14] on net Adder_3_address_out[14] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_3_transmit_complete_t on net Adder_3_transmit_complete has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_3_data_ready_for_transmit_t on net Adder_3_data_ready_for_transmit has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver ControlDecoder_0_transmit_request_t on net ControlDecoder_0_transmit_request has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver ControlDecoder_1_transmit_request_t on net ControlDecoder_1_transmit_request has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver ControlDecoder_2_transmit_request_t on net ControlDecoder_2_transmit_request has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver ControlDecoder_3_transmit_request_t on net ControlDecoder_3_transmit_request has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[0] on net BunchCounter_0_bunch_number_1[0] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[1] on net BunchCounter_0_bunch_number_1[1] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[2] on net BunchCounter_0_bunch_number_1[2] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[3] on net BunchCounter_0_bunch_number_1[3] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[4] on net BunchCounter_0_bunch_number_1[4] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[5] on net BunchCounter_0_bunch_number_1[5] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[6] on net BunchCounter_0_bunch_number_1[6] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[7] on net BunchCounter_0_bunch_number_1[7] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[8] on net BunchCounter_0_bunch_number_1[8] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[9] on net BunchCounter_0_bunch_number_1[9] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[10] on net BunchCounter_0_bunch_number_1[10] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[11] on net BunchCounter_0_bunch_number_1[11] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[12] on net BunchCounter_0_bunch_number_1[12] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[13] on net BunchCounter_0_bunch_number_1[13] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[14] on net BunchCounter_0_bunch_number_1[14] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_bunch_number_1_t[15] on net BunchCounter_0_bunch_number_1[15] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[0] on net BunchCounter_0_event_number_0[0] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[1] on net BunchCounter_0_event_number_0[1] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[2] on net BunchCounter_0_event_number_0[2] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[3] on net BunchCounter_0_event_number_0[3] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[4] on net BunchCounter_0_event_number_0[4] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[5] on net BunchCounter_0_event_number_0[5] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[6] on net BunchCounter_0_event_number_0[6] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[7] on net BunchCounter_0_event_number_0[7] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[8] on net BunchCounter_0_event_number_0[8] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[9] on net BunchCounter_0_event_number_0[9] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[10] on net BunchCounter_0_event_number_0[10] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[11] on net BunchCounter_0_event_number_0[11] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[12] on net BunchCounter_0_event_number_0[12] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[13] on net BunchCounter_0_event_number_0[13] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[14] on net BunchCounter_0_event_number_0[14] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[15] on net BunchCounter_0_event_number_0[15] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[16] on net BunchCounter_0_event_number_0[16] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[17] on net BunchCounter_0_event_number_0[17] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[18] on net BunchCounter_0_event_number_0[18] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[19] on net BunchCounter_0_event_number_0[19] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[20] on net BunchCounter_0_event_number_0[20] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[21] on net BunchCounter_0_event_number_0[21] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[22] on net BunchCounter_0_event_number_0[22] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver BunchCounter_0_event_number_0_t[23] on net BunchCounter_0_event_number_0[23] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver qusb_ifclk_t on net qusb_ifclk has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_transmit_request_0_t on net ControlDecoder_0_transmit_request_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_transmit_request_1_t on net ControlDecoder_0_transmit_request_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_transmit_request_2_t on net ControlDecoder_0_transmit_request_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_transmit_request_3_t on net ControlDecoder_0_transmit_request_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_data_transmit_complete_0_t on net ControlDecoder_0_data_transmit_complete_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_data_transmit_complete_1_t on net ControlDecoder_0_data_transmit_complete_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_data_transmit_complete_2_t on net ControlDecoder_0_data_transmit_complete_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_data_transmit_complete_3_t on net ControlDecoder_0_data_transmit_complete_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_token_bypass_in_0_t on net hptdc_token_bypass_in_0 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_serial_in_0_t on net hptdc_serial_in_0 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_serial_bypass_in_0_t on net hptdc_serial_bypass_in_0 has its enable tied to GND (module TDR) 
@@ -112,7 +145,3 @@
 @W: MO111 :|Tristate driver hptdc_event_reset_3_t on net hptdc_event_reset_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_bunch_reset_3_t on net hptdc_bunch_reset_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_encode_control_3_t on net hptdc_encode_control_3 has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver poh_clk_0_t on net poh_clk_0 has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver poh_clk_1_t on net poh_clk_1 has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver poh_clk_2_t on net poh_clk_2 has its enable tied to GND (module TDR) 
-@W: MO111 :|Tristate driver poh_clk_3_t on net poh_clk_3 has its enable tied to GND (module TDR) 

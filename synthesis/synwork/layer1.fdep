@@ -1,33 +1,27 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-mixedhdl|-top|work.DACController|-top|work.BiasController|-mpparams|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\Final2\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\Final2\\synthesis\\synwork\\TDR_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449218126
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\hyperents.vhd":1449218132
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\Final2\\hdl\\BiasController.vhd":1446390123
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\Final2\\hdl\\DACController.vhd":1446382914
-0 "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\hdl\BiasController.vhd" vhdl
-1 "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\hdl\DACController.vhd" vhdl
+#OPTIONS:"|-mixedhdl|-top|work.DACController|-mpparams|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\TDR_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449221726
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\hyperents.vhd":1449221732
+#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\DACController.vhd":1457527369
+0 "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
-1 -1
 
 # Dependency Lists (Users Of)
 0 -1
-1 -1
 
 # Design Unit to File Association
-arch work biascontroller behavioral 0
-module work biascontroller 0
-arch work daccontroller behavioral 1
-module work daccontroller 1
+arch work daccontroller behavioral 0
+module work daccontroller 0
 
 # Unbound Instances to File Association
 

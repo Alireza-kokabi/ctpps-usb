@@ -1,6 +1,8 @@
 #--  Synopsys, Inc.
 #--  Version J-2015.03M-SP1-2
-#--  Project file D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\scratchproject.prs
+#--  Project file D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\run_options.txt
+#--  Written on Thu Apr 07 16:17:36 2016
+
 
 #project files
 add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/Adder.v"
@@ -14,7 +16,7 @@ add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-u
 
 
 #implementation: "synthesis"
-impl -add D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis -type fpga
+impl -add synthesis -type fpga
 
 #
 #implementation attributes
@@ -69,5 +71,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/synthesis/TDR.edn"
+project -result_file "./TDR.edn"
 impl -active "synthesis"

@@ -1,16 +1,15 @@
 %%% protect protected_file
-#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449218126
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449218132
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449218132
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\Final2\\hdl\\BiasController.vhd":1446390123
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\Final2\\hdl\\DACController.vhd":1446382914
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449221726
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449221732
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449221732
+#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\DACController.vhd":1457527369
 @E8lFkRDC7BqBFsM0FCDDsH
 DLssN$FRIsH	
 M0bkR	ODRF4
@@ -18,16 +17,7 @@ kk0b0YR1hLB_N4sR
 0FkbRk0pB7q_sLNRF4
 kk0b0QR7h
 R4Fbk0k10RBODF	
-R4HkMb0ER0sEC#F_D8P0FDNRoC4C.
-MF8l8CkD
-8lFkRDCA#HNB0FMsDFDCDs
-HNLssI$RF
-s	HkMb0DRO	
-R4Fbk0k10RY_hBLRNs4k
-F00bkRqp7BN_Ls
-R4Fbk0k70RQ4hR
-0FkbRk01FBDO4	R
-bHMkL0RH_N#P0FDNRoC.Cc
+R4HkMb0ER0sEC#F_D8P0FDNRoC4Cc
 MF8l8CkD
 
 @ 

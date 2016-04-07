@@ -41,9 +41,11 @@ set_option -vlog_std v2001
 
 #device options
 set_option -technology SmartFusion2
-set_option -part M2S060TS
+set_option -part M2S150
+set_option -package FC1152
+set_option -speed_grade STD
+set_option -package FC1152
 set_option -package FBGA676
-set_option -speed_grade -1
 set_option -package FBGA676
 set_option -package FC1152
 set_option -package FC1152
@@ -54,9 +56,11 @@ set_option -package FCSBGA325
 set_option -package FCSBGA325
 set_option -package FCSBGA325
 set_option -package FC1152
-set_option -part M2S060TS
+set_option -part M2S150
+set_option -package FC1152
+set_option -speed_grade STD
+set_option -package FC1152
 set_option -package FBGA676
-set_option -speed_grade -1
 set_option -package FBGA676
 set_option -package FC1152
 set_option -package FC1152
