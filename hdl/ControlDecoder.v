@@ -28,7 +28,9 @@ module ControlDecoder(clk, rst, qusb_ifclk, run_number, qusb_fd, qusb_ren, qusb_
         data_received_from_hptdc_0, data_sent_to_hptdc_0, jtag_instruction_0, jtag_bus_in_use_0,
         data_received_from_hptdc_1, data_sent_to_hptdc_1, jtag_instruction_1, jtag_bus_in_use_1,
         data_received_from_hptdc_2, data_sent_to_hptdc_2, jtag_instruction_2, jtag_bus_in_use_2,
-        data_received_from_hptdc_3, data_sent_to_hptdc_3, jtag_instruction_3, jtag_bus_in_use_3);
+        data_received_from_hptdc_3, data_sent_to_hptdc_3, jtag_instruction_3, jtag_bus_in_use_3,
+        data_ready_0, data_ready_1, data_ready_2, data_ready_3,
+        data_in_0, data_in_1, data_in_2, data_in_3);
 
     input                           clk;
     input                           rst;
@@ -92,7 +94,16 @@ module ControlDecoder(clk, rst, qusb_ifclk, run_number, qusb_fd, qusb_ren, qusb_
     input                           data_received_from_hptdc_3;       //announce receiving data from the hptdc
     input                           data_sent_to_hptdc_3;             //announce receiving data from the hptdc
     output                          get_data_from_hptdc_3;            //request receiving data from the hptdc
-    output          [4  :0]         jtag_instruction_3;           
+    output          [4  :0]         jtag_instruction_3;  
+
+    input           [63:0]          data_in_0;
+    input                           data_ready_0;    
+    input           [63:0]          data_in_1;
+    input                           data_ready_1;    
+    input           [63:0]          data_in_2;
+    input                           data_ready_2;    
+    input           [63:0]          data_in_3;
+    input                           data_ready_3;    
 
 
     //-----------Internal variables-------------------

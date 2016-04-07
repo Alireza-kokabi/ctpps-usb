@@ -6,9 +6,9 @@ KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY UseConstraintFlowTechnology "FALSE"
 KEY VendorTechnology_Family "SmartFusion2"
-KEY VendorTechnology_Die "PA4M12000_N"
-KEY VendorTechnology_Package "fc1152"
-KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_Die "PA4M6000_TS"
+KEY VendorTechnology_Package "fg676"
+KEY VendorTechnology_Speed "-1"
 KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
@@ -20,7 +20,7 @@ KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
 KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
-KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M12000_N"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M6000_TS"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
 KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
@@ -63,7 +63,7 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Core_sb\Core_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459847626"
+TIME="1460029245"
 SIZE="1201"
 ENDFILE
 VALUE "<project>\component\work\MSS\Core_sb_MSS_TMP.cxf,actgen_cxf"
@@ -73,8 +73,8 @@ SIZE="21328"
 ENDFILE
 VALUE "<project>\component\work\TDR\TDR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459865712"
-SIZE="20172"
+TIME="1460030711"
+SIZE="18456"
 ENDFILE
 VALUE "<project>\component\work\TDR_sb\TDR_sb.cxf,actgen_cxf"
 STATE="utd"
@@ -128,8 +128,8 @@ SIZE="1881"
 ENDFILE
 VALUE "<project>\hdl\ControlDecoder.v,hdl"
 STATE="utd"
-TIME="1457524104"
-SIZE="16871"
+TIME="1460030638"
+SIZE="23322"
 ENDFILE
 VALUE "<project>\hdl\DACController.vhd,hdl"
 STATE="utd"
@@ -328,8 +328,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:Final4.log
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;TDR;0
+HDL;hdl\ControlDecoder.v;0
+ACTIVEVIEW;TDR
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Adder::work","hdl\Adder.v","FALSE","FALSE"
