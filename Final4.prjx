@@ -1,0 +1,458 @@
+KEY LIBERO "11.7"
+KEY CAPTURE "11.7.0.119"
+KEY DEFAULT_IMPORT_LOC "E:\Naveen\Projects\G4_i\G4i_AnalogPairs\trunk\HW\VL_33V_18V\proj01\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M12000_N"
+KEY VendorTechnology_Package "fc1152"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M12000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "TDR::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREAHBLITE_LIB
+COREAHBLSRAM_LIB
+ENDLIST
+LIST LIBRARY_COREAHBLITE_LIB
+ALIAS=..\component\Actel\DirectCore\CoreAHBLite\5.2.100\mti\user_vlog\COREAHBLITE_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREAHBLSRAM_LIB
+ALIAS=COREAHBLSRAM_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.0.113\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1429007687"
+SIZE="508"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Core_sb\Core_sb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1459847626"
+SIZE="1201"
+ENDFILE
+VALUE "<project>\component\work\MSS\Core_sb_MSS_TMP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1459754659"
+SIZE="21328"
+ENDFILE
+VALUE "<project>\component\work\TDR\TDR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1459865712"
+SIZE="20172"
+ENDFILE
+VALUE "<project>\component\work\TDR_sb\TDR_sb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1429100655"
+SIZE="3930"
+ENDFILE
+VALUE "<project>\constraint\fp\TDR.fp.pdc,fp_pdc"
+STATE="utd"
+TIME="1457003898"
+SIZE="338"
+ENDFILE
+VALUE "<project>\constraint\io\TDR.pdc,io_pdc"
+STATE="utd"
+TIME="1457094743"
+SIZE="17639"
+ENDFILE
+VALUE "<project>\designer\impl1\TDR.ide_des,ide_des"
+STATE="utd"
+TIME="1457094663"
+SIZE="414"
+ENDFILE
+VALUE "<project>\designer\impl1\TDR_sb.ide_des,ide_des"
+STATE="utd"
+TIME="1446392656"
+SIZE="209"
+ENDFILE
+VALUE "<project>\hdl\Adder.v,hdl"
+STATE="utd"
+TIME="1459761695"
+SIZE="9644"
+ENDFILE
+VALUE "<project>\hdl\BiasController.v,hdl"
+STATE="utd"
+TIME="1446389655"
+SIZE="4621"
+ENDFILE
+VALUE "<project>\hdl\BiasController.vhd,hdl"
+STATE="utd"
+TIME="1446390123"
+SIZE="4616"
+ENDFILE
+VALUE "<project>\hdl\BunchCounter.v,hdl"
+STATE="utd"
+TIME="1459756123"
+SIZE="1084"
+ENDFILE
+VALUE "<project>\hdl\CCU25Interface.v,hdl"
+STATE="utd"
+TIME="1444495450"
+SIZE="1881"
+ENDFILE
+VALUE "<project>\hdl\ControlDecoder.v,hdl"
+STATE="utd"
+TIME="1457524104"
+SIZE="16871"
+ENDFILE
+VALUE "<project>\hdl\DACController.vhd,hdl"
+STATE="utd"
+TIME="1457523769"
+SIZE="4626"
+ENDFILE
+VALUE "<project>\hdl\FIFO.v,hdl"
+STATE="utd"
+TIME="1459761640"
+SIZE="5545"
+ENDFILE
+VALUE "<project>\hdl\I2C.v,hdl"
+STATE="utd"
+TIME="1459865904"
+SIZE="3326"
+ENDFILE
+VALUE "<project>\hdl\JTAG.v,hdl"
+STATE="utd"
+TIME="1458595161"
+SIZE="15032"
+ENDFILE
+VALUE "<project>\hdl\ParallelPortHPTDC.v,hdl"
+STATE="utd"
+TIME="1457441038"
+SIZE="2538"
+ENDFILE
+VALUE "<project>\hdl\ProgramCombiner.v,hdl"
+STATE="utd"
+TIME="1423232756"
+SIZE="10616"
+ENDFILE
+VALUE "<project>\hdl\SerialReciever.v,hdl"
+STATE="utd"
+TIME="1428948818"
+SIZE="2118"
+ENDFILE
+VALUE "<project>\hdl\SerialSynchronizer.v,hdl"
+STATE="utd"
+TIME="1428948975"
+SIZE="1979"
+ENDFILE
+VALUE "<project>\hdl\SerialTransmitter.v,hdl"
+STATE="utd"
+TIME="1446400504"
+SIZE="2774"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1457094243"
+SIZE="787"
+PARENT="<project>\component\work\TDR\TDR.cxf"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1446400526"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\TDR_comp.so,so"
+STATE="utd"
+TIME="1428422622"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\TDR.so,so"
+STATE="utd"
+TIME="1457094302"
+SIZE="236"
+ENDFILE
+VALUE "<project>\synthesis\TDR_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1457094302"
+SIZE="1182"
+ENDFILE
+VALUE "<project>\synthesis\TDR_syn.prj,prj"
+STATE="utd"
+TIME="1459847627"
+SIZE="5643"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="D:\Microsemi\Libero_SoC_v11.7\SoftConsole\Eclipse\eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\Microsemi\Libero_SoC_v11.7\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\Microsemi\Libero_SoC_v11.7\Designer\bin\flashpro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="D:\Microsemi\Libero_SoC_v11.7\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Adder::work","hdl\Adder.v","FALSE","FALSE"
+ENDLIST
+LIST "BiasController::work","hdl\BiasController.vhd","FALSE","FALSE"
+ENDLIST
+LIST "BunchCounter::work","hdl\BunchCounter.v","FALSE","FALSE"
+ENDLIST
+LIST "CCU25Interface::work","hdl\CCU25Interface.v","FALSE","FALSE"
+ENDLIST
+LIST "ControlDecoder::work","hdl\ControlDecoder.v","FALSE","FALSE"
+ENDLIST
+LIST "Core_sb::work","component\work\Core_sb\Core_sb.cxf","TRUE","FALSE"
+ENDLIST
+LIST "DACController::work","hdl\DACController.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FIFO::work","hdl\FIFO.v","FALSE","FALSE"
+ENDLIST
+LIST "I2CslaveWith8bitsIO::work","hdl\I2C.v","FALSE","FALSE"
+ENDLIST
+LIST "JTAG::work","hdl\JTAG.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS::work","component\work\MSS\Core_sb_MSS_TMP.cxf","TRUE","FALSE"
+SUBBLOCK "MSS_CAN::work","","FALSE","FALSE"
+SUBBLOCK "MSS_CCC::work","","FALSE","FALSE"
+SUBBLOCK "MSS_CC::work","","FALSE","FALSE"
+SUBBLOCK "MSS_CFGM::work","","FALSE","FALSE"
+SUBBLOCK "MSS_CM3::work","","FALSE","FALSE"
+SUBBLOCK "MSS_DDRB::work","","FALSE","FALSE"
+SUBBLOCK "MSS_DMA::work","","FALSE","FALSE"
+SUBBLOCK "MSS_EDAC::work","","FALSE","FALSE"
+SUBBLOCK "MSS_ENVM::work","","FALSE","FALSE"
+SUBBLOCK "MSS_FIC32::work","","FALSE","FALSE"
+SUBBLOCK "MSS_GPIO::work","","FALSE","FALSE"
+SUBBLOCK "MSS_I2C::work","","FALSE","FALSE"
+SUBBLOCK "MSS_INTR::work","","FALSE","FALSE"
+SUBBLOCK "MSS_MAC::work","","FALSE","FALSE"
+SUBBLOCK "MSS_MDDR::work","","FALSE","FALSE"
+SUBBLOCK "MSS_MMUART::work","","FALSE","FALSE"
+SUBBLOCK "MSS_RESET::work","","FALSE","FALSE"
+SUBBLOCK "MSS_RTC::work","","FALSE","FALSE"
+SUBBLOCK "MSS_SECURITY::work","","FALSE","FALSE"
+SUBBLOCK "MSS_SPI::work","","FALSE","FALSE"
+SUBBLOCK "MSS_SWITCH::work","","FALSE","FALSE"
+SUBBLOCK "MSS_USB::work","","FALSE","FALSE"
+SUBBLOCK "MSS_WATCHDOG::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CAN::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CC::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CCC::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CFGM::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CM3::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_DDRB::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_DMA::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_EDAC::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_ENVM::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_FIC32::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_GPIO::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_I2C::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_INTR::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_MAC::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_MDDR::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_MMUART::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_RESET::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_RTC::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_SECURITY::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_SPI::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_SWITCH::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_USB::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_WATCHDOG::work","","FALSE","FALSE"
+ENDLIST
+LIST "ParallelPortHPTDC::work","hdl\ParallelPortHPTDC.v","FALSE","FALSE"
+ENDLIST
+LIST "ProgramCombiner::work","hdl\ProgramCombiner.v","FALSE","FALSE"
+ENDLIST
+LIST "SerialReciever::work","hdl\SerialReciever.v","FALSE","FALSE"
+ENDLIST
+LIST "SerialSynchronizer::work","hdl\SerialSynchronizer.v","FALSE","FALSE"
+ENDLIST
+LIST "SerialTransmitter::work","hdl\SerialTransmitter.v","FALSE","FALSE"
+ENDLIST
+LIST "TDR::work","component\work\TDR\TDR.cxf","TRUE","FALSE"
+SUBBLOCK "Adder::work","hdl\Adder.v","FALSE","FALSE"
+SUBBLOCK "BunchCounter::work","hdl\BunchCounter.v","FALSE","FALSE"
+SUBBLOCK "ControlDecoder::work","hdl\ControlDecoder.v","FALSE","FALSE"
+SUBBLOCK "Core_sb::work","component\work\Core_sb\Core_sb.cxf","TRUE","FALSE"
+SUBBLOCK "DACController::work","hdl\DACController.vhd","FALSE","FALSE"
+SUBBLOCK "FIFO::work","hdl\FIFO.v","FALSE","FALSE"
+SUBBLOCK "JTAG::work","hdl\JTAG.v","FALSE","FALSE"
+SUBBLOCK "SerialTransmitter::work","hdl\SerialTransmitter.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\TDR.pdc"
+ENDLIST
+LIST FPTabList
+VALUE "constraint\fp\TDR.fp.pdc"
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>TDR</header>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port TDR:ccu25_strobe_out_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/TDR:ccu25_strobe_out_0</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port TDR:ccu25_strobe_out_1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/TDR:ccu25_strobe_out_1</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_0:ccu25_strobe_in</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_0:ccu25_strobe_in</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin ControlDecoder_0:ccu25_strobe_out</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_0:ccu25_strobe_out</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_0:bias_voltage</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_0:bias_voltage</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_1:ccu25_strobe_in</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_1:ccu25_strobe_in</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin ControlDecoder_1:ccu25_strobe_out</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_1:ccu25_strobe_out</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_1:bias_voltage</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_1:bias_voltage</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_2:ccu25_strobe_in</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_2:ccu25_strobe_in</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin ControlDecoder_2:ccu25_strobe_out</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_2:ccu25_strobe_out</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_2:threshold_voltage</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_2:threshold_voltage</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_2:bias_voltage</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_2:bias_voltage</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_3:ccu25_strobe_in</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_3:ccu25_strobe_in</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin ControlDecoder_3:ccu25_strobe_out</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_3:ccu25_strobe_out</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_3:threshold_voltage</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_3:threshold_voltage</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin ControlDecoder_3:bias_voltage</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/ControlDecoder_3:bias_voltage</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:INIT_DONE</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:INIT_DONE</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:FIC_1_CLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:FIC_1_CLK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:FIC_1_LOCK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:FIC_1_LOCK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:FAB_CCC_GL1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:FAB_CCC_GL1</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:FAB_CCC_GL2</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:FAB_CCC_GL2</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:FAB_CCC_GL3</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:FAB_CCC_GL3</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:FAB_CCC_LOCK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:FAB_CCC_LOCK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Core_sb_0:MSS_READY</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:MSS_READY</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin Core_sb_0:AMBA_SLAVE_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:AMBA_SLAVE_0</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin Core_sb_0:AMBA_MASTER_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TDR/pins/Core_sb_0:AMBA_MASTER_0</crossprobe>
+  </drc>
+</drcreport>

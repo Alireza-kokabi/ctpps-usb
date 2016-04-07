@@ -1,0 +1,91 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-SP1-2
+#--  Project file D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\scratchproject.prs
+
+#project files
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/Adder.v"
+add_file -vhdl -lib work "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/BiasController.vhd"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/ControlDecoder.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/work/Core_sb/CCC_0/Core_sb_CCC_0_FCCC.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/work/Core_sb/FABOSC_0/Core_sb_FABOSC_0_OSC.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/work/Core_sb_MSS/Core_sb_MSS_syn.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/work/Core_sb_MSS/Core_sb_MSS.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/work/Core_sb/Core_sb.v"
+add_file -vhdl -lib work "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/DACController.vhd"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/FIFO.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/JTAG.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/ParallelPortHPTDC.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/SerialTransmitter.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/hdl/USB.v"
+add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/component/work/TDR/TDR.v"
+
+
+
+#implementation: "synthesis"
+impl -add D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S150
+set_option -package FC1152
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "TDR"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 0
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/synthesis/TDR.edn"
+impl -active "synthesis"

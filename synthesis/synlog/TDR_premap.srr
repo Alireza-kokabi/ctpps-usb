@@ -1,0 +1,241 @@
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR_scck.rpt 
+Printing clock  summary report in "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
+
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3626:2:3626:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_15
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3580:2:3580:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_15,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_14
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3534:2:3534:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_14,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_13
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3488:2:3488:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_13,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_12
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3442:2:3442:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_12,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_11
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3396:2:3396:14|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_11,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3304:2:3304:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_9,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3258:2:3258:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_8,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3212:2:3212:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_7,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3166:2:3166:13|Removing user instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_6,  because it is equivalent to instance Core_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2703:2:2703:14|Removing instance masterstage_1 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2767:2:2767:14|Removing instance masterstage_2 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2831:2:2831:14|Removing instance masterstage_3 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_2_1_0_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2936:2:2936:13|Removing instance slavestage_1 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2703:2:2703:14|Removing instance masterstage_1 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2767:2:2767:14|Removing instance masterstage_2 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2831:2:2831:14|Removing instance masterstage_3 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2890:1:2890:12|Removing instance slavestage_0 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z8_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\parallelporthptdc.v":51:4:51:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ParallelPortHPTDC_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\parallelporthptdc.v":51:4:51:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ParallelPortHPTDC_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\parallelporthptdc.v":51:4:51:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ParallelPortHPTDC_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\parallelporthptdc.v":51:4:51:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ParallelPortHPTDC_0(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":87:56:87:68|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_layer0_1(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":87:56:87:68|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_layer0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance full of view:PrimLib.dff(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance full of view:PrimLib.dff(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance full of view:PrimLib.dff(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\fifo.v":66:4:66:9|Removing sequential instance full of view:PrimLib.dff(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_layer0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_layer0_2(verilog) because there are no references to its outputs 
+syn_allowed_resources : blockrams=236  set on top level netlist TDR
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 176MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                                           Requested     Requested     Clock        Clock              
+Clock                                                           Frequency     Period        Type         Group              
+----------------------------------------------------------------------------------------------------------------------------
+Core_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_2
+Core_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_3
+TDR|clk                                                         100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+TDR|ifclk                                                       100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+============================================================================================================================
+
+@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\usb.v":153:4:153:9|Found inferred clock TDR|ifclk which controls 40 sequential elements including USB_0.pbpd_temp[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\hdl\adder.v":90:4:90:9|Found inferred clock TDR|clk which controls 5180 sequential elements including Adder_0.data_out_1[60:59]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\work\core_sb_mss\core_sb_mss.v":271:0:271:13|Found inferred clock Core_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 210 sequential elements including Core_sb_0.Core_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\final2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock Core_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 15 sequential elements including Core_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@W: MO111 :|Tristate driver Adder_0_address_out_t[0] on net Adder_0_address_out[0] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[1] on net Adder_0_address_out[1] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[2] on net Adder_0_address_out[2] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[3] on net Adder_0_address_out[3] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[4] on net Adder_0_address_out[4] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[5] on net Adder_0_address_out[5] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[6] on net Adder_0_address_out[6] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[7] on net Adder_0_address_out[7] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[8] on net Adder_0_address_out[8] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[9] on net Adder_0_address_out[9] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[10] on net Adder_0_address_out[10] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[11] on net Adder_0_address_out[11] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[12] on net Adder_0_address_out[12] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[13] on net Adder_0_address_out[13] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_address_out_t[14] on net Adder_0_address_out[14] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_transmit_complete_t on net Adder_0_transmit_complete has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_0_data_ready_for_transmit_t on net Adder_0_data_ready_for_transmit has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[0] on net Adder_1_address_out[0] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[1] on net Adder_1_address_out[1] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[2] on net Adder_1_address_out[2] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[3] on net Adder_1_address_out[3] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[4] on net Adder_1_address_out[4] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[5] on net Adder_1_address_out[5] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[6] on net Adder_1_address_out[6] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[7] on net Adder_1_address_out[7] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[8] on net Adder_1_address_out[8] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[9] on net Adder_1_address_out[9] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[10] on net Adder_1_address_out[10] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[11] on net Adder_1_address_out[11] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[12] on net Adder_1_address_out[12] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[13] on net Adder_1_address_out[13] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_address_out_t[14] on net Adder_1_address_out[14] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_transmit_complete_t on net Adder_1_transmit_complete has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_1_data_ready_for_transmit_t on net Adder_1_data_ready_for_transmit has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[0] on net Adder_2_address_out[0] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[1] on net Adder_2_address_out[1] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[2] on net Adder_2_address_out[2] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[3] on net Adder_2_address_out[3] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[4] on net Adder_2_address_out[4] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[5] on net Adder_2_address_out[5] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[6] on net Adder_2_address_out[6] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[7] on net Adder_2_address_out[7] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[8] on net Adder_2_address_out[8] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[9] on net Adder_2_address_out[9] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[10] on net Adder_2_address_out[10] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[11] on net Adder_2_address_out[11] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[12] on net Adder_2_address_out[12] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[13] on net Adder_2_address_out[13] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_address_out_t[14] on net Adder_2_address_out[14] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_transmit_complete_t on net Adder_2_transmit_complete has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_2_data_ready_for_transmit_t on net Adder_2_data_ready_for_transmit has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[0] on net Adder_3_address_out[0] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[1] on net Adder_3_address_out[1] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[2] on net Adder_3_address_out[2] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[3] on net Adder_3_address_out[3] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[4] on net Adder_3_address_out[4] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[5] on net Adder_3_address_out[5] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[6] on net Adder_3_address_out[6] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[7] on net Adder_3_address_out[7] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[8] on net Adder_3_address_out[8] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[9] on net Adder_3_address_out[9] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[10] on net Adder_3_address_out[10] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[11] on net Adder_3_address_out[11] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[12] on net Adder_3_address_out[12] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[13] on net Adder_3_address_out[13] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_address_out_t[14] on net Adder_3_address_out[14] has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_transmit_complete_t on net Adder_3_transmit_complete has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver Adder_3_data_ready_for_transmit_t on net Adder_3_data_ready_for_transmit has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_0_transmit_request_t on net ControlDecoder_0_transmit_request has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_1_transmit_request_t on net ControlDecoder_1_transmit_request has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_2_transmit_request_t on net ControlDecoder_2_transmit_request has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver ControlDecoder_3_transmit_request_t on net ControlDecoder_3_transmit_request has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_token_bypass_in_0_t on net hptdc_token_bypass_in_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_in_0_t on net hptdc_serial_in_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_bypass_in_0_t on net hptdc_serial_bypass_in_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_trigger_0_t on net hptdc_trigger_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_event_reset_0_t on net hptdc_event_reset_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_bunch_reset_0_t on net hptdc_bunch_reset_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_encode_control_0_t on net hptdc_encode_control_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_token_bypass_in_1_t on net hptdc_token_bypass_in_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_in_1_t on net hptdc_serial_in_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_bypass_in_1_t on net hptdc_serial_bypass_in_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_trigger_1_t on net hptdc_trigger_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_event_reset_1_t on net hptdc_event_reset_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_bunch_reset_1_t on net hptdc_bunch_reset_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_encode_control_1_t on net hptdc_encode_control_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_token_bypass_in_2_t on net hptdc_token_bypass_in_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_in_2_t on net hptdc_serial_in_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_bypass_in_2_t on net hptdc_serial_bypass_in_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_trigger_2_t on net hptdc_trigger_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_event_reset_2_t on net hptdc_event_reset_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_bunch_reset_2_t on net hptdc_bunch_reset_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_encode_control_2_t on net hptdc_encode_control_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_token_bypass_in_3_t on net hptdc_token_bypass_in_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_in_3_t on net hptdc_serial_in_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_serial_bypass_in_3_t on net hptdc_serial_bypass_in_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_trigger_3_t on net hptdc_trigger_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_event_reset_3_t on net hptdc_event_reset_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_bunch_reset_3_t on net hptdc_bunch_reset_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver hptdc_encode_control_3_t on net hptdc_encode_control_3 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver poh_clk_0_t on net poh_clk_0 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver poh_clk_1_t on net poh_clk_1 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver poh_clk_2_t on net poh_clk_2 has its enable tied to GND (module TDR) 
+@W: MO111 :|Tristate driver poh_clk_3_t on net poh_clk_3 has its enable tied to GND (module TDR) 
+@N: BN225 |Writing default property annotation file D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 176MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 04 13:24:59 2016
+
+###########################################################]

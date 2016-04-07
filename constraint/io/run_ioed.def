@@ -1,0 +1,22 @@
+data DESIGN TDR
+data HPATH 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/designer/TDR'
+data CPATH 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/constraint/io'
+data CDIR 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M12000_N
+data PACKAGE fc1152
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE OLD
+data AFL 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/designer/TDR/TDR.afl'
+data ADL 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/designer/TDR/TDR.adl'
+data LOC 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/designer/TDR/TDR.loc'
+data SEG 'D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/Final2/designer/TDR/TDR.seg'
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+

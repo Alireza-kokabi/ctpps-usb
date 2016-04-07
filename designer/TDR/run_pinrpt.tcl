@@ -1,0 +1,10 @@
+DESIGN=TDR
+DESDIR=D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR
+TARGET_DIR=D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR
+FAM=SmartFusion2
+DIE=PA4M12000_N
+PACKAGE=fc1152
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

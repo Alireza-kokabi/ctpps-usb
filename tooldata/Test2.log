@@ -1,0 +1,16 @@
+Project Name: Test2
+Location: D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Test2
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S050-FG896
+Family         : SmartFusion2
+Die            : M2S050
+Package        : 896 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

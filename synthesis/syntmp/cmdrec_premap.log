@@ -1,0 +1,14 @@
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -mp  1  -prjfile  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis   -part M2S150  -package FC1152  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 0 -RWCheckOnRam 0 -summaryfile D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synlog\report\TDR_premap.xml  -top_level_module  TDR  -oedif  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR.edn  -conchk_prepass  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR_cck_prepass.rpt   -freq 100.000   D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_prem.srd  -qsap  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR.sap  -devicelib  D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -ologparam  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\syntmp\TDR.plg  -osyn  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_prem.srd  -prjdir  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\  -prjname  TDR_syn  -log  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synlog\TDR_premap.srr 
+rc:1 success:1
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\scratchproject.prs|o|1456920959|5109
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR.edn|o|1457013944|270090
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR_cck_prepass.rpt|o|0|0
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_mult.srs|i|1457094297|97249
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_prem.srd|o|1457094298|505660
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR.sap|o|1457094299|91650
+D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449218130|16359
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\syntmp\TDR.plg|o|1457094297|0
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_prem.srd|o|1457094298|505660
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synlog\TDR_premap.srr|o|1457094299|44734
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449735544|15814144
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449737156|27632640

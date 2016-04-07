@@ -1,0 +1,16 @@
+Project Name: Final4
+Location: D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S060TS-1FG676
+Family         : SmartFusion2
+Die            : M2S060TS
+Package        : 676 FBGA
+Speed          : -1
+Core Voltage   : 1.2
+Range          : COM

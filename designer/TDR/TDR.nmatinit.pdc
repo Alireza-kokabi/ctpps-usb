@@ -1,0 +1,417 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 11.7.0.119
+
+# Design Name: TDR 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S150 , Package: 1152 FC , Speed grade: STD 
+
+# Date generated: Wed Mar 02 13:23:40 2016 
+
+
+#
+# I/O constraints
+#
+
+set_io CLK0_PAD -DIRECTION INPUT -pinname K33 -fixed no
+set_io DIN -DIRECTION OUTPUT -pinname AJ34 -fixed no
+set_io DIN_0 -DIRECTION OUTPUT -pinname P8 -fixed no
+set_io DIN_1 -DIRECTION OUTPUT -pinname H6 -fixed no
+set_io DIN_2 -DIRECTION OUTPUT -pinname AG18 -fixed no
+set_io DIN_3 -DIRECTION OUTPUT -pinname L2 -fixed no
+set_io DIN_4 -DIRECTION OUTPUT -pinname AD4 -fixed no
+set_io DIN_5 -DIRECTION OUTPUT -pinname AG27 -fixed no
+set_io DIN_6 -DIRECTION OUTPUT -pinname M26 -fixed no
+set_io LDAC_bar -DIRECTION OUTPUT -pinname AA2 -fixed no
+set_io LDAC_bar_0 -DIRECTION OUTPUT -pinname M2 -fixed no
+set_io LDAC_bar_1 -DIRECTION OUTPUT -pinname AA7 -fixed no
+set_io LDAC_bar_2 -DIRECTION OUTPUT -pinname AB1 -fixed no
+set_io LDAC_bar_3 -DIRECTION OUTPUT -pinname AA3 -fixed no
+set_io LDAC_bar_4 -DIRECTION OUTPUT -pinname M3 -fixed no
+set_io LDAC_bar_5 -DIRECTION OUTPUT -pinname N4 -fixed no
+set_io LDAC_bar_6 -DIRECTION OUTPUT -pinname P4 -fixed no
+set_io SClock -DIRECTION OUTPUT -pinname Y9 -fixed no
+set_io SClock_0 -DIRECTION OUTPUT -pinname R4 -fixed no
+set_io SClock_1 -DIRECTION OUTPUT -pinname N1 -fixed no
+set_io SClock_2 -DIRECTION OUTPUT -pinname W3 -fixed no
+set_io SClock_3 -DIRECTION OUTPUT -pinname W6 -fixed no
+set_io SClock_4 -DIRECTION OUTPUT -pinname T5 -fixed no
+set_io SClock_5 -DIRECTION OUTPUT -pinname T4 -fixed no
+set_io SClock_6 -DIRECTION OUTPUT -pinname W7 -fixed no
+set_io SYNC_bar -DIRECTION OUTPUT -pinname Y12 -fixed no
+set_io SYNC_bar_0 -DIRECTION OUTPUT -pinname P24 -fixed no
+set_io SYNC_bar_1 -DIRECTION OUTPUT -pinname J6 -fixed no
+set_io SYNC_bar_2 -DIRECTION OUTPUT -pinname W2 -fixed no
+set_io SYNC_bar_3 -DIRECTION OUTPUT -pinname N23 -fixed no
+set_io SYNC_bar_4 -DIRECTION OUTPUT -pinname Y1 -fixed no
+set_io SYNC_bar_5 -DIRECTION OUTPUT -pinname W1 -fixed no
+set_io SYNC_bar_6 -DIRECTION OUTPUT -pinname L30 -fixed no
+set_io ccu25_data_0\[0\] -DIRECTION OUTPUT -pinname H29 -fixed no
+set_io ccu25_data_0\[1\] -DIRECTION OUTPUT -pinname U29 -fixed no
+set_io ccu25_data_0\[2\] -DIRECTION OUTPUT -pinname U30 -fixed no
+set_io ccu25_data_0\[3\] -DIRECTION OUTPUT -pinname AD3 -fixed no
+set_io ccu25_data_0\[4\] -DIRECTION OUTPUT -pinname J30 -fixed no
+set_io ccu25_data_0\[5\] -DIRECTION OUTPUT -pinname AG7 -fixed no
+set_io ccu25_data_0\[6\] -DIRECTION OUTPUT -pinname AF17 -fixed no
+set_io ccu25_data_0\[7\] -DIRECTION OUTPUT -pinname J8 -fixed no
+set_io ccu25_data_1\[0\] -DIRECTION OUTPUT -pinname M24 -fixed no
+set_io ccu25_data_1\[1\] -DIRECTION OUTPUT -pinname AG4 -fixed no
+set_io ccu25_data_1\[2\] -DIRECTION OUTPUT -pinname E3 -fixed no
+set_io ccu25_data_1\[3\] -DIRECTION OUTPUT -pinname J7 -fixed no
+set_io ccu25_data_1\[4\] -DIRECTION OUTPUT -pinname L10 -fixed no
+set_io ccu25_data_1\[5\] -DIRECTION OUTPUT -pinname AH30 -fixed no
+set_io ccu25_data_1\[6\] -DIRECTION OUTPUT -pinname AB6 -fixed no
+set_io ccu25_data_1\[7\] -DIRECTION OUTPUT -pinname T2 -fixed no
+set_io ccu25_data_2\[0\] -DIRECTION OUTPUT -pinname AJ2 -fixed no
+set_io ccu25_data_2\[1\] -DIRECTION OUTPUT -pinname T9 -fixed no
+set_io ccu25_data_2\[2\] -DIRECTION OUTPUT -pinname AB7 -fixed no
+set_io ccu25_data_2\[3\] -DIRECTION OUTPUT -pinname AG6 -fixed no
+set_io ccu25_data_2\[4\] -DIRECTION OUTPUT -pinname AH32 -fixed no
+set_io ccu25_data_2\[5\] -DIRECTION OUTPUT -pinname M32 -fixed no
+set_io ccu25_data_2\[6\] -DIRECTION OUTPUT -pinname N34 -fixed no
+set_io ccu25_data_2\[7\] -DIRECTION OUTPUT -pinname M10 -fixed no
+set_io ccu25_data_3\[0\] -DIRECTION OUTPUT -pinname L29 -fixed no
+set_io ccu25_data_3\[1\] -DIRECTION OUTPUT -pinname Y4 -fixed no
+set_io ccu25_data_3\[2\] -DIRECTION OUTPUT -pinname L7 -fixed no
+set_io ccu25_data_3\[3\] -DIRECTION OUTPUT -pinname AA11 -fixed no
+set_io ccu25_data_3\[4\] -DIRECTION OUTPUT -pinname Y10 -fixed no
+set_io ccu25_data_3\[5\] -DIRECTION OUTPUT -pinname T11 -fixed no
+set_io ccu25_data_3\[6\] -DIRECTION OUTPUT -pinname R7 -fixed no
+set_io ccu25_data_3\[7\] -DIRECTION OUTPUT -pinname AJ29 -fixed no
+set_io ccu25_strobe_out2 -DIRECTION OUTPUT -pinname C34 -fixed no
+set_io ccu25_strobe_out_0 -DIRECTION OUTPUT -pinname N9 -fixed no
+set_io ccu25_strobe_out_2 -DIRECTION OUTPUT -pinname AD1 -fixed no
+set_io ccu25_strobe_out_3 -DIRECTION OUTPUT -pinname AB2 -fixed no
+set_io clk -DIRECTION INPUT -pinname AF18 -fixed no
+set_io data_out_0 -DIRECTION OUTPUT -pinname U1 -fixed no
+set_io data_out_1 -DIRECTION OUTPUT -pinname U25 -fixed no
+set_io data_out_2 -DIRECTION OUTPUT -pinname E2 -fixed no
+set_io data_out_3 -DIRECTION OUTPUT -pinname E1 -fixed no
+set_io hptdc_data_ready_0 -DIRECTION INPUT -pinname U12 -fixed no
+set_io hptdc_data_ready_1 -DIRECTION INPUT -pinname N29 -fixed no
+set_io hptdc_data_ready_2 -DIRECTION INPUT -pinname N33 -fixed no
+set_io hptdc_data_ready_3 -DIRECTION INPUT -pinname V9 -fixed no
+set_io hptdc_get_data_0 -DIRECTION OUTPUT -pinname T8 -fixed no
+set_io hptdc_get_data_1 -DIRECTION OUTPUT -pinname N28 -fixed no
+set_io hptdc_get_data_2 -DIRECTION OUTPUT -pinname P33 -fixed no
+set_io hptdc_get_data_3 -DIRECTION OUTPUT -pinname U6 -fixed no
+set_io hptdc_token_in_0 -DIRECTION OUTPUT -pinname H7 -fixed no
+set_io hptdc_token_in_1 -DIRECTION OUTPUT -pinname AC8 -fixed no
+set_io hptdc_token_in_2 -DIRECTION OUTPUT -pinname H33 -fixed no
+set_io hptdc_token_in_3 -DIRECTION OUTPUT -pinname E33 -fixed no
+set_io hptdc_token_out_0 -DIRECTION INPUT -pinname G5 -fixed no
+set_io hptdc_token_out_1 -DIRECTION INPUT -pinname AE4 -fixed no
+set_io hptdc_token_out_2 -DIRECTION INPUT -pinname M27 -fixed no
+set_io hptdc_token_out_3 -DIRECTION INPUT -pinname D33 -fixed no
+set_io pbpd\[0\] -DIRECTION OUTPUT -pinname P31 -fixed no
+set_io pbpd\[1\] -DIRECTION OUTPUT -pinname P30 -fixed no
+set_io pbpd\[2\] -DIRECTION OUTPUT -pinname R25 -fixed no
+set_io pbpd\[3\] -DIRECTION OUTPUT -pinname P29 -fixed no
+set_io pbpd\[4\] -DIRECTION OUTPUT -pinname N32 -fixed no
+set_io pbpd\[5\] -DIRECTION OUTPUT -pinname P28 -fixed no
+set_io pbpd\[6\] -DIRECTION OUTPUT -pinname R23 -fixed no
+set_io pbpd\[7\] -DIRECTION OUTPUT -pinname N31 -fixed no
+set_io ren -DIRECTION INPUT -pinname R24 -fixed no
+set_io serial_clk_0 -DIRECTION OUTPUT -pinname L3 -fixed no
+set_io serial_clk_1 -DIRECTION OUTPUT -pinname L27 -fixed no
+set_io serial_clk_2 -DIRECTION OUTPUT -pinname J3 -fixed no
+set_io serial_clk_3 -DIRECTION OUTPUT -pinname V10 -fixed no
+set_io tck_pad_o_0 -DIRECTION OUTPUT -pinname AG16 -fixed no
+set_io tck_pad_o_1 -DIRECTION OUTPUT -pinname AJ4 -fixed no
+set_io tck_pad_o_2 -DIRECTION OUTPUT -pinname AJ3 -fixed no
+set_io tck_pad_o_3 -DIRECTION OUTPUT -pinname AH6 -fixed no
+set_io tdo_pad_o_0 -DIRECTION OUTPUT -pinname V6 -fixed no
+set_io tdo_pad_o_1 -DIRECTION OUTPUT -pinname V3 -fixed no
+set_io tdo_pad_o_2 -DIRECTION OUTPUT -pinname U5 -fixed no
+set_io tdo_pad_o_3 -DIRECTION OUTPUT -pinname W8 -fixed no
+set_io tms_pad_o_0 -DIRECTION OUTPUT -pinname R1 -fixed no
+set_io tms_pad_o_1 -DIRECTION OUTPUT -pinname U2 -fixed no
+set_io tms_pad_o_2 -DIRECTION OUTPUT -pinname V4 -fixed no
+set_io tms_pad_o_3 -DIRECTION OUTPUT -pinname V12 -fixed no
+set_io trstn_pad_o_0 -DIRECTION OUTPUT -pinname T7 -fixed no
+set_io trstn_pad_o_1 -DIRECTION OUTPUT -pinname U7 -fixed no
+set_io trstn_pad_o_2 -DIRECTION OUTPUT -pinname M1 -fixed no
+set_io trstn_pad_o_3 -DIRECTION OUTPUT -pinname U10 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location JTAG_1/TAP_state\[3\] -fixed no 1400 85
+set_location BiasController_0/un2_sclock_counterlto14_0 -fixed no 1430 114
+set_location JTAG_3/un14_a2\[2\] -fixed no 1439 87
+set_location BiasController_0/sclock_counter\[28\] -fixed no 1407 115
+set_location ip_interface_inst_2 -fixed no 251 0
+set_location JTAG_0/TAP_state\[2\] -fixed no 1431 97
+set_location JTAG_0/TAP_state_RNO\[3\] -fixed no 1433 96
+set_location JTAG_0/tms_pad_o_6_i_a7_0 -fixed no 1418 93
+set_location JTAG_1/TAP_state\[0\] -fixed no 1401 85
+set_location JTAG_3/tms_pad_o_RNO -fixed no 1429 87
+set_location JTAG_3/un14_i_a2_1\[3\] -fixed no 1433 87
+set_location JTAG_3/TAP_state\[2\] -fixed no 1439 88
+set_location JTAG_3/next_TAP_state\[4\] -fixed no 1437 88
+set_location JTAG_1/next_TAP_state_RNO\[5\] -fixed no 1395 87
+set_location JTAG_2/next_TAP_state_i_RNO\[0\] -fixed no 1412 96
+set_location JTAG_1/next_TAP_state\[4\] -fixed no 1398 85
+set_location JTAG_0/loop_counter\[2\] -fixed no 1416 94
+set_location JTAG_3/next_TAP_state_srsts_0_a2\[9\] -fixed no 1432 90
+set_location DACController_0/un2_sclock_counter_1lto14 -fixed no 1449 81
+set_location JTAG_2/next_TAP_state_srsts_0\[7\] -fixed no 1392 96
+set_location JTAG_0/next_TAP_state_i_RNO\[0\] -fixed no 1430 96
+set_location JTAG_3/loop_counterc_1 -fixed no 1433 84
+set_location JTAG_0/TAP_state_RNO\[0\] -fixed no 1436 96
+set_location JTAG_1/next_TAP_state_srsts_0_a2\[4\] -fixed no 1398 84
+set_location JTAG_2/next_TAP_state_i\[0\] -fixed no 1412 97
+set_location JTAG_1/loop_counterc_1_RNO -fixed no 1384 84
+set_location JTAG_1/tdo_pad_o_1 -fixed no 1392 84
+set_location DACController_0/un2_sclock_counterlto14_RNILM26 -fixed no 1451 81
+set_location DACController_0/un2_sclock_counter_1lto8 -fixed no 1450 81
+set_location JTAG_2/TAP_state\[1\] -fixed no 1398 97
+set_location JTAG_0/tdo_pad_o -fixed no 1437 97
+set_location JTAG_2/next_TAP_state_RNO\[2\] -fixed no 1399 96
+set_location JTAG_3/next_TAP_state_srsts_0_a2\[10\] -fixed no 1432 87
+set_location JTAG_0/TAP_state\[0\] -fixed no 1436 97
+set_location DACController_0/sclock_counter\[27\] -fixed no 1432 82
+set_location DACController_0/un2_sclock_counter_1lto14_1 -fixed no 1448 81
+set_location JTAG_2/tms_pad_o_6_i_a7_0 -fixed no 1392 93
+set_location DACController_0/un1_sclock_counter15_5 -fixed no 1440 78
+set_location JTAG_0/next_TAP_state\[7\] -fixed no 1424 97
+set_location DACController_0/sclock_counter\[18\] -fixed no 1445 82
+set_location JTAG_2/tdo_pad_o10_1 -fixed no 1414 96
+set_location JTAG_2/next_TAP_state\[1\] -fixed no 1402 97
+set_location JTAG_3/loop_counterc_0 -fixed no 1429 84
+set_location JTAG_3/TAP_state_RNO\[3\] -fixed no 1431 87
+set_location JTAG_0/next_TAP_state\[5\] -fixed no 1432 97
+set_location JTAG_1/next_TAP_state_srsts_0_a2\[9\] -fixed no 1396 87
+set_location DACController_0/sclock_counter\[25\] -fixed no 1441 82
+set_location JTAG_1/loop_counter\[0\] -fixed no 1391 85
+set_location JTAG_3/ir_loop -fixed no 1433 88
+set_location JTAG_1/tms_pad_o_6_i_1 -fixed no 1397 84
+set_location DACController_0/sclock_counter\[21\] -fixed no 1438 82
+set_location JTAG_2/un14_o2\[2\] -fixed no 1397 96
+set_location JTAG_2/un14_i_a2_0\[0\] -fixed no 1411 96
+set_location ip_interface_inst_3 -fixed no 587 0
+set_location JTAG_3/TAP_state\[3\] -fixed no 1431 88
+set_location DACController_0/sclockv -fixed no 1440 79
+set_location BiasController_0/sclock_counter15 -fixed no 1424 114
+set_location JTAG_3/loop_counterc -fixed no 1435 84
+set_location BiasController_0/sclock_counter_RNO\[31\] -fixed no 1435 114
+set_location JTAG_2/tms_pad_o -fixed no 1394 97
+set_location JTAG_2/next_TAP_state\[9\] -fixed no 1410 97
+set_location JTAG_1/tdo_pad_o10_1 -fixed no 1395 84
+set_location JTAG_1/next_TAP_state_srsts_0\[7\] -fixed no 1385 84
+set_location JTAG_0/tms_pad_o_6_i_1 -fixed no 1418 96
+set_location DACController_0/sclock_counter\[30\] -fixed no 1429 82
+set_location JTAG_2/loop_counterc -fixed no 1394 93
+set_location JTAG_2/next_TAP_state_RNO\[5\] -fixed no 1413 96
+set_location JTAG_0/next_TAP_state_RNO\[6\] -fixed no 1427 96
+set_location JTAG_1/loop_counter\[1\] -fixed no 1386 85
+set_location JTAG_1/next_TAP_state_srsts_0_a2\[3\] -fixed no 1394 87
+set_location JTAG_1/TAP_state_RNO\[1\] -fixed no 1402 84
+set_location DACController_0/sclock_counter\[23\] -fixed no 1447 82
+set_location BiasController_0/sclock_counter\[18\] -fixed no 1417 115
+set_location JTAG_3/next_TAP_state\[7\] -fixed no 1428 85
+set_location JTAG_1/un14_i_a2_1\[3\] -fixed no 1399 84
+set_location JTAG_2/loop_counter\[0\] -fixed no 1396 94
+set_location DACController_0/sclock_counter\[22\] -fixed no 1448 82
+set_location JTAG_0/next_TAP_state_srsts_i_o2\[6\] -fixed no 1419 93
+set_location JTAG_1/next_TAP_state\[7\] -fixed no 1385 85
+set_location DACController_0/sclock_counter15 -fixed no 1441 78
+set_location clk_ibuf_RNIVTI2 -fixed no 729 156
+set_location JTAG_3/next_TAP_state\[5\] -fixed no 1431 91
+set_location BiasController_0/un2_sclock_counter_1lto8 -fixed no 1423 114
+set_location JTAG_0/ir_loop -fixed no 1435 97
+set_location JTAG_1/next_TAP_state\[5\] -fixed no 1395 88
+set_location JTAG_3/next_TAP_state_i\[0\] -fixed no 1436 85
+set_location JTAG_0/next_TAP_state\[8\] -fixed no 1393 97
+set_location DACController_0/sclock_counter\[29\] -fixed no 1430 82
+set_location JTAG_2/un1_data_from_hptdc_1_sqmuxa_i_a2 -fixed no 1402 96
+set_location BiasController_0/sclock_counter\[29\] -fixed no 1406 115
+set_location JTAG_2/TAP_state_RNO\[1\] -fixed no 1398 96
+set_location JTAG_2/loop_counter\[1\] -fixed no 1394 94
+set_location JTAG_1/un14_o2\[2\] -fixed no 1380 84
+set_location JTAG_3/loop_counter\[2\] -fixed no 1433 85
+set_location JTAG_2/TAP_state_RNO\[3\] -fixed no 1404 96
+set_location BiasController_0/sclock_counter\[23\] -fixed no 1412 115
+set_location JTAG_0/un14_i_a2_0\[0\] -fixed no 1428 96
+set_location JTAG_1/un19 -fixed no 1389 84
+set_location JTAG_1/tdo_pad_o -fixed no 1392 85
+set_location JTAG_2/TAP_state\[3\] -fixed no 1404 97
+set_location JTAG_3/tms_pad_o -fixed no 1429 88
+set_location JTAG_2/tdo_pad_o_1 -fixed no 1405 96
+set_location JTAG_3/TAP_state_RNO\[0\] -fixed no 1438 87
+set_location JTAG_0/next_TAP_state\[1\] -fixed no 1421 97
+set_location JTAG_3/un19 -fixed no 1437 84
+set_location JTAG_0/next_TAP_state\[10\] -fixed no 1418 97
+set_location JTAG_1/un14_i_a2_0\[0\] -fixed no 1392 87
+set_location BiasController_0/sclock_counter\[27\] -fixed no 1408 115
+set_location BiasController_0/sclock_counter\[21\] -fixed no 1414 115
+set_location DACController_0/sclock_counter\[24\] -fixed no 1450 82
+set_location JTAG_0/next_TAP_state_srsts_0_a2\[4\] -fixed no 1426 96
+set_location JTAG_0/un14_o2\[2\] -fixed no 1420 96
+set_location JTAG_1/tms_pad_o_RNO -fixed no 1394 84
+set_location JTAG_3/un1_data_from_hptdc_1_sqmuxa_i_a2 -fixed no 1434 84
+set_location JTAG_2/next_TAP_state_srsts_0_a2\[10\] -fixed no 1396 96
+set_location JTAG_0/un19 -fixed no 1425 93
+set_location DACController_0/sclock_counter\[26\] -fixed no 1451 82
+set_location JTAG_3/next_TAP_state_srsts_i_o2\[6\] -fixed no 1431 84
+set_location JTAG_0/next_TAP_state\[9\] -fixed no 1429 97
+set_location DACController_0/sync_barv -fixed no 1447 79
+set_location JTAG_0/TAP_state_RNO\[1\] -fixed no 1425 96
+set_location JTAG_0/next_TAP_state_i\[0\] -fixed no 1430 97
+set_location JTAG_0/un14_i_a2_1\[3\] -fixed no 1417 96
+set_location ip_interface_inst -fixed no 983 0
+set_location JTAG_1/TAP_state\[1\] -fixed no 1402 85
+set_location JTAG_0/loop_counter\[0\] -fixed no 1421 94
+set_location JTAG_2/TAP_state\[0\] -fixed no 1415 97
+set_location JTAG_1/next_TAP_state_i_RNO\[0\] -fixed no 1388 84
+set_location BiasController_0/sclock_counter\[30\] -fixed no 1405 115
+set_location JTAG_0/next_TAP_state_srsts_0\[7\] -fixed no 1424 96
+set_location JTAG_3/TAP_state_RNO\[1\] -fixed no 1428 87
+set_location JTAG_2/next_TAP_state_srsts_0_a2\[9\] -fixed no 1410 96
+set_location JTAG_2/next_TAP_state\[3\] -fixed no 1407 97
+set_location JTAG_1/ir_loop -fixed no 1397 85
+set_location JTAG_2/next_TAP_state\[6\] -fixed no 1400 97
+set_location JTAG_0/next_TAP_state_RNO\[2\] -fixed no 1419 96
+set_location JTAG_0/ir_loop_RNO -fixed no 1435 96
+set_location JTAG_3/next_TAP_state_RNO\[6\] -fixed no 1438 84
+set_location JTAG_0/tdo_pad_o_1 -fixed no 1437 96
+set_location JTAG_3/next_TAP_state\[1\] -fixed no 1434 85
+set_location JTAG_1/loop_counterc_0 -fixed no 1386 84
+set_location JTAG_1/next_TAP_state_i\[0\] -fixed no 1388 85
+set_location JTAG_1/next_TAP_state\[1\] -fixed no 1382 85
+set_location JTAG_0/loop_counter\[1\] -fixed no 1420 94
+set_location BiasController_0/sclock_counter\[24\] -fixed no 1421 115
+set_location JTAG_2/TAP_state\[2\] -fixed no 1408 97
+set_location DACController_0/sclock_counter\[31\] -fixed no 1444 82
+set_location JTAG_0/tdo_pad_o4_1 -fixed no 1434 96
+set_location JTAG_2/next_TAP_state\[2\] -fixed no 1399 97
+set_location DACController_0/sclock_counter\[17\] -fixed no 1442 82
+set_location JTAG_3/next_TAP_state_i_RNO\[0\] -fixed no 1436 84
+set_location JTAG_0/TAP_state\[3\] -fixed no 1433 97
+set_location JTAG_2/un14_a2\[2\] -fixed no 1408 96
+set_location JTAG_3/next_TAP_state\[9\] -fixed no 1432 91
+set_location JTAG_0/un1_data_from_hptdc_1_sqmuxa_i_a2 -fixed no 1421 96
+set_location JTAG_0/tms_pad_o -fixed no 1422 97
+set_location JTAG_1/tms_pad_o -fixed no 1394 85
+set_location JTAG_1/next_TAP_state\[9\] -fixed no 1396 88
+set_location JTAG_3/next_TAP_state\[10\] -fixed no 1432 88
+set_location JTAG_2/ir_loop_RNO -fixed no 1409 96
+set_location JTAG_0/next_TAP_state_srsts_0_a2\[3\] -fixed no 1438 96
+set_location BiasController_0/sclock_counter\[19\] -fixed no 1420 115
+set_location DACController_0/sclock_counter_RNO\[31\] -fixed no 1444 81
+set_location Core_sb_0/SYSRESET_POR_RNICC94 -fixed no 1406 96
+set_location JTAG_3/next_TAP_state_srsts_0_a2\[3\] -fixed no 1430 90
+set_location BiasController_0/ldac_barv -fixed no 1425 115
+set_location JTAG_0/next_TAP_state_RNO\[5\] -fixed no 1432 96
+set_location JTAG_3/un14_o2\[2\] -fixed no 1430 84
+set_location BiasController_0/un2_sclock_counterlto9 -fixed no 1421 114
+set_location BiasController_0/sclock_counter\[26\] -fixed no 1423 115
+set_location BiasController_0/un2_sclock_counter_1lto11 -fixed no 1422 114
+set_location JTAG_0/loop_counterc_0 -fixed no 1420 93
+set_location JTAG_0/loop_counterc_1 -fixed no 1416 93
+set_location JTAG_3/tdo_pad_o -fixed no 1430 88
+set_location JTAG_1/next_TAP_state_RNO\[6\] -fixed no 1387 84
+set_location JTAG_2/tms_pad_o_6_i_1 -fixed no 1393 96
+set_location BiasController_0/sclock_counter\[22\] -fixed no 1422 115
+set_location ip_interface_inst_1 -fixed no 1319 0
+set_location JTAG_2/next_TAP_state\[4\] -fixed no 1395 97
+set_location JTAG_1/loop_counterc -fixed no 1391 84
+set_location BiasController_0/sclock_counter\[25\] -fixed no 1427 115
+set_location BiasController_0/sclock_counter\[17\] -fixed no 1418 115
+set_location JTAG_2/tdo_pad_o -fixed no 1405 97
+set_location JTAG_2/tms_pad_o_RNO -fixed no 1394 96
+set_location JTAG_0/loop_counterc -fixed no 1421 93
+set_location JTAG_2/ir_loop -fixed no 1409 97
+set_location JTAG_1/loop_counterc_1 -fixed no 1390 84
+set_location JTAG_1/un14_a2\[2\] -fixed no 1403 84
+set_location BiasController_0/un1_sclock_counter15_3 -fixed no 1425 114
+set_location JTAG_0/next_TAP_state\[3\] -fixed no 1438 97
+set_location JTAG_3/TAP_state\[1\] -fixed no 1428 88
+set_location JTAG_0/next_TAP_state\[6\] -fixed no 1427 97
+set_location BiasController_0/un2_sclock_counterlto12 -fixed no 1420 114
+set_location DACController_0/sclock_counter\[28\] -fixed no 1431 82
+set_location JTAG_1/un1_data_from_hptdc_1_sqmuxa_i_a2 -fixed no 1382 84
+set_location JTAG_3/tms_pad_o_6_i_a7_0 -fixed no 1432 84
+set_location DACController_0/sclock_counter\[19\] -fixed no 1440 82
+set_location JTAG_0/tms_pad_o_RNO -fixed no 1422 96
+set_location JTAG_2/next_TAP_state_srsts_0_a2\[4\] -fixed no 1395 96
+set_location JTAG_3/next_TAP_state_RNO\[2\] -fixed no 1434 87
+set_location JTAG_1/loop_counter\[2\] -fixed no 1390 85
+set_location JTAG_1/ir_loop_RNO -fixed no 1393 87
+set_location JTAG_2/loop_counterc_0_RNO -fixed no 1395 93
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 1094 114
+set_location JTAG_1/TAP_state_RNO\[3\] -fixed no 1400 84
+set_location JTAG_1/next_TAP_state_srsts_0_a2\[10\] -fixed no 1396 84
+set_location JTAG_1/next_TAP_state_srsts_0_a2\[2\] -fixed no 1393 84
+set_location JTAG_1/TAP_state\[2\] -fixed no 1403 85
+set_location JTAG_3/loop_counter\[0\] -fixed no 1435 85
+set_location DACController_0/un2_sclock_counterlto14 -fixed no 1445 81
+set_location JTAG_0/next_TAP_state\[2\] -fixed no 1419 97
+set_location JTAG_2/next_TAP_state_srsts_i_o2\[6\] -fixed no 1396 93
+set_location DACController_0/un2_sclock_counterlto9 -fixed no 1447 81
+set_location JTAG_0/un14_a2\[2\] -fixed no 1431 96
+set_location JTAG_1/TAP_state_RNO\[0\] -fixed no 1401 84
+set_location JTAG_2/next_TAP_state\[10\] -fixed no 1396 97
+set_location JTAG_2/un14_i_a2_1\[3\] -fixed no 1403 96
+set_location JTAG_2/loop_counter\[2\] -fixed no 1392 94
+set_location JTAG_3/next_TAP_state\[3\] -fixed no 1430 91
+set_location JTAG_3/loop_counter\[1\] -fixed no 1429 85
+set_location JTAG_2/un19 -fixed no 1397 93
+set_location JTAG_3/next_TAP_state\[6\] -fixed no 1438 85
+set_location JTAG_1/next_TAP_state\[3\] -fixed no 1394 88
+set_location JTAG_3/tms_pad_o_6_i_1 -fixed no 1435 87
+set_location BiasController_0/un2_sclock_counter_1lto14 -fixed no 1426 114
+set_location JTAG_1/next_TAP_state\[6\] -fixed no 1387 85
+set_location DACController_0/sclock_counter\[16\] -fixed no 1443 82
+set_location JTAG_3/un14_i_a2_0\[0\] -fixed no 1428 90
+set_location JTAG_0/TAP_state\[1\] -fixed no 1425 97
+set_location JTAG_3/tdo_pad_o_1 -fixed no 1430 87
+set_location JTAG_1/next_TAP_state\[10\] -fixed no 1396 85
+set_location JTAG_2/next_TAP_state_RNO\[6\] -fixed no 1400 96
+set_location JTAG_3/next_TAP_state_RNO\[5\] -fixed no 1431 90
+set_location JTAG_3/loop_counterc_1_RNO -fixed no 1439 84
+set_location JTAG_3/TAP_state\[0\] -fixed no 1438 88
+set_location DACController_0/sclock_counter\[20\] -fixed no 1446 82
+set_location JTAG_3/next_TAP_state_srsts_0\[7\] -fixed no 1428 84
+set_location BiasController_0/sclock_counter\[16\] -fixed no 1419 115
+set_location JTAG_0/loop_counterc_1_RNO -fixed no 1417 93
+set_location JTAG_3/next_TAP_state\[2\] -fixed no 1434 88
+set_location JTAG_0/next_TAP_state\[4\] -fixed no 1426 97
+set_location JTAG_2/next_TAP_state\[7\] -fixed no 1397 97
+set_location JTAG_1/next_TAP_state\[2\] -fixed no 1393 85
+set_location BiasController_0/sclockv -fixed no 1424 115
+set_location JTAG_0/next_TAP_state_srsts_0_a2\[10\] -fixed no 1416 96
+set_location DACController_0/ldac_barv -fixed no 1441 79
+set_location JTAG_1/next_TAP_state_srsts_i_o2\[6\] -fixed no 1381 84
+set_location JTAG_0/trstn_pad_o -fixed no 1406 97
+set_location BiasController_0/sclock_counter\[31\] -fixed no 1435 115
+set_location JTAG_2/next_TAP_state\[5\] -fixed no 1413 97
+set_location JTAG_2/loop_counterc_0 -fixed no 1393 93
+set_location JTAG_1/tms_pad_o_6_i_a7_0 -fixed no 1383 84
+set_location JTAG_3/tdo_pad_o4_1 -fixed no 1436 87
+set_location DACController_0/un2_sclock_counterlto12_1 -fixed no 1446 81
+set_location JTAG_0/next_TAP_state_srsts_0_a2\[9\] -fixed no 1429 96
+set_location BiasController_0/sclock_counter\[20\] -fixed no 1416 115
+set_location JTAG_2/next_TAP_state_srsts_0_a2\[3\] -fixed no 1407 96
+set_location JTAG_2/loop_counterc_1 -fixed no 1399 93
+set_location BiasController_0/un2_sclock_counterlto14_0_RNIMUUD -fixed no 1427 114
+set_location JTAG_3/next_TAP_state_srsts_0_a2\[4\] -fixed no 1437 87
+set_location JTAG_3/ir_loop_RNO -fixed no 1429 90
+set_location JTAG_2/TAP_state_RNO\[0\] -fixed no 1415 96
+set_location Core_sb_0/SYSRESET_POR -fixed no 1452 8
+set_location DACController_0/sclock_counter_s_801 -fixed no 1428 81
+set_location BiasController_0/sclock_counter_s_800 -fixed no 1404 114
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB0 -fixed no 1094 96
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB1 -fixed no 1094 93
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB2 -fixed no 1094 90
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB3 -fixed no 1094 87
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB4 -fixed no 1094 84
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB5 -fixed no 1094 81
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB6 -fixed no 1094 78
+set_location BiasController_0/sclock_counter_s_800_CC_0 -fixed no 1404 116
+set_location BiasController_0/sclock_counter_s_800_CC_1 -fixed no 1416 116
+set_location DACController_0/sclock_counter_s_801_CC_0 -fixed no 1428 83
+set_location DACController_0/sclock_counter_s_801_CC_1 -fixed no 1440 83

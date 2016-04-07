@@ -1,0 +1,27 @@
+@P:  Worst Slack : 5.489
+@P:  TDR|clk - Estimated Frequency : 221.7 MHz
+@P:  TDR|clk - Requested Frequency : 100.0 MHz
+@P:  TDR|clk - Estimated Period : 4.511
+@P:  TDR|clk - Requested Period : 10.000
+@P:  TDR|clk - Slack : 5.489
+@P:  TDR|ifclk - Estimated Frequency : NA
+@P:  TDR|ifclk - Requested Frequency : 100.0 MHz
+@P:  TDR|ifclk - Estimated Period : NA
+@P:  TDR|ifclk - Requested Period : 10.000
+@P:  TDR|ifclk - Slack : NA
+@P:  Worst Slack(min analysis) : 0.457
+@P:  TDR|clk - Estimated Frequency(min analysis) : 221.7 MHz
+@P:  TDR|clk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  TDR|clk - Estimated Period(min analysis) : 4.511
+@P:  TDR|clk - Requested Period(min analysis) : 10.000
+@P:  TDR|clk - Slack(min analysis) : 5.489
+@P:  TDR|ifclk - Estimated Frequency(min analysis) : NA
+@P:  TDR|ifclk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  TDR|ifclk - Estimated Period(min analysis) : NA
+@P:  TDR|ifclk - Requested Period(min analysis) : 10.000
+@P:  TDR|ifclk - Slack(min analysis) : NA
+@P: TDR Part : m2s150fc1152std
+@P: TDR Register bits  : 119 
+@P: TDR DSP Blocks  : 0
+@P: TDR I/O primitives : 147
+@P:  CPU Time : 0h:00m:02s
