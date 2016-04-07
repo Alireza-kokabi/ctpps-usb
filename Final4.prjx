@@ -73,8 +73,8 @@ SIZE="21328"
 ENDFILE
 VALUE "<project>\component\work\TDR\TDR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1460030711"
-SIZE="18456"
+TIME="1460033079"
+SIZE="18055"
 ENDFILE
 VALUE "<project>\component\work\TDR_sb\TDR_sb.cxf,actgen_cxf"
 STATE="utd"
@@ -128,8 +128,8 @@ SIZE="1881"
 ENDFILE
 VALUE "<project>\hdl\ControlDecoder.v,hdl"
 STATE="utd"
-TIME="1460030638"
-SIZE="23322"
+TIME="1460032975"
+SIZE="23683"
 ENDFILE
 VALUE "<project>\hdl\DACController.vhd,hdl"
 STATE="utd"
@@ -445,7 +445,6 @@ SUBBLOCK "Core_sb::work","component\work\Core_sb\Core_sb.cxf","TRUE","FALSE"
 SUBBLOCK "DACController::work","hdl\DACController.vhd","FALSE","FALSE"
 SUBBLOCK "FIFO::work","hdl\FIFO.v","FALSE","FALSE"
 SUBBLOCK "JTAG::work","hdl\JTAG.v","FALSE","FALSE"
-SUBBLOCK "SerialTransmitter::work","hdl\SerialTransmitter.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
