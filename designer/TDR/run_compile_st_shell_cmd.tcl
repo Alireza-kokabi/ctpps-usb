@@ -116,12 +116,12 @@ if { [string length $inst] != 0 } \
 
 
 save
-set has_violations {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR\TDR_pre_layout_has_violations}
+set has_violations {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR\TDR_pre_layout_has_violations}
 set fp [open $has_violations w]
 puts $fp [has_violations -short]
 close $fp
-report -type combinational_loops -format xml {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR\TDR_combinational_loops.xml}
-if { [catch "file delete -force -- {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR\pinslacks.txt}"] } {
+report -type combinational_loops -format xml {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR\TDR_combinational_loops.xml}
+if { [catch "file delete -force -- {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR\pinslacks.txt}"] } {
    ;
 }
-report -type slack {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR\pinslacks.txt}
+report -type slack {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR\pinslacks.txt}

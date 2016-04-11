@@ -6,7 +6,7 @@ CLKINT          1 use
 CFG1           7 uses
 CFG2           99 uses
 CFG3           110 uses
-CFG4           171 uses
+CFG4           174 uses
 
 Carry primitives used for arithmetic functions:
 ARI1           34 uses
@@ -17,18 +17,18 @@ SLE            240 uses
 
 DSP Blocks:    0
 
-I/O ports: 250
-I/O primitives: 90
+I/O ports: 237
+I/O primitives: 86
 BIBUF          16 uses
 INBUF          13 uses
-OUTBUF         32 uses
+OUTBUF         28 uses
 TRIBUFF        29 uses
 
 
 Global Clock Buffers: 1
 
 
-Total LUTs:    421
+Total LUTs:    424
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -37,5 +37,5 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  240 + 0 + 0 + 0 = 240;
-Total number of LUTs after P&R:  421 + 0 + 0 + 0 = 421;
+Total number of LUTs after P&R:  424 + 0 + 0 + 0 = 424;
 

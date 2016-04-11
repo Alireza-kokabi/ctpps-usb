@@ -1,5 +1,5 @@
 ********************************************************************
-I/O Bank Report - Date: Fri Mar 04 13:33:45 2016
+I/O Bank Report - Date: Fri Apr 08 14:15:20 2016
 Product: Designer
 Release: v11.7
 Version: 11.7.0.119
@@ -14,9 +14,9 @@ I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 11            | 0            | 0
-    Output I/O                            | 136           | 0            | 0
-    Bidirectional I/O                     | 0             | 0            | 0
+    Input I/O                             | 13            | 0            | 0
+    Output I/O                            | 57            | 0            | 0
+    Bidirectional I/O                     | 16            | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0
 
@@ -26,7 +26,9 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS33                        | 3.30v | N/A   | 11    | 136    | 0            
+    LVTTL                           | 3.30v | N/A   | 9     | 52     | 0            
+    LVCMOS33                        | 3.30v | N/A   | 2     | 0      | 0            
+    LVCMOS25                        | 2.50v | N/A   | 2     | 5      | 16           
 
 I/O Bank Resource Usage:
 
@@ -34,25 +36,26 @@ I/O Bank Resource Usage:
           |-------|-------|------|-------|-------|--------|------|-------|----------|---------
           | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
     ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
-    Bank0 | N/A   | N/A   | 0    | 12    | 0     | 6      | N/A  | N/A   | N/A      | MSIO    
+    Bank0 | 2.50v | 1.25v | 0    | 11    | 0     | 5      | 0    | 11    | 1        | MSIO    
     Bank1 | N/A   | N/A   | 0    | 88    | 0     | 44     | N/A  | N/A   | N/A      | DDRIO   
     Bank2 | N/A   | N/A   | 0    | 88    | 0     | 44     | N/A  | N/A   | N/A      | DDRIO   
-    Bank3 | N/A   | N/A   | 0    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
-    Bank4 | N/A   | N/A   | 0    | 44    | 0     | 22     | N/A  | N/A   | N/A      | MSIO    
-    Bank5 | N/A   | N/A   | 0    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
-    Bank6 | N/A   | N/A   | 0    | 30    | 0     | 15     | N/A  | N/A   | N/A      | MSIO    
+    Bank3 | 3.30v | N/A   | 5    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
+    Bank4 | 3.30v | N/A   | 9    | 44    | 0     | 22     | N/A  | N/A   | N/A      | MSIO    
+    Bank5 | 3.30v | N/A   | 5    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
+    Bank6 | 3.30v | N/A   | 22   | 30    | 0     | 15     | N/A  | N/A   | N/A      | MSIO    
     Bank7 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
-    Bank8 | N/A   | N/A   | 0    | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIO    
-    Bank9 | N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank8 | 3.30v | N/A   | 15   | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIO    
+    Bank9 | 2.50v | N/A   | 4    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
     Bank10| N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
     Bank11| N/A   | N/A   | 0    | 8     | 0     | 4      | N/A  | N/A   | N/A      | MSIO    
     Bank12| N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
     Bank13| N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
     Bank14| N/A   | N/A   | 0    | 14    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
-    Bank15| N/A   | N/A   | 0    | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIOD   
-    Bank16| N/A   | N/A   | 0    | 54    | 0     | 27     | N/A  | N/A   | N/A      | MSIOD   
-    Bank17| N/A   | N/A   | 0    | 40    | 0     | 20     | N/A  | N/A   | N/A      | MSIO    
+    Bank15| 2.50v | N/A   | 9    | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIOD   
+    Bank16| 2.50v | N/A   | 10   | 54    | 0     | 27     | N/A  | N/A   | N/A      | MSIOD   
+    Bank17| 3.30v | N/A   | 5    | 40    | 0     | 20     | N/A  | N/A   | N/A      | MSIO    
     Bank18| N/A   | N/A   | 0    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
+
 
 I/O Voltage Usage:
 
@@ -60,5 +63,7 @@ I/O Voltage Usage:
     -------|-------|------|-------
      Vddi  | Vref  | Used | Total 
     -------|-------|------|-------
-     3.30v | N/A   | 147* | 0     
+     2.50v | N/A   | 23   | 105   
+     3.30v | N/A   | 63   | 216   
+     2.50v | 1.25v | 0    | 11    
 

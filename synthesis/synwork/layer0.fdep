@@ -7,11 +7,11 @@
 #CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_objects.v":1449221734
 #CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_pipes.svh":1449221734
 #CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\Adder.v":1460038543
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\BunchCounter.v":1459756123
+#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\BunchCounter.v":1460117682
 #CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\ControlDecoder.v":1460035643
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\FIFO.v":1460038518
+#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\FIFO.v":1460122113
 #CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\JTAG.v":1458598761
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\component\\work\\TDR\\TDR.v":1460038642
+#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\component\\work\\TDR\\TDR.v":1460122196
 #numinternalfiles:5
 #defaultlanguage:verilog
 0			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v" verilog
@@ -42,7 +42,5 @@ module work FIFO 3
 module work JTAG 4
 module work TDR 5
 #Unbound instances to file Association.
-inst work TDR DACController 5
-inst work TDR DACController 5
 inst work TDR DACController 5
 inst work TDR DACController 5

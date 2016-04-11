@@ -1,6 +1,6 @@
 Compile Report
 Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
-Date: Fri Mar 04 13:33:33 2016
+Date: Fri Apr 08 13:08:43 2016
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,12 +20,13 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+---------------------------------------------------------------------------------------+
-| Topcell | TDR                                                                                   |
-| Format  | EDIF                                                                                  |
-| Source  | D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\TDR.edn        |
-| Source  | D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\constraint\fp\TDR.fp.pdc |
-+---------+---------------------------------------------------------------------------------------+
++---------+------------------------------------------------------------------------------------------+
+| Topcell | TDR                                                                                      |
+| Format  | EDIF                                                                                     |
+| Source  | D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR.edn        |
+| Source  | D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\io\TDR.io.pdc |
+| Source  | D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\fp\TDR.fp.pdc |
++---------+------------------------------------------------------------------------------------------+
 
 Options
 +---------------------------------------------------------+-------+
@@ -40,11 +41,11 @@ Resource Usage
 +---------------------------+------+--------+------------+
 | Type                      | Used | Total  | Percentage |
 +---------------------------+------+--------+------------+
-| 4LUT                      | 169  | 146124 | 0.12       |
-| DFF                       | 119  | 146124 | 0.08       |
+| 4LUT                      | 422  | 146124 | 0.29       |
+| DFF                       | 240  | 146124 | 0.16       |
 | I/O Register              | 0    | 1716   | 0.00       |
-| User I/O                  | 147  | 572    | 25.70      |
-| -- Single-ended I/O       | 147  | 572    | 25.70      |
+| User I/O                  | 86   | 572    | 15.03      |
+| -- Single-ended I/O       | 86   | 572    | 15.03      |
 | -- Differential I/O Pairs | 0    | 286    | 0.00       |
 | RAM64x18                  | 0    | 240    | 0.00       |
 | RAM1K18                   | 0    | 236    | 0.00       |
@@ -62,27 +63,29 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 169  | 119 |
+| Fabric Logic             | 422  | 240 |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 169  | 119 |
+| Total Used               | 422  | 240 |
 +--------------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 16     | 2    |
-| Total  | 2    |
+| 8      | 1    |
+| 11     | 1    |
+| 16     | 1    |
+| Total  | 3    |
 +--------+------+
 
 I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 11           | 0           | 0               |
-| Output I/O                    | 136          | 0           | 0               |
-| Bidirectional I/O             | 0            | 0           | 0               |
+| Input I/O                     | 13           | 0           | 0               |
+| Output I/O                    | 57           | 0           | 0               |
+| Bidirectional I/O             | 16           | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
 +-------------------------------+--------------+-------------+-----------------+
@@ -91,23 +94,25 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS33     |  3.30v |  N/A |  11   |  136   |  0            |
+| LVTTL        |  3.30v |  N/A |  9    |  52    |  0            |
+| LVCMOS33     |  3.30v |  N/A |  2    |  0     |  0            |
+| LVCMOS25     |  2.50v |  N/A |  2    |  5     |  16           |
 +--------------+--------+------+-------+--------+---------------+
 
 I/O Placement
 +----------+-------+------------+
 | Type     | Count | Percentage |
 +----------+-------+------------+
-| Locked   |  0    | 0.00%      |
+| Locked   |  85   | 98.84%     |
 | Placed   |  0    | 0.00%      |
-| UnPlaced |  147  | 100.00%    |
+| UnPlaced |  1    | 1.16%      |
 +----------+-------+------------+
 
 Nets assigned to chip global resources
 +--------+---------+----------------------------------+
 | Fanout | Type    | Name                             |
 +--------+---------+----------------------------------+
-| 119    | INT_NET | Net   : clk_c                    |
+| 240    | INT_NET | Net   : clk_c                    |
 |        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1 |
 |        |         | Source: NETLIST                  |
 +--------+---------+----------------------------------+
@@ -119,54 +124,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+------------------------------------------------------------+
-| Fanout | Type    | Name                                                       |
-+--------+---------+------------------------------------------------------------+
-| 82     | INT_NET | Net   : Core_sb_0_POWER_ON_RESET_N                         |
-|        |         | Driver: Core_sb_0/SYSRESET_POR                             |
-| 16     | INT_NET | Net   : DACController_0/un2_sclock_counter_i_0_i           |
-|        |         | Driver: DACController_0/un2_sclock_counterlto14_RNILM26    |
-| 16     | INT_NET | Net   : BiasController_0/un2_sclock_counter_i_0_i          |
-|        |         | Driver: BiasController_0/un2_sclock_counterlto14_0_RNIMUUD |
-| 8      | INT_NET | Net   : JTAG_3.next_TAP_state[8]                           |
-|        |         | Driver: JTAG_0/next_TAP_state[8]                           |
-| 8      | INT_NET | Net   : ren_c                                              |
-|        |         | Driver: ren_ibuf                                           |
-| 6      | INT_NET | Net   : JTAG_0/N_3970                                      |
-|        |         | Driver: JTAG_0/un14_o2[2]                                  |
-| 6      | INT_NET | Net   : JTAG_2/N_3555                                      |
-|        |         | Driver: JTAG_2/un14_o2[2]                                  |
-| 6      | INT_NET | Net   : JTAG_3/N_3376                                      |
-|        |         | Driver: JTAG_3/un14_o2[2]                                  |
-| 6      | INT_NET | Net   : JTAG_1/N_3752                                      |
-|        |         | Driver: JTAG_1/un14_o2[2]                                  |
-| 5      | INT_NET | Net   : SClock_1_c                                         |
-|        |         | Driver: BiasController_0/sclockv                           |
-+--------+---------+------------------------------------------------------------+
++--------+---------+-------------------------------------------------------------+
+| Fanout | Type    | Name                                                        |
++--------+---------+-------------------------------------------------------------+
+| 129    | INT_NET | Net   : rst_c                                               |
+|        |         | Driver: rst_ibuf                                            |
+| 47     | INT_NET | Net   : qusb_fd_in[7]                                       |
+|        |         | Driver: qusb_fd_iobuf[7]                                    |
+| 34     | INT_NET | Net   : ControlDecoder_0/N_3907_i_0                         |
+|        |         | Driver: ControlDecoder_0/un1_instruction_047_16_i_a2_4_0_o2 |
+| 26     | INT_NET | Net   : qusb_fd_in[1]                                       |
+|        |         | Driver: qusb_fd_iobuf[1]                                    |
+| 26     | INT_NET | Net   : qusb_fd_in[2]                                       |
+|        |         | Driver: qusb_fd_iobuf[2]                                    |
+| 23     | INT_NET | Net   : DACController_0/dataready                           |
+|        |         | Driver: DACController_0/dataready                           |
+| 21     | INT_NET | Net   : qusb_fd_in[0]                                       |
+|        |         | Driver: qusb_fd_iobuf[0]                                    |
+| 16     | INT_NET | Net   : qusb_ren_c                                          |
+|        |         | Driver: qusb_ren_ibuf                                       |
+| 16     | INT_NET | Net   : DACController_0/un2_sclock_counter_i_0_i            |
+|        |         | Driver: DACController_0/un2_sclock_counterlto14_0_RNIHEEA   |
+| 15     | INT_NET | Net   : qusb_fd_in[3]                                       |
+|        |         | Driver: qusb_fd_iobuf[3]                                    |
++--------+---------+-------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+------------------------------------------------------------+
-| Fanout | Type    | Name                                                       |
-+--------+---------+------------------------------------------------------------+
-| 82     | INT_NET | Net   : Core_sb_0_POWER_ON_RESET_N                         |
-|        |         | Driver: Core_sb_0/SYSRESET_POR                             |
-| 16     | INT_NET | Net   : DACController_0/un2_sclock_counter_i_0_i           |
-|        |         | Driver: DACController_0/un2_sclock_counterlto14_RNILM26    |
-| 16     | INT_NET | Net   : BiasController_0/un2_sclock_counter_i_0_i          |
-|        |         | Driver: BiasController_0/un2_sclock_counterlto14_0_RNIMUUD |
-| 8      | INT_NET | Net   : JTAG_3.next_TAP_state[8]                           |
-|        |         | Driver: JTAG_0/next_TAP_state[8]                           |
-| 8      | INT_NET | Net   : ren_c                                              |
-|        |         | Driver: ren_ibuf                                           |
-| 6      | INT_NET | Net   : JTAG_0/N_3970                                      |
-|        |         | Driver: JTAG_0/un14_o2[2]                                  |
-| 6      | INT_NET | Net   : JTAG_2/N_3555                                      |
-|        |         | Driver: JTAG_2/un14_o2[2]                                  |
-| 6      | INT_NET | Net   : JTAG_3/N_3376                                      |
-|        |         | Driver: JTAG_3/un14_o2[2]                                  |
-| 6      | INT_NET | Net   : JTAG_1/N_3752                                      |
-|        |         | Driver: JTAG_1/un14_o2[2]                                  |
-| 5      | INT_NET | Net   : SClock_1_c                                         |
-|        |         | Driver: BiasController_0/sclockv                           |
-+--------+---------+------------------------------------------------------------+
++--------+---------+-------------------------------------------------------------+
+| Fanout | Type    | Name                                                        |
++--------+---------+-------------------------------------------------------------+
+| 129    | INT_NET | Net   : rst_c                                               |
+|        |         | Driver: rst_ibuf                                            |
+| 47     | INT_NET | Net   : qusb_fd_in[7]                                       |
+|        |         | Driver: qusb_fd_iobuf[7]                                    |
+| 34     | INT_NET | Net   : ControlDecoder_0/N_3907_i_0                         |
+|        |         | Driver: ControlDecoder_0/un1_instruction_047_16_i_a2_4_0_o2 |
+| 26     | INT_NET | Net   : qusb_fd_in[1]                                       |
+|        |         | Driver: qusb_fd_iobuf[1]                                    |
+| 26     | INT_NET | Net   : qusb_fd_in[2]                                       |
+|        |         | Driver: qusb_fd_iobuf[2]                                    |
+| 23     | INT_NET | Net   : DACController_0/dataready                           |
+|        |         | Driver: DACController_0/dataready                           |
+| 21     | INT_NET | Net   : qusb_fd_in[0]                                       |
+|        |         | Driver: qusb_fd_iobuf[0]                                    |
+| 16     | INT_NET | Net   : qusb_ren_c                                          |
+|        |         | Driver: qusb_ren_ibuf                                       |
+| 16     | INT_NET | Net   : DACController_0/un2_sclock_counter_i_0_i            |
+|        |         | Driver: DACController_0/un2_sclock_counterlto14_0_RNIHEEA   |
+| 15     | INT_NET | Net   : qusb_fd_in[3]                                       |
+|        |         | Driver: qusb_fd_iobuf[3]                                    |
++--------+---------+-------------------------------------------------------------+
 

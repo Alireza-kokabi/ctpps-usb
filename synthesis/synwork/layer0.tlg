@@ -141,10 +141,7 @@
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit data_sent_to_hptdc is always 0, optimizing ...
 @N: CG364 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":9:7:9:9|Synthesizing module TDR
 
-@N: CG794 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":767:14:767:28|Using module DACController from library work
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":114:14:114:31|Input ccu25_strobe_out_0 is unused
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":115:14:115:31|Input ccu25_strobe_out_1 is unused
-@W: CL158 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":214:14:214:25|Inout ccu25_data_0 is unused
+@N: CG794 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":738:14:738:28|Using module DACController from library work
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit loop_counter[3] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit loop_counter[4] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit loop_counter[5] is always 0, optimizing ...
@@ -996,12 +993,13 @@ State machine has 11 reachable states with original encodings of:
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":104:36:104:44|Input data_in_1 is unused
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":107:36:107:44|Input data_in_2 is unused
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":110:36:110:44|Input data_in_3 is unused
-@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":25:36:25:47|*Output bunch_number has undriven bits -- simulation mismatch possible.
-@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":26:36:26:47|*Output event_number has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":26:36:26:47|*Output bunch_number has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":27:36:27:47|*Output event_number has undriven bits -- simulation mismatch possible.
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":21:36:21:38|Input clk is unused
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":22:36:22:38|Input rst is unused
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":23:36:23:41|Input clk_40 is unused
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":24:36:24:37|Input t1 is unused
+@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":23:36:23:43|Input clk_40_P is unused
+@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":24:36:24:43|Input clk_40_N is unused
+@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":25:36:25:37|Input t1 is unused
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":95:4:95:9|Register bit counter[2] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":95:4:95:9|Register bit counter[3] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":95:4:95:9|Register bit counter[4] is always 0, optimizing ...

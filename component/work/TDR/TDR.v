@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Apr 07 16:17:22 2016
+// Created by SmartDesign Fri Apr 08 15:29:56 2016
 // Version: v11.7 11.7.0.119
 //////////////////////////////////////////////////////////////////////
 
@@ -8,22 +8,17 @@
 // TDR
 module TDR(
     // Inputs
-    ccu25_strobe_out_0,
-    ccu25_strobe_out_1,
     clk,
-    clk_40,
-    hptdc_data_0,
-    hptdc_data_1,
-    hptdc_data_2,
-    hptdc_data_3,
+    clk_40_N,
+    clk_40_P,
     hptdc_data_ready_0,
     hptdc_data_ready_1,
     hptdc_data_ready_2,
     hptdc_data_ready_3,
+    hptdc_error,
     hptdc_error_0,
     hptdc_error_1,
     hptdc_error_2,
-    hptdc_error_3,
     hptdc_serial_out_0,
     hptdc_serial_out_1,
     hptdc_serial_out_2,
@@ -43,13 +38,9 @@ module TDR(
     t1,
     // Outputs
     dac_din_0,
-    dac_din_1,
     dac_ldac_0,
-    dac_ldac_1,
     dac_sclk_0,
-    dac_sclk_1,
     dac_sync_0,
-    dac_sync_1,
     hptdc_bunch_reset_0,
     hptdc_bunch_reset_1,
     hptdc_bunch_reset_2,
@@ -104,29 +95,27 @@ module TDR(
     hptdc_trstn_3,
     qusb_ifclk,
     // Inouts
-    ccu25_data_0,
+    hptdc_data,
+    hptdc_data_0,
+    hptdc_data_1,
+    hptdc_data_2,
     qusb_fd
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input         ccu25_strobe_out_0;
-input         ccu25_strobe_out_1;
 input         clk;
-input         clk_40;
-input  [31:0] hptdc_data_0;
-input  [31:0] hptdc_data_1;
-input  [31:0] hptdc_data_2;
-input  [31:0] hptdc_data_3;
+input         clk_40_N;
+input         clk_40_P;
 input         hptdc_data_ready_0;
 input         hptdc_data_ready_1;
 input         hptdc_data_ready_2;
 input         hptdc_data_ready_3;
+input         hptdc_error;
 input         hptdc_error_0;
 input         hptdc_error_1;
 input         hptdc_error_2;
-input         hptdc_error_3;
 input         hptdc_serial_out_0;
 input         hptdc_serial_out_1;
 input         hptdc_serial_out_2;
@@ -148,13 +137,9 @@ input         t1;
 // Output
 //--------------------------------------------------------------------
 output        dac_din_0;
-output        dac_din_1;
 output        dac_ldac_0;
-output        dac_ldac_1;
 output        dac_sclk_0;
-output        dac_sclk_1;
 output        dac_sync_0;
-output        dac_sync_1;
 output        hptdc_bunch_reset_0;
 output        hptdc_bunch_reset_1;
 output        hptdc_bunch_reset_2;
@@ -211,7 +196,10 @@ output        qusb_ifclk;
 //--------------------------------------------------------------------
 // Inout
 //--------------------------------------------------------------------
-inout  [7:0]  ccu25_data_0;
+inout  [31:0] hptdc_data;
+inout  [31:0] hptdc_data_0;
+inout  [31:0] hptdc_data_1;
+inout  [31:0] hptdc_data_2;
 inout  [15:0] qusb_fd;
 //--------------------------------------------------------------------
 // Nets
@@ -238,11 +226,9 @@ wire           Adder_3_read_enable;
 wire           Adder_3_transmit_complete;
 wire   [15:0]  BunchCounter_0_bunch_number_1;
 wire   [23:0]  BunchCounter_0_event_number_0;
-wire   [7:0]   ccu25_data_0;
-wire           ccu25_strobe_out_0;
-wire           ccu25_strobe_out_1;
 wire           clk;
-wire           clk_40;
+wire           clk_40_N;
+wire           clk_40_P;
 wire   [31:0]  ControlDecoder_0_acquisition_counter_0;
 wire   [31:0]  ControlDecoder_0_acquisition_counter_1;
 wire   [31:0]  ControlDecoder_0_acquisition_counter_2;
@@ -275,13 +261,9 @@ wire           ControlDecoder_0_transmit_request_1;
 wire           ControlDecoder_0_transmit_request_2;
 wire           ControlDecoder_0_transmit_request_3;
 wire           dac_din_0_net_0;
-wire           dac_din_1_net_0;
 wire           dac_ldac_0_net_0;
-wire           dac_ldac_1_net_0;
 wire           dac_sclk_0_net_0;
-wire           dac_sclk_1_net_0;
 wire           dac_sync_0_net_0;
-wire           dac_sync_1_net_0;
 wire   [31:0]  FIFO_0_data_out_1;
 wire           FIFO_0_empty;
 wire           FIFO_0_output_ready;
@@ -298,10 +280,10 @@ wire           hptdc_bunch_reset_0_net_0;
 wire           hptdc_bunch_reset_1_net_0;
 wire           hptdc_bunch_reset_2_net_0;
 wire           hptdc_bunch_reset_3_net_0;
+wire   [31:0]  hptdc_data;
 wire   [31:0]  hptdc_data_0;
 wire   [31:0]  hptdc_data_1;
 wire   [31:0]  hptdc_data_2;
-wire   [31:0]  hptdc_data_3;
 wire           hptdc_data_ready_0;
 wire           hptdc_data_ready_1;
 wire           hptdc_data_ready_2;
@@ -310,10 +292,10 @@ wire           hptdc_encode_control_0_net_0;
 wire           hptdc_encode_control_1_net_0;
 wire           hptdc_encode_control_2_net_0;
 wire           hptdc_encode_control_3_net_0;
+wire           hptdc_error;
 wire           hptdc_error_0;
 wire           hptdc_error_1;
 wire           hptdc_error_2;
-wire           hptdc_error_3;
 wire           hptdc_event_reset_0_net_0;
 wire           hptdc_event_reset_1_net_0;
 wire           hptdc_event_reset_2_net_0;
@@ -412,10 +394,6 @@ wire           hptdc_tdo_3_net_1;
 wire           hptdc_tms_3_net_1;
 wire           hptdc_tck_3_net_1;
 wire           hptdc_trstn_3_net_1;
-wire           dac_sync_1_net_1;
-wire           dac_sclk_1_net_1;
-wire           dac_ldac_1_net_1;
-wire           dac_din_1_net_1;
 wire           dac_sclk_0_net_1;
 wire           hptdc_serial_in_0_net_1;
 wire           hptdc_encode_control_0_net_1;
@@ -495,14 +473,6 @@ assign hptdc_tck_3_net_1              = hptdc_tck_3_net_0;
 assign hptdc_tck_3                    = hptdc_tck_3_net_1;
 assign hptdc_trstn_3_net_1            = hptdc_trstn_3_net_0;
 assign hptdc_trstn_3                  = hptdc_trstn_3_net_1;
-assign dac_sync_1_net_1               = dac_sync_1_net_0;
-assign dac_sync_1                     = dac_sync_1_net_1;
-assign dac_sclk_1_net_1               = dac_sclk_1_net_0;
-assign dac_sclk_1                     = dac_sclk_1_net_1;
-assign dac_ldac_1_net_1               = dac_ldac_1_net_0;
-assign dac_ldac_1                     = dac_ldac_1_net_1;
-assign dac_din_1_net_1                = dac_din_1_net_0;
-assign dac_din_1                      = dac_din_1_net_1;
 assign dac_sclk_0_net_1               = dac_sclk_0_net_0;
 assign dac_sclk_0                     = dac_sclk_0_net_1;
 assign hptdc_serial_in_0_net_1        = hptdc_serial_in_0_net_0;
@@ -587,23 +557,23 @@ Adder Adder_0(
         // Inputs
         .clk                      ( clk ),
         .rst                      ( rst ),
-        .event_number             ( BunchCounter_0_event_number_0 ),
-        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
-        .run_number               ( ControlDecoder_0_run_number_0 ),
-        .data_in                  ( FIFO_0_data_out_1 ),
         .empty                    ( FIFO_0_empty ),
         .input_ready              ( FIFO_0_output_ready ),
         .transmit_request         ( ControlDecoder_0_transmit_request_0 ),
         .serial_transmit_complete ( ControlDecoder_0_data_transmit_complete_0 ),
+        .event_number             ( BunchCounter_0_event_number_0 ),
+        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
+        .run_number               ( ControlDecoder_0_run_number_0 ),
+        .data_in                  ( FIFO_0_data_out_1 ),
         .acquisition_counter      ( ControlDecoder_0_acquisition_counter_0 ),
         .threshold_voltage        ( ControlDecoder_0_threshold_voltage_1 ),
         .bias_voltage             ( ControlDecoder_0_bias_voltage_1 ),
         // Outputs
-        .address_out              ( Adder_0_address_out ),
         .read_enable              ( Adder_0_read_enable ),
-        .data_out                 ( Adder_0_data_out ),
         .transmit_complete        ( Adder_0_transmit_complete ),
-        .data_ready_for_transmit  ( Adder_0_data_ready_for_transmit ) 
+        .data_ready_for_transmit  ( Adder_0_data_ready_for_transmit ),
+        .address_out              ( Adder_0_address_out ),
+        .data_out                 ( Adder_0_data_out ) 
         );
 
 //--------Adder
@@ -611,23 +581,23 @@ Adder Adder_1(
         // Inputs
         .clk                      ( clk ),
         .rst                      ( rst ),
-        .event_number             ( BunchCounter_0_event_number_0 ),
-        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
-        .run_number               ( ControlDecoder_0_run_number_0 ),
-        .data_in                  ( FIFO_1_data_out_1 ),
         .empty                    ( FIFO_1_empty ),
         .input_ready              ( FIFO_1_output_ready ),
         .transmit_request         ( ControlDecoder_0_transmit_request_1 ),
         .serial_transmit_complete ( ControlDecoder_0_data_transmit_complete_1 ),
+        .event_number             ( BunchCounter_0_event_number_0 ),
+        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
+        .run_number               ( ControlDecoder_0_run_number_0 ),
+        .data_in                  ( FIFO_1_data_out_1 ),
         .acquisition_counter      ( ControlDecoder_0_acquisition_counter_1 ),
         .threshold_voltage        ( ControlDecoder_0_threshold_voltage_1 ),
         .bias_voltage             ( ControlDecoder_0_bias_voltage_1 ),
         // Outputs
-        .address_out              ( Adder_1_address_out ),
         .read_enable              ( Adder_1_read_enable ),
-        .data_out                 ( Adder_1_data_out ),
         .transmit_complete        ( Adder_1_transmit_complete ),
-        .data_ready_for_transmit  ( Adder_1_data_ready_for_transmit ) 
+        .data_ready_for_transmit  ( Adder_1_data_ready_for_transmit ),
+        .address_out              ( Adder_1_address_out ),
+        .data_out                 ( Adder_1_data_out ) 
         );
 
 //--------Adder
@@ -635,23 +605,23 @@ Adder Adder_2(
         // Inputs
         .clk                      ( clk ),
         .rst                      ( rst ),
-        .event_number             ( BunchCounter_0_event_number_0 ),
-        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
-        .run_number               ( ControlDecoder_0_run_number_0 ),
-        .data_in                  ( FIFO_2_data_out_1 ),
         .empty                    ( FIFO_2_empty ),
         .input_ready              ( FIFO_2_output_ready ),
         .transmit_request         ( ControlDecoder_0_transmit_request_2 ),
         .serial_transmit_complete ( ControlDecoder_0_data_transmit_complete_2 ),
+        .event_number             ( BunchCounter_0_event_number_0 ),
+        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
+        .run_number               ( ControlDecoder_0_run_number_0 ),
+        .data_in                  ( FIFO_2_data_out_1 ),
         .acquisition_counter      ( ControlDecoder_0_acquisition_counter_2 ),
         .threshold_voltage        ( ControlDecoder_0_threshold_voltage_1 ),
         .bias_voltage             ( ControlDecoder_0_bias_voltage_1 ),
         // Outputs
-        .address_out              ( Adder_2_address_out ),
         .read_enable              ( Adder_2_read_enable ),
-        .data_out                 ( Adder_2_data_out ),
         .transmit_complete        ( Adder_2_transmit_complete ),
-        .data_ready_for_transmit  ( Adder_2_data_ready_for_transmit ) 
+        .data_ready_for_transmit  ( Adder_2_data_ready_for_transmit ),
+        .address_out              ( Adder_2_address_out ),
+        .data_out                 ( Adder_2_data_out ) 
         );
 
 //--------Adder
@@ -659,23 +629,23 @@ Adder Adder_3(
         // Inputs
         .clk                      ( clk ),
         .rst                      ( rst ),
-        .event_number             ( BunchCounter_0_event_number_0 ),
-        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
-        .run_number               ( ControlDecoder_0_run_number_0 ),
-        .data_in                  ( FIFO_3_data_out_1 ),
         .empty                    ( FIFO_3_empty ),
         .input_ready              ( FIFO_3_output_ready ),
         .transmit_request         ( ControlDecoder_0_transmit_request_3 ),
         .serial_transmit_complete ( ControlDecoder_0_data_transmit_complete_3 ),
+        .event_number             ( BunchCounter_0_event_number_0 ),
+        .bunch_number             ( BunchCounter_0_bunch_number_1 ),
+        .run_number               ( ControlDecoder_0_run_number_0 ),
+        .data_in                  ( FIFO_3_data_out_1 ),
         .acquisition_counter      ( ControlDecoder_0_acquisition_counter_3 ),
         .threshold_voltage        ( ControlDecoder_0_threshold_voltage_1 ),
         .bias_voltage             ( ControlDecoder_0_bias_voltage_1 ),
         // Outputs
-        .address_out              ( Adder_3_address_out ),
         .read_enable              ( Adder_3_read_enable ),
-        .data_out                 ( Adder_3_data_out ),
         .transmit_complete        ( Adder_3_transmit_complete ),
-        .data_ready_for_transmit  ( Adder_3_data_ready_for_transmit ) 
+        .data_ready_for_transmit  ( Adder_3_data_ready_for_transmit ),
+        .address_out              ( Adder_3_address_out ),
+        .data_out                 ( Adder_3_data_out ) 
         );
 
 //--------BunchCounter
@@ -683,7 +653,8 @@ BunchCounter BunchCounter_0(
         // Inputs
         .clk          ( clk ),
         .rst          ( rst ),
-        .clk_40       ( clk_40 ),
+        .clk_40_P     ( clk_40_P ),
+        .clk_40_N     ( clk_40_N ),
         .t1           ( t1 ),
         // Outputs
         .bunch_number ( BunchCounter_0_bunch_number_1 ),
@@ -697,15 +668,10 @@ ControlDecoder ControlDecoder_0(
         .rst                        ( rst ),
         .qusb_ren                   ( qusb_ren ),
         .qusb_wen                   ( qusb_wen ),
-        .qusb_gpifadr               ( qusb_gpifadr ),
         .transmit_complete_0        ( Adder_0_transmit_complete ),
         .transmit_complete_1        ( Adder_1_transmit_complete ),
         .transmit_complete_2        ( Adder_2_transmit_complete ),
         .transmit_complete_3        ( Adder_3_transmit_complete ),
-        .data_from_hptdc_0          ( JTAG_0_data_from_hptdc ),
-        .data_from_hptdc_1          ( JTAG_1_data_from_hptdc ),
-        .data_from_hptdc_2          ( JTAG_2_data_from_hptdc ),
-        .data_from_hptdc_3          ( JTAG_3_data_from_hptdc ),
         .data_received_from_hptdc_0 ( JTAG_0_data_received_from_hptdc ),
         .data_sent_to_hptdc_0       ( JTAG_0_data_sent_to_hptdc ),
         .jtag_bus_in_use_0          ( JTAG_0_jtag_bus_in_use ),
@@ -722,43 +688,48 @@ ControlDecoder ControlDecoder_0(
         .data_ready_1               ( Adder_1_data_ready_for_transmit ),
         .data_ready_2               ( Adder_2_data_ready_for_transmit ),
         .data_ready_3               ( Adder_3_data_ready_for_transmit ),
+        .qusb_gpifadr               ( qusb_gpifadr ),
+        .data_from_hptdc_0          ( JTAG_0_data_from_hptdc ),
+        .data_from_hptdc_1          ( JTAG_1_data_from_hptdc ),
+        .data_from_hptdc_2          ( JTAG_2_data_from_hptdc ),
+        .data_from_hptdc_3          ( JTAG_3_data_from_hptdc ),
         .data_in_0                  ( Adder_0_data_out ),
         .data_in_1                  ( Adder_1_data_out ),
         .data_in_2                  ( Adder_2_data_out ),
         .data_in_3                  ( Adder_3_data_out ),
         // Outputs
         .qusb_ifclk                 ( qusb_ifclk_net_0 ),
-        .run_number                 ( ControlDecoder_0_run_number_0 ),
-        .threshold_voltage          ( ControlDecoder_0_threshold_voltage_1 ),
-        .bias_voltage               ( ControlDecoder_0_bias_voltage_1 ),
         .transmit_request_0         ( ControlDecoder_0_transmit_request_0 ),
-        .acquisition_counter_0      ( ControlDecoder_0_acquisition_counter_0 ),
         .transmit_request_1         ( ControlDecoder_0_transmit_request_1 ),
-        .acquisition_counter_1      ( ControlDecoder_0_acquisition_counter_1 ),
         .transmit_request_2         ( ControlDecoder_0_transmit_request_2 ),
-        .acquisition_counter_2      ( ControlDecoder_0_acquisition_counter_2 ),
         .transmit_request_3         ( ControlDecoder_0_transmit_request_3 ),
-        .acquisition_counter_3      ( ControlDecoder_0_acquisition_counter_3 ),
-        .data_to_hptdc_0            ( ControlDecoder_0_data_to_hptdc_0 ),
         .send_data_to_hptdc_0       ( ControlDecoder_0_send_data_to_hptdc_0 ),
         .get_data_from_hptdc_0      ( ControlDecoder_0_get_data_from_hptdc_0 ),
-        .data_to_hptdc_1            ( ControlDecoder_0_data_to_hptdc_1 ),
         .send_data_to_hptdc_1       ( ControlDecoder_0_send_data_to_hptdc_1 ),
         .get_data_from_hptdc_1      ( ControlDecoder_0_get_data_from_hptdc_1 ),
-        .data_to_hptdc_2            ( ControlDecoder_0_data_to_hptdc_2 ),
         .send_data_to_hptdc_2       ( ControlDecoder_0_send_data_to_hptdc_2 ),
         .get_data_from_hptdc_2      ( ControlDecoder_0_get_data_from_hptdc_2 ),
-        .data_to_hptdc_3            ( ControlDecoder_0_data_to_hptdc_3 ),
         .send_data_to_hptdc_3       ( ControlDecoder_0_send_data_to_hptdc_3 ),
         .get_data_from_hptdc_3      ( ControlDecoder_0_get_data_from_hptdc_3 ),
-        .jtag_instruction_0         ( ControlDecoder_0_jtag_instruction_0 ),
-        .jtag_instruction_1         ( ControlDecoder_0_jtag_instruction_1 ),
-        .jtag_instruction_2         ( ControlDecoder_0_jtag_instruction_2 ),
-        .jtag_instruction_3         ( ControlDecoder_0_jtag_instruction_3 ),
         .data_transmit_complete_0   ( ControlDecoder_0_data_transmit_complete_0 ),
         .data_transmit_complete_1   ( ControlDecoder_0_data_transmit_complete_1 ),
         .data_transmit_complete_2   ( ControlDecoder_0_data_transmit_complete_2 ),
         .data_transmit_complete_3   ( ControlDecoder_0_data_transmit_complete_3 ),
+        .run_number                 ( ControlDecoder_0_run_number_0 ),
+        .threshold_voltage          ( ControlDecoder_0_threshold_voltage_1 ),
+        .bias_voltage               ( ControlDecoder_0_bias_voltage_1 ),
+        .acquisition_counter_0      ( ControlDecoder_0_acquisition_counter_0 ),
+        .acquisition_counter_1      ( ControlDecoder_0_acquisition_counter_1 ),
+        .acquisition_counter_2      ( ControlDecoder_0_acquisition_counter_2 ),
+        .acquisition_counter_3      ( ControlDecoder_0_acquisition_counter_3 ),
+        .data_to_hptdc_0            ( ControlDecoder_0_data_to_hptdc_0 ),
+        .data_to_hptdc_1            ( ControlDecoder_0_data_to_hptdc_1 ),
+        .data_to_hptdc_2            ( ControlDecoder_0_data_to_hptdc_2 ),
+        .data_to_hptdc_3            ( ControlDecoder_0_data_to_hptdc_3 ),
+        .jtag_instruction_0         ( ControlDecoder_0_jtag_instruction_0 ),
+        .jtag_instruction_1         ( ControlDecoder_0_jtag_instruction_1 ),
+        .jtag_instruction_2         ( ControlDecoder_0_jtag_instruction_2 ),
+        .jtag_instruction_3         ( ControlDecoder_0_jtag_instruction_3 ),
         // Inouts
         .qusb_fd                    ( qusb_fd ) 
         );
@@ -775,18 +746,6 @@ DACController DACController_0(
         .SClock            ( dac_sclk_0_net_0 ) 
         );
 
-//--------DACController
-DACController DACController_1(
-        // Inputs
-        .clk               ( clk ),
-        .threshold_voltage ( ControlDecoder_0_threshold_voltage_1 ),
-        // Outputs
-        .SYNC_bar          ( dac_sync_1_net_0 ),
-        .LDAC_bar          ( dac_ldac_1_net_0 ),
-        .DIN               ( dac_din_1_net_0 ),
-        .SClock            ( dac_sclk_1_net_0 ) 
-        );
-
 //--------FIFO
 FIFO FIFO_0(
         // Inputs
@@ -795,10 +754,9 @@ FIFO FIFO_0(
         .read_enable            ( Adder_0_read_enable ),
         .address_in             ( Adder_0_address_out ),
         .hptdc_token_out        ( hptdc_token_out_0 ),
-        .hptdc_data             ( hptdc_data_0 ),
         .hptdc_data_ready       ( hptdc_data_ready_0 ),
         .hptdc_serial_out       ( hptdc_serial_out_0 ),
-        .hptdc_error            ( hptdc_error_0 ),
+        .hptdc_error            ( hptdc_error ),
         // Outputs
         .data_out               ( FIFO_0_data_out_1 ),
         .output_ready           ( FIFO_0_output_ready ),
@@ -811,7 +769,9 @@ FIFO FIFO_0(
         .hptdc_trigger          ( hptdc_trigger_0_net_0 ),
         .hptdc_event_reset      ( hptdc_event_reset_0_net_0 ),
         .hptdc_bunch_reset      ( hptdc_bunch_reset_0_net_0 ),
-        .hptdc_encode_control   ( hptdc_encode_control_0_net_0 ) 
+        .hptdc_encode_control   ( hptdc_encode_control_0_net_0 ),
+        // Inouts
+        .hptdc_data             ( hptdc_data ) 
         );
 
 //--------FIFO
@@ -822,10 +782,9 @@ FIFO FIFO_1(
         .read_enable            ( Adder_1_read_enable ),
         .address_in             ( Adder_1_address_out ),
         .hptdc_token_out        ( hptdc_token_out_1 ),
-        .hptdc_data             ( hptdc_data_1 ),
         .hptdc_data_ready       ( hptdc_data_ready_1 ),
         .hptdc_serial_out       ( hptdc_serial_out_1 ),
-        .hptdc_error            ( hptdc_error_1 ),
+        .hptdc_error            ( hptdc_error_0 ),
         // Outputs
         .data_out               ( FIFO_1_data_out_1 ),
         .output_ready           ( FIFO_1_output_ready ),
@@ -838,7 +797,9 @@ FIFO FIFO_1(
         .hptdc_trigger          ( hptdc_trigger_1_net_0 ),
         .hptdc_event_reset      ( hptdc_event_reset_1_net_0 ),
         .hptdc_bunch_reset      ( hptdc_bunch_reset_1_net_0 ),
-        .hptdc_encode_control   ( hptdc_encode_control_1_net_0 ) 
+        .hptdc_encode_control   ( hptdc_encode_control_1_net_0 ),
+        // Inouts
+        .hptdc_data             ( hptdc_data_0 ) 
         );
 
 //--------FIFO
@@ -849,10 +810,9 @@ FIFO FIFO_2(
         .read_enable            ( Adder_2_read_enable ),
         .address_in             ( Adder_2_address_out ),
         .hptdc_token_out        ( hptdc_token_out_2 ),
-        .hptdc_data             ( hptdc_data_2 ),
         .hptdc_data_ready       ( hptdc_data_ready_2 ),
         .hptdc_serial_out       ( hptdc_serial_out_2 ),
-        .hptdc_error            ( hptdc_error_2 ),
+        .hptdc_error            ( hptdc_error_1 ),
         // Outputs
         .data_out               ( FIFO_2_data_out_1 ),
         .output_ready           ( FIFO_2_output_ready ),
@@ -865,7 +825,9 @@ FIFO FIFO_2(
         .hptdc_trigger          ( hptdc_trigger_2_net_0 ),
         .hptdc_event_reset      ( hptdc_event_reset_2_net_0 ),
         .hptdc_bunch_reset      ( hptdc_bunch_reset_2_net_0 ),
-        .hptdc_encode_control   ( hptdc_encode_control_2_net_0 ) 
+        .hptdc_encode_control   ( hptdc_encode_control_2_net_0 ),
+        // Inouts
+        .hptdc_data             ( hptdc_data_1 ) 
         );
 
 //--------FIFO
@@ -876,10 +838,9 @@ FIFO FIFO_3(
         .read_enable            ( Adder_3_read_enable ),
         .address_in             ( Adder_3_address_out ),
         .hptdc_token_out        ( hptdc_token_out_3 ),
-        .hptdc_data             ( hptdc_data_3 ),
         .hptdc_data_ready       ( hptdc_data_ready_3 ),
         .hptdc_serial_out       ( hptdc_serial_out_3 ),
-        .hptdc_error            ( hptdc_error_3 ),
+        .hptdc_error            ( hptdc_error_2 ),
         // Outputs
         .data_out               ( FIFO_3_data_out_1 ),
         .output_ready           ( FIFO_3_output_ready ),
@@ -892,7 +853,9 @@ FIFO FIFO_3(
         .hptdc_trigger          ( hptdc_trigger_3_net_0 ),
         .hptdc_event_reset      ( hptdc_event_reset_3_net_0 ),
         .hptdc_bunch_reset      ( hptdc_bunch_reset_3_net_0 ),
-        .hptdc_encode_control   ( hptdc_encode_control_3_net_0 ) 
+        .hptdc_encode_control   ( hptdc_encode_control_3_net_0 ),
+        // Inouts
+        .hptdc_data             ( hptdc_data_2 ) 
         );
 
 //--------JTAG

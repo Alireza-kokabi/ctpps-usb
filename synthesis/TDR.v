@@ -5,17 +5,17 @@
 module DACController(
        ControlDecoder_0_threshold_voltage_1,
        clk_c,
-       dac_din_1_c,
-       dac_sync_1_c,
-       dac_ldac_1_c,
-       dac_sclk_1_c
+       dac_din_0_c,
+       dac_sync_0_c,
+       dac_ldac_0_c,
+       dac_sclk_0_c
     );
 input  [13:0] ControlDecoder_0_threshold_voltage_1;
 input  clk_c;
-output dac_din_1_c;
-output dac_sync_1_c;
-output dac_ldac_1_c;
-output dac_sclk_1_c;
+output dac_din_0_c;
+output dac_sync_0_c;
+output dac_ldac_0_c;
+output dac_sclk_0_c;
 
     wire \sclock_counter[31]_net_1 , \sclock_counter_s[31] , 
         dataready_net_1, dataready_i_0, \un3_sclockv_0_data_tmp[6] , 
@@ -77,12 +77,12 @@ output dac_sclk_1_c;
         \sclock_counter_cry[18]_net_1 , \sclock_counter_cry[17]_net_1 , 
         ldac_barv_2_sqmuxa_3_net_1, ldac_barv_2_sqmuxa_net_1, 
         ldac_barv_2_sqmuxa_0_net_1, un2_sclock_counterlto14_0_net_1, 
-        un33_sclockv_1_net_1, index_2_sqmuxa_1_net_1, \temp_m_2[15] , 
-        \temp_m_1[15] , un2_sclock_counterlt12, 
-        un2_sclock_counter_1lt11, CO2, un2_sclock_counterlt14, 
-        un2_sclock_counter_1lt13, un33_sclockv_net_1, 
-        un1_sclockv_2_net_1, un1_dinv_2_sqmuxa_net_1, 
-        un2_sclock_counter_1lt15, un1_sync_barv_0_sqmuxa_net_1;
+        un33_sclockv_1_net_1, dinv_2_sqmuxa_1_net_1, 
+        temp_1_sqmuxa_net_1, \temp_m_1[15] , un2_sclock_counter_1lt11, 
+        un2_sclock_counterlt12, CO2, un33_sclockv_net_1, 
+        un2_sclock_counter_1lt13, un2_sclock_counterlt14, 
+        un1_sclockv_2_net_1, un2_sclock_counter_1lt15, 
+        un1_dinv_2_sqmuxa_net_1, un1_sync_barv_0_sqmuxa_net_1;
     
     ARI1 #( .INIT(20'h555FF) )  temp_7_cry_10 (.A(
         ControlDecoder_0_threshold_voltage_1[10]), .B(temp_7), .C(
@@ -94,7 +94,7 @@ output dac_sclk_1_c;
         \sclock_counter_s[27] ), .Y(), .FCO(
         \sclock_counter_cry[27]_net_1 ));
     CFG4 #( .INIT(16'hF010) )  un1_sclock_counter15_4 (.A(
-        \un3_sclockv_0_data_tmp[6] ), .B(dac_sclk_1_c), .C(
+        \un3_sclockv_0_data_tmp[6] ), .B(dac_sclk_0_c), .C(
         sclock_counter15_net_1), .D(ldac_barv_2_sqmuxa_net_1), .Y(
         un1_sclock_counter15_4_net_1));
     CFG2 #( .INIT(4'h6) )  \sequence_9_0_x2[1]  (.A(temp_7), .B(
@@ -108,10 +108,10 @@ output dac_sclk_1_c;
         temp_0_sqmuxa_i_0));
     CFG4 #( .INIT(16'h0080) )  temp_1_sqmuxa_2 (.A(
         \un3_sclockv_0_data_tmp[6] ), .B(sclock_counter15_net_1), .C(
-        dataready_net_1), .D(dac_sclk_1_c), .Y(temp_1_sqmuxa_2_net_1));
+        dataready_net_1), .D(dac_sclk_0_c), .Y(temp_1_sqmuxa_2_net_1));
     CFG4 #( .INIT(16'h00FD) )  un1_sync_barv_0_sqmuxa (.A(
         \un3_sclockv_0_data_tmp[6] ), .B(un33_sclockv_net_1), .C(
-        dataready_net_1), .D(dac_sclk_1_c), .Y(
+        dataready_net_1), .D(dac_sclk_0_c), .Y(
         un1_sync_barv_0_sqmuxa_net_1));
     ARI1 #( .INIT(20'h4AA00) )  \sclock_counter_cry[29]  (.A(VCC_net_1)
         , .B(\sclock_counter[29]_net_1 ), .C(GND_net_1), .D(GND_net_1), 
@@ -162,7 +162,7 @@ output dac_sclk_1_c;
         \temp_7[5] ), .Y(), .FCO(temp_7_cry_5_net_1));
     SLE dinv (.D(dinv_6), .CLK(clk_c), .EN(sclock_counter15_net_1), 
         .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(VCC_net_1), .SD(
-        GND_net_1), .LAT(GND_net_1), .Q(dac_din_1_c));
+        GND_net_1), .LAT(GND_net_1), .Q(dac_din_0_c));
     SLE \temp[11]  (.D(\temp_14[11]_net_1 ), .CLK(clk_c), .EN(
         index_1_sqmuxa_1_net_1), .ALn(VCC_net_1), .ADn(VCC_net_1), 
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
@@ -231,11 +231,8 @@ output dac_sclk_1_c;
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
         \temp[15]_net_1 ));
     CFG4 #( .INIT(16'h060A) )  \index_7[4]  (.A(\index[4]_net_1 ), .B(
-        \index[3]_net_1 ), .C(index_2_sqmuxa_1_net_1), .D(CO2), .Y(
+        \index[3]_net_1 ), .C(temp_1_sqmuxa_net_1), .D(CO2), .Y(
         \index_7[4]_net_1 ));
-    CFG2 #( .INIT(4'h2) )  un3_sclockv_0_I_15_RNI73EK (.A(
-        \un3_sclockv_0_data_tmp[6] ), .B(dataready_net_1), .Y(
-        \temp_m_2[15] ));
     ARI1 #( .INIT(20'h48800) )  temp_7_cry_7 (.A(VCC_net_1), .B(
         ControlDecoder_0_threshold_voltage_1[7]), .C(temp_7), .D(
         GND_net_1), .FCI(temp_7_cry_6_net_1), .S(\temp_7[7] ), .Y(), 
@@ -273,7 +270,7 @@ output dac_sclk_1_c;
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
         \temp[12]_net_1 ));
     CFG4 #( .INIT(16'h0400) )  ldac_barv_2_sqmuxa_3 (.A(N_162), .B(
-        ldac_barv_2_sqmuxa_0_net_1), .C(dac_sclk_1_c), .D(N_161), .Y(
+        ldac_barv_2_sqmuxa_0_net_1), .C(dac_sclk_0_c), .D(N_161), .Y(
         ldac_barv_2_sqmuxa_3_net_1));
     ARI1 #( .INIT(20'h68421) )  un3_sclockv_0_I_1 (.A(
         \cache1[1]_net_1 ), .B(ControlDecoder_0_threshold_voltage_1[0])
@@ -283,9 +280,10 @@ output dac_sclk_1_c;
     CFG2 #( .INIT(4'h8) )  un1_sclock_counter15_5 (.A(
         sclock_counter15_net_1), .B(un1_sync_barv_0_sqmuxa_net_1), .Y(
         un1_sclock_counter15_5_net_1));
-    CFG4 #( .INIT(16'h4000) )  dataready_2_sqmuxa (.A(dac_sclk_1_c), 
-        .B(un33_sclockv_net_1), .C(\temp_m_2[15] ), .D(
-        sclock_counter15_net_1), .Y(dataready_2_sqmuxa_net_1));
+    CFG4 #( .INIT(16'h2000) )  dataready_2_sqmuxa (.A(
+        un33_sclockv_net_1), .B(dac_sclk_0_c), .C(
+        sclock_counter15_net_1), .D(dinv_2_sqmuxa_1_net_1), .Y(
+        dataready_2_sqmuxa_net_1));
     CFG3 #( .INIT(8'hD8) )  \temp_14[4]  (.A(dataready_net_1), .B(
         \temp_7[3] ), .C(\temp[3]_net_1 ), .Y(\temp_14[4]_net_1 ));
     SLE \cache1[11]  (.D(ControlDecoder_0_threshold_voltage_1[11]), 
@@ -308,8 +306,8 @@ output dac_sclk_1_c;
         \temp_7[5] ), .C(\temp[5]_net_1 ), .Y(\temp_14[6]_net_1 ));
     CFG3 #( .INIT(8'h6A) )  \un1_index_1.SUM[2]  (.A(\index[2]_net_1 ), 
         .B(\index[1]_net_1 ), .C(\index[0]_net_1 ), .Y(N_162));
-    CFG2 #( .INIT(4'h1) )  \index_7[0]  (.A(index_2_sqmuxa_1_net_1), 
-        .B(\index[0]_net_1 ), .Y(\index_7[0]_net_1 ));
+    CFG2 #( .INIT(4'h1) )  \index_7[0]  (.A(temp_1_sqmuxa_net_1), .B(
+        \index[0]_net_1 ), .Y(\index_7[0]_net_1 ));
     SLE \cache1[10]  (.D(ControlDecoder_0_threshold_voltage_1[10]), 
         .CLK(clk_c), .EN(dataready_2_sqmuxa_net_1), .ALn(VCC_net_1), 
         .ADn(VCC_net_1), .SLn(VCC_net_1), .SD(GND_net_1), .LAT(
@@ -319,7 +317,7 @@ output dac_sclk_1_c;
         .C(\sclock_counter[23]_net_1 ), .D(\sclock_counter[22]_net_1 ), 
         .Y(un2_sclock_counterlt12));
     CFG2 #( .INIT(4'h2) )  un33_sclockv_1 (.A(\index[4]_net_1 ), .B(
-        \index[2]_net_1 ), .Y(un33_sclockv_1_net_1));
+        \index[3]_net_1 ), .Y(un33_sclockv_1_net_1));
     CFG2 #( .INIT(4'h6) )  sequence_1 (.A(temp_1_sqmuxa_2_net_1), .B(
         temp_7), .Y(sequence_1_net_1));
     SLE \cache1[0]  (.D(ControlDecoder_0_threshold_voltage_1[0]), .CLK(
@@ -337,7 +335,7 @@ output dac_sclk_1_c;
         .FCO(temp_7_cry_4_net_1));
     SLE sclockv (.D(sclock_counter15_net_1), .CLK(clk_c), .EN(
         VCC_net_1), .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(VCC_net_1), 
-        .SD(GND_net_1), .LAT(GND_net_1), .Q(dac_sclk_1_c));
+        .SD(GND_net_1), .LAT(GND_net_1), .Q(dac_sclk_0_c));
     CFG3 #( .INIT(8'hD8) )  \temp_14[8]  (.A(dataready_net_1), .B(
         \temp_7[7] ), .C(\temp[7]_net_1 ), .Y(\temp_14[8]_net_1 ));
     CFG4 #( .INIT(16'h555D) )  un2_sclock_counter_1lto14 (.A(
@@ -348,7 +346,7 @@ output dac_sclk_1_c;
         un2_sclock_counterlt14), .B(\sclock_counter[16]_net_1 ), .C(
         un2_sclock_counterlto14_0_net_1), .Y(un2_sclock_counter_i_0_i));
     CFG4 #( .INIT(16'h0004) )  un33_sclockv (.A(\index[0]_net_1 ), .B(
-        un33_sclockv_1_net_1), .C(\index[3]_net_1 ), .D(
+        un33_sclockv_1_net_1), .C(\index[2]_net_1 ), .D(
         \index[1]_net_1 ), .Y(un33_sclockv_net_1));
     SLE \cache1[2]  (.D(ControlDecoder_0_threshold_voltage_1[2]), .CLK(
         clk_c), .EN(dataready_2_sqmuxa_net_1), .ALn(VCC_net_1), .ADn(
@@ -390,12 +388,10 @@ output dac_sclk_1_c;
         , .C(ControlDecoder_0_threshold_voltage_1[3]), .D(
         \cache1[2]_net_1 ), .FCI(\un3_sclockv_0_data_tmp[0] ), .S(), 
         .Y(), .FCO(\un3_sclockv_0_data_tmp[1] ));
-    CFG2 #( .INIT(4'h4) )  index_2_sqmuxa_1 (.A(dataready_net_1), .B(
-        \index[4]_net_1 ), .Y(index_2_sqmuxa_1_net_1));
     SLE sync_barv (.D(temp_0_sqmuxa_i_0), .CLK(clk_c), .EN(
         un1_sclock_counter15_5_net_1), .ALn(VCC_net_1), .ADn(VCC_net_1)
         , .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
-        dac_sync_1_c));
+        dac_sync_0_c));
     CFG3 #( .INIT(8'h80) )  \un1_index_1.CO2  (.A(\index[2]_net_1 ), 
         .B(\index[1]_net_1 ), .C(\index[0]_net_1 ), .Y(CO2));
     ARI1 #( .INIT(20'h68421) )  un3_sclockv_0_I_33 (.A(
@@ -403,7 +399,7 @@ output dac_sclk_1_c;
         , .C(ControlDecoder_0_threshold_voltage_1[7]), .D(
         \cache1[6]_net_1 ), .FCI(\un3_sclockv_0_data_tmp[2] ), .S(), 
         .Y(), .FCO(\un3_sclockv_0_data_tmp[3] ));
-    CFG3 #( .INIT(8'h40) )  un1_sclock_counter15_3 (.A(dac_sclk_1_c), 
+    CFG3 #( .INIT(8'h40) )  un1_sclock_counter15_3 (.A(dac_sclk_0_c), 
         .B(un1_dinv_2_sqmuxa_net_1), .C(sclock_counter15_net_1), .Y(
         un1_sclock_counter15_3_net_1));
     ARI1 #( .INIT(20'h4AA00) )  \sclock_counter_s[16]  (.A(VCC_net_1), 
@@ -428,6 +424,8 @@ output dac_sclk_1_c;
         un1_sclock_counter15_1_i_0), .ALn(VCC_net_1), .ADn(VCC_net_1), 
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
         \index[4]_net_1 ));
+    CFG2 #( .INIT(4'h4) )  temp_1_sqmuxa (.A(dataready_net_1), .B(
+        \index[4]_net_1 ), .Y(temp_1_sqmuxa_net_1));
     SLE \sequence[1]  (.D(N_152_i), .CLK(clk_c), .EN(
         temp_1_sqmuxa_2_net_1), .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(
         VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
@@ -461,8 +459,8 @@ output dac_sclk_1_c;
         \sclock_counter_cry[19]_net_1 ));
     CFG4 #( .INIT(16'hF7F5) )  un1_sclockv_2 (.A(
         \un3_sclockv_0_data_tmp[6] ), .B(un33_sclockv_net_1), .C(
-        dac_sclk_1_c), .D(index_2_sqmuxa_1_net_1), .Y(
-        un1_sclockv_2_net_1));
+        dac_sclk_0_c), .D(temp_1_sqmuxa_net_1), .Y(un1_sclockv_2_net_1)
+        );
     CFG3 #( .INIT(8'hC8) )  un1_dinv_2_sqmuxa (.A(dataready_net_1), .B(
         \un3_sclockv_0_data_tmp[6] ), .C(un33_sclockv_net_1), .Y(
         un1_dinv_2_sqmuxa_net_1));
@@ -475,6 +473,9 @@ output dac_sclk_1_c;
         .FCI(\sclock_counter_cry[21]_net_1 ), .S(
         \sclock_counter_s[20] ), .Y(), .FCO(
         \sclock_counter_cry[20]_net_1 ));
+    CFG2 #( .INIT(4'h2) )  dinv_2_sqmuxa_1 (.A(
+        \un3_sclockv_0_data_tmp[6] ), .B(dataready_net_1), .Y(
+        dinv_2_sqmuxa_1_net_1));
     SLE \index[3]  (.D(N_163), .CLK(clk_c), .EN(
         un1_sclock_counter15_1_i_0), .ALn(VCC_net_1), .ADn(VCC_net_1), 
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
@@ -541,7 +542,7 @@ output dac_sclk_1_c;
         un2_sclock_counter_i_0_i), .SD(GND_net_1), .LAT(GND_net_1), .Q(
         \sclock_counter[25]_net_1 ));
     CFG3 #( .INIT(8'h10) )  dinv_6_iv_RNO (.A(\index[4]_net_1 ), .B(
-        dac_sclk_1_c), .C(\temp[15]_net_1 ), .Y(\temp_m_1[15] ));
+        dac_sclk_0_c), .C(\temp[15]_net_1 ), .Y(\temp_m_1[15] ));
     ARI1 #( .INIT(20'h4AA00) )  \sclock_counter_cry[21]  (.A(VCC_net_1)
         , .B(\sclock_counter[21]_net_1 ), .C(GND_net_1), .D(GND_net_1), 
         .FCI(\sclock_counter_cry[22]_net_1 ), .S(
@@ -588,21 +589,20 @@ output dac_sclk_1_c;
     SLE ldac_barv (.D(\un3_sclockv_0_data_tmp_i_0[6] ), .CLK(clk_c), 
         .EN(un1_sclock_counter15_4_net_1), .ALn(VCC_net_1), .ADn(
         VCC_net_1), .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), 
-        .Q(dac_ldac_1_c));
+        .Q(dac_ldac_0_c));
     ARI1 #( .INIT(20'h48800) )  temp_7_cry_3 (.A(VCC_net_1), .B(
         ControlDecoder_0_threshold_voltage_1[3]), .C(temp_7), .D(
         GND_net_1), .FCI(temp_7_cry_2_net_1), .S(\temp_7[3] ), .Y(), 
         .FCO(temp_7_cry_3_net_1));
-    CFG4 #( .INIT(16'hEAC0) )  dinv_6_iv (.A(\temp_m_2[15] ), .B(
-        un1_sclockv_2_net_1), .C(dac_din_1_c), .D(\temp_m_1[15] ), .Y(
-        dinv_6));
+    CFG4 #( .INIT(16'hEAC0) )  dinv_6_iv (.A(\temp_m_1[15] ), .B(
+        dac_din_0_c), .C(un1_sclockv_2_net_1), .D(
+        dinv_2_sqmuxa_1_net_1), .Y(dinv_6));
     CFG2 #( .INIT(4'h2) )  un1_sclockv_2_RNIFS2R (.A(
         sclock_counter15_net_1), .B(un1_sclockv_2_net_1), .Y(
         un1_sclock_counter15_1_i_0));
-    CFG4 #( .INIT(16'h0008) )  index_1_sqmuxa_1 (.A(
-        \un3_sclockv_0_data_tmp[6] ), .B(sclock_counter15_net_1), .C(
-        dac_sclk_1_c), .D(index_2_sqmuxa_1_net_1), .Y(
-        index_1_sqmuxa_1_net_1));
+    CFG4 #( .INIT(16'h1000) )  index_1_sqmuxa_1 (.A(dac_sclk_0_c), .B(
+        temp_1_sqmuxa_net_1), .C(\un3_sclockv_0_data_tmp[6] ), .D(
+        sclock_counter15_net_1), .Y(index_1_sqmuxa_1_net_1));
     CFG4 #( .INIT(16'hDFFF) )  un2_sclock_counter_1lto11 (.A(
         \sclock_counter[20]_net_1 ), .B(un2_sclock_counter_1lt11), .C(
         \sclock_counter[22]_net_1 ), .D(\sclock_counter[21]_net_1 ), 
@@ -1769,8 +1769,12 @@ input  JTAG_0_jtag_bus_in_use;
         un1_instruction_047_16_i_a2_4_0_o2_RNI5VIJ4_net_1, N_3540_i_0, 
         un1_instruction_047_16_i_a2_4_0_o2_RNI40DG3_net_1, N_3539_i_0, 
         un1_instruction_047_16_i_a2_4_0_o2_RNI1LVS4_net_1, N_3538_i_0, 
-        N_3906, N_247, counter_N_3_mux_0_0, N_414, N_413, N_3932, 
-        N_378, \counter_0_19_i_3_1[1]_net_1 , N_3953, N_3921, N_463, 
+        N_3906, N_247, counter_N_3_mux_0_0, N_414, N_3932, 
+        \counter_0_19_i_0[5]_net_1 , N_3930, 
+        \counter_0_19_i_1[5]_net_1 , N_413, N_378, 
+        \counter_0_19_i_3_1[1]_net_1 , N_3921, N_3953, N_427, 
+        \counter_0_2[2] , \counter_0_2[1] , \counter_0_2[0] , 
+        un1_instruction_047_c4_i, N_463, 
         \counter_0_19_i_a2_3_0[2]_net_1 , N_3869_i_1_0, N_342, N_3910, 
         \counter_0_19_i_5[2]_net_1 , N_3911, N_3891, N_338, 
         \counter_0_19_i_1_1[2]_net_1 , \counter_0_19_i_1[2]_net_1 , 
@@ -1780,45 +1784,45 @@ input  JTAG_0_jtag_bus_in_use;
         \counter_0_19_i_0[1]_net_1 , N_415, 
         \counter_0_19_i_3[1]_net_1 , N_355, 
         \counter_0_19_i_1_1[6]_net_1 , \counter_0_19_i_1[6]_net_1 , 
-        \counter_0_19_i_6[6]_net_1 , N_417, N_416, 
-        \counter_0_19_i_4[6]_net_1 , N_176_i, N_357, 
+        N_416, \counter_0_19_i_4[6]_net_1 , 
+        \counter_0_19_i_6[6]_net_1 , N_176_i, N_357, 
         \counter_0_19_i_1[4]_net_1 , N_483, 
         \un1_instruction_047_180[3] , N_3924, N_347, N_239, N_491, 
-        N_3905, N_408, N_3930, N_238, N_252, N_427, \counter_0_2[2] , 
-        \counter_0_2[1] , \counter_0_2[0] , un1_instruction_047_c4_i, 
-        \counter_0_19_i_o2_2_2_0[2]_net_1 , 
+        N_3905, \counter_0_19_i_o2_2_2_0[2]_net_1 , 
         \counter_0_19_i_o2_2_0[1]_net_1 , 
-        \instruction_0_8_i_o2_0[1]_net_1 , \counter_0_2[4] , N_419, 
-        N_228, \counter_0_19_i_a2_12_0_0[0]_net_1 , 
+        \instruction_0_8_i_o2_0[1]_net_1 , N_419, \counter_0_2[4] , 
+        N_417, \counter_0_2[6] , N_228, 
+        \counter_0_19_i_a2_12_0_0[0]_net_1 , 
         \counter_0_19_i_o2_2_7[1]_net_1 , 
-        \counter_0_19_i_o2_2_6[1]_net_1 , N_4009, N_385, 
+        \counter_0_19_i_o2_2_6[1]_net_1 , N_4009, N_238, N_385, 
         \counter_0_19_i_a2_1_0[0]_net_1 , \un1_instruction_047_180[1] , 
-        N_485, N_3919, N_3952, N_3927, N_3922, 
+        N_3952, N_3927, N_3922, N_485, N_408, N_3919, 
         latched_data_received_from_hptdc_0_RNI789Q_net_1, 
         \counter_0_19_i_o2_6_0[2]_net_1 , 
-        \counter_0_19_i_a2_1_0[3]_net_1 , N_363, N_3894, N_3925, 
+        \counter_0_19_i_a2_1_0[3]_net_1 , N_363, N_3925, N_3894, 
         \counter_0_19_i_o2_2_2_RNI0DV61[2]_net_1 , 
         \counter_0_19_i_a2_3_1[4]_net_1 , m22_i_a2_0_1, 
         counter_N_3_mux, \un1_instruction_047_180[2] , un1_N_5, 
         un1_N_5_0, \counter_0_19_i_4_0[3]_net_1 , 
+        \counter_0_19_i_o2_0_0[6]_net_1 , 
         \counter_0_19_i_a2_a1_2[5]_net_1 , 
         \counter_0_19_i_a2_3_0[0]_net_1 , 
         \counter_0_19_i_a2_2_0[1]_net_1 , 
-        un1_instruction_047_12_i_0_0_a2_1_net_1, m22_i_o2_0, N_3928, 
-        N_227, \counter_0_19_i_a2_a0_3[5]_net_1 , 
+        un1_instruction_047_12_i_0_0_a2_1_net_1, m22_i_o2_0, N_252, 
+        N_3928, N_227, \counter_0_19_i_a2_a0_3[5]_net_1 , 
         \counter_0_19_i_a2_2_1[3]_net_1 , N_356, 
         \un1_instruction_047_180[5] , N_384, 
-        \counter_0_19_i_a2_4_0[2]_net_1 , 
-        \counter_0_19_i_a2_3_0[1]_net_1 , N_364, N_362, N_254, 
+        \counter_0_19_i_a2_3_0[1]_net_1 , 
+        \counter_0_19_i_a2_4_0[2]_net_1 , N_362, 
+        \un1_instruction_047_180[6] , N_254, 
         \counter_0_19_i_a0[3]_net_1 , N_331, N_325, 
         \counter_0_19_i_0_0[0]_net_1 , N_327, N_333, N_360, N_361, 
         \counter_0_19_i_2[0]_net_1 , \counter_0_19_i_2[6]_net_1 , 
         \counter_0_19_i_4_2[3]_net_1 , \counter_0_19_i_2[5]_net_1 , 
-        \counter_0_19_i_1[5]_net_1 , N_322, 
-        \jtag_instruction_0_1_1_i_0_0[0]_net_1 , N_335, 
+        N_322, \jtag_instruction_0_1_1_i_0_0[0]_net_1 , N_335, 
         \counter_0_19_i_3[0]_net_1 , \counter_0_19_i_4[4]_net_1 , 
         \counter_0_19_i_4_4[3]_net_1 , \counter_0_19_i_3[4]_net_1 , 
-        \counter_0_19_i_5[0]_net_1 , \counter_0_19_i_5[1]_net_1 , 
+        \counter_0_19_i_5[1]_net_1 , \counter_0_19_i_5[0]_net_1 , 
         \counter_0_19_i_7[1]_net_1 ;
     
     CFG3 #( .INIT(8'hFB) )  send_data_to_hptdc_0_RNO_2 (.A(N_408), .B(
@@ -1982,8 +1986,10 @@ input  JTAG_0_jtag_bus_in_use;
         .EN(run_number_1_sqmuxa), .ALn(VCC_net_1), .ADn(VCC_net_1), 
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
         \run_number[5]_net_1 ));
-    CFG2 #( .INIT(4'h1) )  \counter_0_RNO[6]  (.A(
-        \counter_0_19_i_6[6]_net_1 ), .B(N_417), .Y(N_3873_i_0));
+    CFG4 #( .INIT(16'h0075) )  \counter_0_RNO[6]  (.A(N_417), .B(
+        \counter_0_19_i_o2_0_0[6]_net_1 ), .C(
+        \un1_instruction_047_180[6] ), .D(\counter_0_19_i_6[6]_net_1 ), 
+        .Y(N_3873_i_0));
     CFG2 #( .INIT(4'h9) )  \counter_0_2_0_a2_RNIR09C[1]  (.A(
         \counter_0_2[0] ), .B(\counter_0_2[1] ), .Y(
         \un1_instruction_047_180[1] ));
@@ -2001,24 +2007,24 @@ input  JTAG_0_jtag_bus_in_use;
         \counter_0[1]_net_1 ), .B(N_3910), .C(N_3911), .Y(N_331));
     GND GND (.Y(GND_net_1));
     CFG4 #( .INIT(16'hFFFE) )  \counter_0_19_i_o2_2[1]  (.A(
-        qusb_fd_in[13]), .B(\counter_0_19_i_o2_2_7[1]_net_1 ), .C(
+        qusb_fd_in[14]), .B(\counter_0_19_i_o2_2_7[1]_net_1 ), .C(
         \counter_0_19_i_o2_2_6[1]_net_1 ), .D(
         \counter_0_19_i_o2_2_0[1]_net_1 ), .Y(N_3905));
     CFG4 #( .INIT(16'h222E) )  \instruction_0_RNO[6]  (.A(
-        qusb_fd_in[6]), .B(qusb_fd_in[7]), .C(N_3919), .D(N_3925), .Y(
-        N_260_i_0));
+        qusb_fd_in[6]), .B(qusb_fd_in[7]), .C(\instruction_0[3]_net_1 )
+        , .D(N_3925), .Y(N_260_i_0));
     CFG3 #( .INIT(8'hEC) )  \counter_0_19_i_o2[2]  (.A(qusb_fd_in[3]), 
         .B(qusb_fd_in[2]), .C(qusb_fd_in[1]), .Y(N_3940));
     CFG3 #( .INIT(8'hF1) )  \counter_0_19_i_2[5]  (.A(N_3921), .B(
         qusb_fd_in[2]), .C(N_361), .Y(\counter_0_19_i_2[5]_net_1 ));
-    CFG4 #( .INIT(16'hBBF5) )  
+    CFG4 #( .INIT(16'hCFBB) )  
         latched_data_received_from_hptdc_0_RNI789Q (.A(
-        \instruction_0[0]_net_1 ), .B(i4_i), .C(
-        latched_data_received_from_hptdc_0_net_1), .D(
+        latched_data_received_from_hptdc_0_net_1), .B(
+        \instruction_0[0]_net_1 ), .C(i4_i), .D(
         \instruction_0[3]_net_1 ), .Y(
         latched_data_received_from_hptdc_0_RNI789Q_net_1));
     CFG4 #( .INIT(16'h0080) )  un1_instruction_047_14_i_0_i_a2_0 (.A(
-        \instruction_0[3]_net_1 ), .B(qusb_fd_in[7]), .C(i4_i), .D(
+        i4_i), .B(\instruction_0[3]_net_1 ), .C(qusb_fd_in[7]), .D(
         \instruction_0[0]_net_1 ), .Y(N_385));
     CFG2 #( .INIT(4'h2) )  lathed_data_from_hptdc_024_inst_1 (.A(
         JTAG_0_data_received_from_hptdc), .B(
@@ -2031,6 +2037,9 @@ input  JTAG_0_jtag_bus_in_use;
     SLE \counter_0[4]  (.D(N_3871_i_0), .CLK(clk_c), .EN(VCC_net_1), 
         .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(VCC_net_1), .SD(
         GND_net_1), .LAT(GND_net_1), .Q(\counter_0[4]_net_1 ));
+    CFG4 #( .INIT(16'h9AAA) )  \counter_0_RNO_0[6]  (.A(
+        \counter_0_2[6] ), .B(\counter_0_2[4] ), .C(N_419), .D(
+        un1_instruction_047_c4_i), .Y(\un1_instruction_047_180[6] ));
     SLE \run_number_buffer[4]  (.D(qusb_fd_in[4]), .CLK(clk_c), .EN(
         un1_instruction_047_16_i_a2_4_0_o2_RNI40DG3_net_1), .ALn(
         VCC_net_1), .ADn(VCC_net_1), .SLn(N_3907_i_0_i), .SD(GND_net_1)
@@ -2090,8 +2099,6 @@ input  JTAG_0_jtag_bus_in_use;
     CFG4 #( .INIT(16'hAB00) )  \counter_0_19_i_a2_6[5]  (.A(N_3910), 
         .B(\counter_0_19_i_a2_a0_3[5]_net_1 ), .C(
         \counter_0_19_i_a2_a1_2[5]_net_1 ), .D(N_419), .Y(N_360));
-    CFG3 #( .INIT(8'h40) )  \counter_0_19_i_a2_3[5]  (.A(qusb_fd_in[1])
-        , .B(counter_N_3_mux_0_0), .C(qusb_fd_in[0]), .Y(N_364));
     CFG3 #( .INIT(8'h10) )  threshold_voltage_1_sqmuxa_0_a3_0_a2 (.A(
         \instruction_0[0]_net_1 ), .B(N_239), .C(N_491), .Y(
         threshold_voltage_1_sqmuxa));
@@ -2128,8 +2135,8 @@ input  JTAG_0_jtag_bus_in_use;
     VCC VCC (.Y(VCC_net_1));
     CFG3 #( .INIT(8'hA8) )  \counter_0_19_i_a0[3]  (.A(N_427), .B(
         N_3910), .C(N_3911), .Y(\counter_0_19_i_a0[3]_net_1 ));
-    CFG3 #( .INIT(8'h82) )  un1_instruction_047_14_i_0_i_o2_1 (.A(
-        \instruction_0[2]_net_1 ), .B(\instruction_0[3]_net_1 ), .C(
+    CFG3 #( .INIT(8'h84) )  un1_instruction_047_14_i_0_i_o2_1 (.A(
+        \instruction_0[3]_net_1 ), .B(\instruction_0[2]_net_1 ), .C(
         i4_i), .Y(N_3894));
     CFG2 #( .INIT(4'h8) )  un1_instruction_047_12_i_0_a2_1 (.A(N_3891), 
         .B(\counter_0[5]_net_1 ), .Y(N_408));
@@ -2154,8 +2161,8 @@ input  JTAG_0_jtag_bus_in_use;
         , .LAT(GND_net_1), .Q(\run_number_buffer[1]_net_1 ));
     CFG4 #( .INIT(16'h22A8) )  \counter_0_19_i_a2_4[0]  (.A(N_485), .B(
         N_3928), .C(rst_c), .D(\counter_0_2[0] ), .Y(N_327));
-    CFG4 #( .INIT(16'h0040) )  \counter_0_19_i_a2_2_1[3]  (.A(
-        \counter_0[5]_net_1 ), .B(instruction_046_net_1), .C(
+    CFG4 #( .INIT(16'h0020) )  \counter_0_19_i_a2_2_1[3]  (.A(
+        instruction_046_net_1), .B(\counter_0[5]_net_1 ), .C(
         counter_N_3_mux), .D(N_3932), .Y(
         \counter_0_19_i_a2_2_1[3]_net_1 ));
     CFG3 #( .INIT(8'hC8) )  \counter_0_19_i_4_0[3]  (.A(
@@ -2229,12 +2236,12 @@ input  JTAG_0_jtag_bus_in_use;
         qusb_fd_in[2]), .B(qusb_fd_in[1]), .C(N_3922), .D(N_3921), .Y(
         N_322));
     CFG4 #( .INIT(16'h222E) )  \instruction_0_RNO[4]  (.A(
-        qusb_fd_in[4]), .B(qusb_fd_in[7]), .C(N_3919), .D(N_3925), .Y(
-        N_259_i_0));
-    CFG4 #( .INIT(16'h4C8C) )  \instruction_0_RNIKSSF1[2]  (.A(i4_i), 
-        .B(latched_data_received_from_hptdc_0_RNI789Q_net_1), .C(
-        \instruction_0[2]_net_1 ), .D(\instruction_0[3]_net_1 ), .Y(
-        counter_N_3_mux));
+        qusb_fd_in[4]), .B(qusb_fd_in[7]), .C(\instruction_0[3]_net_1 )
+        , .D(N_3925), .Y(N_259_i_0));
+    CFG4 #( .INIT(16'h70B0) )  \instruction_0_RNIKSSF1[2]  (.A(i4_i), 
+        .B(\instruction_0[2]_net_1 ), .C(
+        latched_data_received_from_hptdc_0_RNI789Q_net_1), .D(
+        \instruction_0[3]_net_1 ), .Y(counter_N_3_mux));
     CFG3 #( .INIT(8'h3B) )  \counter_0_19_i_o2[5]  (.A(qusb_fd_in[2]), 
         .B(qusb_fd_in[1]), .C(qusb_fd_in[0]), .Y(N_3927));
     CFG4 #( .INIT(16'h0014) )  \counter_0_19_i_a2_1_0[3]  (.A(
@@ -2283,10 +2290,11 @@ input  JTAG_0_jtag_bus_in_use;
     CFG3 #( .INIT(8'h3A) )  \counter_0_19_i_o2_2_2_RNI0DV61[2]  (.A(
         \counter_0_19_i_o2_2_2[2]_net_1 ), .B(\counter_0[5]_net_1 ), 
         .C(N_3891), .Y(\counter_0_19_i_o2_2_2_RNI0DV61[2]_net_1 ));
-    CFG4 #( .INIT(16'hFDFF) )  run_number_1_sqmuxa_0_a3_0_o2 (.A(
-        \instruction_0[0]_net_1 ), .B(i4_i), .C(
-        \instruction_0[2]_net_1 ), .D(\instruction_0[3]_net_1 ), .Y(
-        N_238));
+    CFG3 #( .INIT(8'hFD) )  \counter_0_19_i_o2_0_0[6]  (.A(N_3930), .B(
+        N_4009), .C(N_408), .Y(\counter_0_19_i_o2_0_0[6]_net_1 ));
+    CFG4 #( .INIT(16'hFBFF) )  run_number_1_sqmuxa_0_a3_0_o2 (.A(
+        \instruction_0[2]_net_1 ), .B(\instruction_0[0]_net_1 ), .C(
+        i4_i), .D(\instruction_0[3]_net_1 ), .Y(N_238));
     SLE \threshold_voltage[4]  (.D(\threshold_buffer[4]_net_1 ), .CLK(
         clk_c), .EN(threshold_voltage_1_sqmuxa), .ALn(VCC_net_1), .ADn(
         VCC_net_1), .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), 
@@ -2304,6 +2312,9 @@ input  JTAG_0_jtag_bus_in_use;
     CFG4 #( .INIT(16'h1DD1) )  \counter_0_19_i_m2[4]  (.A(
         qusb_fd_in[2]), .B(qusb_fd_in[7]), .C(\counter_0_2[4] ), .D(
         un1_instruction_047_c4_i), .Y(N_227));
+    CFG4 #( .INIT(16'hFF20) )  \counter_0_19_i_0[5]  (.A(qusb_fd_in[0])
+        , .B(qusb_fd_in[1]), .C(counter_N_3_mux_0_0), .D(N_363), .Y(
+        \counter_0_19_i_0[5]_net_1 ));
     SLE \threshold_buffer[12]  (.D(\threshold_buffer[5]_net_1 ), .CLK(
         clk_c), .EN(un1_instruction_047_16_i_a2_4_0_o2_RNI5VIJ4_net_1), 
         .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(N_3907_i_0_i), .SD(
@@ -2360,7 +2371,7 @@ input  JTAG_0_jtag_bus_in_use;
         \run_number[3]_net_1 ), .B(qusb_fd_in[7]), .Y(
         \qusb_fd_temp_10[3]_net_1 ));
     CFG3 #( .INIT(8'hF7) )  threshold_voltage_1_sqmuxa_0_a3_0_o2 (.A(
-        \instruction_0[2]_net_1 ), .B(\instruction_0[3]_net_1 ), .C(
+        \instruction_0[3]_net_1 ), .B(\instruction_0[2]_net_1 ), .C(
         i4_i), .Y(N_239));
     CFG3 #( .INIT(8'h54) )  \counter_0_19_i_1_1[6]  (.A(rst_c), .B(
         \counter_0[6]_net_1 ), .C(qusb_fd_in[7]), .Y(
@@ -2384,9 +2395,9 @@ input  JTAG_0_jtag_bus_in_use;
         un1_instruction_047_16_i_a2_4_0_o2_RNI5VIJ4_net_1), .ALn(
         VCC_net_1), .ADn(VCC_net_1), .SLn(N_3907_i_0_i), .SD(GND_net_1)
         , .LAT(GND_net_1), .Q(\threshold_buffer[5]_net_1 ));
-    CFG4 #( .INIT(16'hFFAB) )  \counter_0_19_i_1[5]  (.A(N_363), .B(
-        N_3924), .C(N_3930), .D(N_364), .Y(\counter_0_19_i_1[5]_net_1 )
-        );
+    CFG4 #( .INIT(16'hF0F4) )  \counter_0_19_i_1[5]  (.A(rst_c), .B(
+        qusb_fd_in[7]), .C(\counter_0_19_i_0[5]_net_1 ), .D(N_3930), 
+        .Y(\counter_0_19_i_1[5]_net_1 ));
     CFG4 #( .INIT(16'hAAA8) )  un1_instruction_047_14_i_0_i_a2 (.A(
         qusb_fd_in[7]), .B(rst_c), .C(N_3894), .D(N_3930), .Y(N_384));
     CFG4 #( .INIT(16'hFFCE) )  \counter_0_19_i_5[1]  (.A(qusb_fd_in[7])
@@ -2416,9 +2427,10 @@ input  JTAG_0_jtag_bus_in_use;
         GND_net_1), .Q(ControlDecoder_0_threshold_voltage_1[13]));
     CFG2 #( .INIT(4'h6) )  \counter_0_19_i_x2[1]  (.A(qusb_fd_in[1]), 
         .B(qusb_fd_in[3]), .Y(N_176_i));
-    CFG4 #( .INIT(16'hAEFF) )  un1_instruction_047_12_i_0_o2_0 (.A(
-        \instruction_0[3]_net_1 ), .B(\instruction_0[2]_net_1 ), .C(
-        i4_i), .D(\instruction_0[0]_net_1 ), .Y(N_3953));
+    CFG4 #( .INIT(16'hDCFF) )  un1_instruction_047_12_i_0_o2_0 (.A(
+        i4_i), .B(\instruction_0[3]_net_1 ), .C(
+        \instruction_0[2]_net_1 ), .D(\instruction_0[0]_net_1 ), .Y(
+        N_3953));
     SLE \threshold_voltage[1]  (.D(\threshold_buffer[1]_net_1 ), .CLK(
         clk_c), .EN(threshold_voltage_1_sqmuxa), .ALn(VCC_net_1), .ADn(
         VCC_net_1), .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), 
@@ -2450,17 +2462,19 @@ input  JTAG_0_jtag_bus_in_use;
         qusb_fd_in[0]), .B(qusb_fd_in[2]), .Y(
         \counter_0_19_i_a2_8_0[2] ));
     CFG2 #( .INIT(4'hD) )  \counter_0_19_i_o2_2_0[1]  (.A(
-        qusb_fd_in[4]), .B(qusb_fd_in[10]), .Y(
+        qusb_fd_in[4]), .B(qusb_fd_in[9]), .Y(
         \counter_0_19_i_o2_2_0[1]_net_1 ));
     CFG3 #( .INIT(8'hE4) )  \qusb_fd_temp_10_i_m2_i_m2[0]  (.A(
         qusb_fd_in[7]), .B(\run_number[0]_net_1 ), .C(
         \lathed_data_from_hptdc_0[0]_net_1 ), .Y(N_229));
+    CFG2 #( .INIT(4'h2) )  \counter_0_2_0_a3_0_a2[6]  (.A(
+        \counter_0[6]_net_1 ), .B(rst_c), .Y(\counter_0_2[6] ));
     CFG4 #( .INIT(16'h0004) )  \counter_0_19_i_a2_a1_2[5]  (.A(
         qusb_fd_in[7]), .B(qusb_fd_in[1]), .C(N_3905), .D(N_413), .Y(
         \counter_0_19_i_a2_a1_2[5]_net_1 ));
-    CFG4 #( .INIT(16'hFBFA) )  \counter_0_19_i_4_4[3]  (.A(
-        \counter_0_19_i_4_2[3]_net_1 ), .B(
-        \un1_instruction_047_180[3] ), .C(N_416), .D(
+    CFG4 #( .INIT(16'hFDFC) )  \counter_0_19_i_4_4[3]  (.A(
+        \un1_instruction_047_180[3] ), .B(
+        \counter_0_19_i_4_2[3]_net_1 ), .C(N_416), .D(
         \counter_0_19_i_a2_2_1[3]_net_1 ), .Y(
         \counter_0_19_i_4_4[3]_net_1 ));
     CFG3 #( .INIT(8'h80) )  \counter_0_19_i_a2_1_0[0]  (.A(
@@ -2555,8 +2569,8 @@ input  JTAG_0_jtag_bus_in_use;
         clk_c), .EN(un1_instruction_047_16_i_a2_4_0_o2_RNI5VIJ4_net_1), 
         .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(N_3907_i_0_i), .SD(
         GND_net_1), .LAT(GND_net_1), .Q(\threshold_buffer[8]_net_1 ));
-    CFG2 #( .INIT(4'hD) )  \instruction_0_8_i_o2_0_0[1]  (.A(i4_i), .B(
-        \instruction_0[3]_net_1 ), .Y(
+    CFG2 #( .INIT(4'hB) )  \instruction_0_8_i_o2_0_0[1]  (.A(
+        \instruction_0[3]_net_1 ), .B(i4_i), .Y(
         \instruction_0_8_i_o2_0[1]_net_1 ));
     CFG2 #( .INIT(4'h4) )  \counter_0_19_i_a2_4[6]  (.A(
         \counter_0[6]_net_1 ), .B(qusb_fd_in[7]), .Y(N_417));
@@ -2580,13 +2594,13 @@ input  JTAG_0_jtag_bus_in_use;
         qusb_fd_in[7]), .C(\counter_0[1]_net_1 ), .D(N_176_i), .Y(
         \counter_0_19_i_0[1]_net_1 ));
     CFG4 #( .INIT(16'h0405) )  \counter_0_RNO[4]  (.A(
-        \counter_0_19_i_4[4]_net_1 ), .B(\counter_0[4]_net_1 ), .C(
-        \counter_0_19_i_3[4]_net_1 ), .D(N_254), .Y(N_3871_i_0));
+        \counter_0_19_i_3[4]_net_1 ), .B(\counter_0[4]_net_1 ), .C(
+        \counter_0_19_i_4[4]_net_1 ), .D(N_254), .Y(N_3871_i_0));
     CFG3 #( .INIT(8'h01) )  \counter_0_RNO[3]  (.A(N_347), .B(
         \counter_0_19_i_a0[3]_net_1 ), .C(
         \counter_0_19_i_4_4[3]_net_1 ), .Y(N_3870_i_0));
     CFG4 #( .INIT(16'hFFEF) )  \counter_0_19_i_o2_2_7[1]  (.A(
-        qusb_fd_in[14]), .B(qusb_fd_in[8]), .C(qusb_fd_in[6]), .D(
+        qusb_fd_in[13]), .B(qusb_fd_in[11]), .C(qusb_fd_in[6]), .D(
         qusb_fd_in[5]), .Y(\counter_0_19_i_o2_2_7[1]_net_1 ));
     CFG4 #( .INIT(16'h0020) )  \counter_0_19_i_a2_3_1[4]  (.A(
         instruction_046_net_1), .B(N_3906), .C(qusb_fd_in[7]), .D(
@@ -2619,8 +2633,8 @@ input  JTAG_0_jtag_bus_in_use;
         .SLn(VCC_net_1), .SD(GND_net_1), .LAT(GND_net_1), .Q(
         \run_number[3]_net_1 ));
     CFG4 #( .INIT(16'hFFFE) )  \counter_0_19_i_o2_2_6[1]  (.A(
-        qusb_fd_in[15]), .B(qusb_fd_in[12]), .C(qusb_fd_in[11]), .D(
-        qusb_fd_in[9]), .Y(\counter_0_19_i_o2_2_6[1]_net_1 ));
+        qusb_fd_in[15]), .B(qusb_fd_in[12]), .C(qusb_fd_in[10]), .D(
+        qusb_fd_in[8]), .Y(\counter_0_19_i_o2_2_6[1]_net_1 ));
     CFG4 #( .INIT(16'h0C0D) )  \counter_0_RNO_0[2]  (.A(N_3910), .B(
         \counter_0[2]_net_1 ), .C(\counter_0_19_i_5[2]_net_1 ), .D(
         N_3911), .Y(N_3869_i_1_0));
@@ -2629,8 +2643,8 @@ input  JTAG_0_jtag_bus_in_use;
     SLE \counter_0[2]  (.D(N_3869_i_0), .CLK(clk_c), .EN(VCC_net_1), 
         .ALn(VCC_net_1), .ADn(VCC_net_1), .SLn(VCC_net_1), .SD(
         GND_net_1), .LAT(GND_net_1), .Q(\counter_0[2]_net_1 ));
-    CFG3 #( .INIT(8'hCE) )  \instruction_0_RNIDKJL[2]  (.A(
-        \instruction_0[2]_net_1 ), .B(\instruction_0[3]_net_1 ), .C(
+    CFG3 #( .INIT(8'hAE) )  \instruction_0_RNIDKJL[2]  (.A(
+        \instruction_0[3]_net_1 ), .B(\instruction_0[2]_net_1 ), .C(
         i4_i), .Y(N_3919));
     SLE \threshold_voltage[5]  (.D(\threshold_buffer[5]_net_1 ), .CLK(
         clk_c), .EN(threshold_voltage_1_sqmuxa), .ALn(VCC_net_1), .ADn(
@@ -2653,25 +2667,23 @@ endmodule
 
 
 module TDR(
+       qusb_gpifadr,
+       hptdc_data,
        hptdc_data_0,
        hptdc_data_1,
        hptdc_data_2,
-       hptdc_data_3,
-       qusb_gpifadr,
-       ccu25_data_0,
        qusb_fd,
-       ccu25_strobe_out_0,
-       ccu25_strobe_out_1,
        clk,
-       clk_40,
+       clk_40_N,
+       clk_40_P,
        hptdc_data_ready_0,
        hptdc_data_ready_1,
        hptdc_data_ready_2,
        hptdc_data_ready_3,
+       hptdc_error,
        hptdc_error_0,
        hptdc_error_1,
        hptdc_error_2,
-       hptdc_error_3,
        hptdc_serial_out_0,
        hptdc_serial_out_1,
        hptdc_serial_out_2,
@@ -2689,13 +2701,9 @@ module TDR(
        rst,
        t1,
        dac_din_0,
-       dac_din_1,
        dac_ldac_0,
-       dac_ldac_1,
        dac_sclk_0,
-       dac_sclk_1,
        dac_sync_0,
-       dac_sync_1,
        hptdc_bunch_reset_0,
        hptdc_bunch_reset_1,
        hptdc_bunch_reset_2,
@@ -2750,25 +2758,23 @@ module TDR(
        hptdc_trstn_3,
        qusb_ifclk
     );
+input  [8:0] qusb_gpifadr;
+input  [31:0] hptdc_data;
 input  [31:0] hptdc_data_0;
 input  [31:0] hptdc_data_1;
 input  [31:0] hptdc_data_2;
-input  [31:0] hptdc_data_3;
-input  [8:0] qusb_gpifadr;
-input  [7:0] ccu25_data_0;
 inout  [15:0] qusb_fd;
-input  ccu25_strobe_out_0;
-input  ccu25_strobe_out_1;
 input  clk;
-input  clk_40;
+input  clk_40_N;
+input  clk_40_P;
 input  hptdc_data_ready_0;
 input  hptdc_data_ready_1;
 input  hptdc_data_ready_2;
 input  hptdc_data_ready_3;
+input  hptdc_error;
 input  hptdc_error_0;
 input  hptdc_error_1;
 input  hptdc_error_2;
-input  hptdc_error_3;
 input  hptdc_serial_out_0;
 input  hptdc_serial_out_1;
 input  hptdc_serial_out_2;
@@ -2786,13 +2792,9 @@ input  qusb_wen;
 input  rst;
 input  t1;
 output dac_din_0;
-output dac_din_1;
 output dac_ldac_0;
-output dac_ldac_1;
 output dac_sclk_0;
-output dac_sclk_1;
 output dac_sync_0;
-output dac_sync_1;
 output hptdc_bunch_reset_0;
 output hptdc_bunch_reset_1;
 output hptdc_bunch_reset_2;
@@ -2886,8 +2888,8 @@ output qusb_ifclk;
         \qusb_fd_in[5] , \qusb_fd_in[6] , \qusb_fd_in[8] , 
         \qusb_fd_in[9] , \qusb_fd_in[10] , \qusb_fd_in[11] , 
         \qusb_fd_in[12] , \qusb_fd_in[13] , \qusb_fd_in[14] , 
-        \qusb_fd_in[15] , dac_din_1_c, dac_ldac_1_c, dac_sclk_1_c, 
-        dac_sync_1_c, hptdc_tdo_0_c, hptdc_tdo_1_c, hptdc_tdo_2_c, 
+        \qusb_fd_in[15] , dac_din_0_c, dac_ldac_0_c, dac_sclk_0_c, 
+        dac_sync_0_c, hptdc_tdo_0_c, hptdc_tdo_1_c, hptdc_tdo_2_c, 
         hptdc_tdo_3_c, hptdc_tms_0_c, hptdc_tms_1_c, hptdc_tms_2_c, 
         hptdc_tms_3_c, hptdc_trstn_3_c, 
         \ControlDecoder_0.lathed_data_from_hptdc_024 , \qusb_fd_in[7] , 
@@ -2912,8 +2914,8 @@ output qusb_ifclk;
         \ControlDecoder_0_threshold_voltage_1[2] , 
         \ControlDecoder_0_threshold_voltage_1[1] , 
         \ControlDecoder_0_threshold_voltage_1[0] }), .clk_c(clk_c), 
-        .dac_din_1_c(dac_din_1_c), .dac_sync_1_c(dac_sync_1_c), 
-        .dac_ldac_1_c(dac_ldac_1_c), .dac_sclk_1_c(dac_sclk_1_c));
+        .dac_din_0_c(dac_din_0_c), .dac_sync_0_c(dac_sync_0_c), 
+        .dac_ldac_0_c(dac_ldac_0_c), .dac_sclk_0_c(dac_sclk_0_c));
     BIBUF \qusb_fd_iobuf[15]  (.PAD(qusb_fd[15]), .D(GND_net_1), .E(
         qusb_ren_c), .Y(\qusb_fd_in[15] ));
     OUTBUF hptdc_tms_3_obuf (.D(hptdc_tms_3_c), .PAD(hptdc_tms_3));
@@ -2942,7 +2944,6 @@ output qusb_ifclk;
         rst_c));
     OUTBUF hptdc_get_data_0_obuf (.D(hptdc_get_data_0_c), .PAD(
         hptdc_get_data_0));
-    OUTBUF dac_sclk_1_obuf (.D(dac_sclk_1_c), .PAD(dac_sclk_1));
     TRIBUFF hptdc_token_bypass_in_3_obuft (.D(GND_net_1), .E(GND_net_1)
         , .PAD(hptdc_token_bypass_in_3));
     VCC VCC (.Y(VCC_net_1));
@@ -2955,8 +2956,7 @@ output qusb_ifclk;
         hptdc_get_data_3_c));
     OUTBUF hptdc_trstn_1_obuf (.D(hptdc_trstn_3_c), .PAD(hptdc_trstn_1)
         );
-    OUTBUF dac_ldac_1_obuf (.D(dac_ldac_1_c), .PAD(dac_ldac_1));
-    OUTBUF dac_din_0_obuf (.D(dac_din_1_c), .PAD(dac_din_0));
+    OUTBUF dac_din_0_obuf (.D(dac_din_0_c), .PAD(dac_din_0));
     BIBUF \qusb_fd_iobuf[11]  (.PAD(qusb_fd[11]), .D(GND_net_1), .E(
         qusb_ren_c), .Y(\qusb_fd_in[11] ));
     BIBUF \qusb_fd_iobuf[1]  (.PAD(qusb_fd[1]), .D(\qusb_fd_temp[1] ), 
@@ -3033,7 +3033,7 @@ output qusb_ifclk;
     TRIBUFF hptdc_event_reset_2_obuft (.D(GND_net_1), .E(GND_net_1), 
         .PAD(hptdc_event_reset_2));
     OUTBUF hptdc_tck_1_obuf (.D(clk_c), .PAD(hptdc_tck_1));
-    OUTBUF dac_sclk_0_obuf (.D(dac_sclk_1_c), .PAD(dac_sclk_0));
+    OUTBUF dac_sclk_0_obuf (.D(dac_sclk_0_c), .PAD(dac_sclk_0));
     BIBUF \qusb_fd_iobuf[6]  (.PAD(qusb_fd[6]), .D(\qusb_fd_temp[6] ), 
         .E(qusb_ren_c), .Y(\qusb_fd_in[6] ));
     INBUF hptdc_token_out_1_ibuf (.PAD(hptdc_token_out_1), .Y(
@@ -3046,11 +3046,9 @@ output qusb_ifclk;
         );
     OUTBUF hptdc_tdo_1_obuf (.D(hptdc_tdo_1_c), .PAD(hptdc_tdo_1));
     OUTBUF hptdc_tck_0_obuf (.D(clk_c), .PAD(hptdc_tck_0));
-    OUTBUF dac_din_1_obuf (.D(dac_din_1_c), .PAD(dac_din_1));
     OUTBUF hptdc_token_in_0_obuf (.D(hptdc_token_in_0_c), .PAD(
         hptdc_token_in_0));
-    OUTBUF dac_sync_1_obuf (.D(dac_sync_1_c), .PAD(dac_sync_1));
-    OUTBUF dac_ldac_0_obuf (.D(dac_ldac_1_c), .PAD(dac_ldac_0));
+    OUTBUF dac_ldac_0_obuf (.D(dac_ldac_0_c), .PAD(dac_ldac_0));
     OUTBUF hptdc_tdo_2_obuf (.D(hptdc_tdo_2_c), .PAD(hptdc_tdo_2));
     OUTBUF hptdc_trstn_0_obuf (.D(hptdc_trstn_3_c), .PAD(hptdc_trstn_0)
         );
@@ -3147,7 +3145,7 @@ output qusb_ifclk;
     INBUF clk_ibuf (.PAD(clk), .Y(clk_ibuf_net_1));
     OUTBUF hptdc_token_in_2_obuf (.D(hptdc_token_in_2_c), .PAD(
         hptdc_token_in_2));
-    OUTBUF dac_sync_0_obuf (.D(dac_sync_1_c), .PAD(dac_sync_0));
+    OUTBUF dac_sync_0_obuf (.D(dac_sync_0_c), .PAD(dac_sync_0));
     BIBUF \qusb_fd_iobuf[10]  (.PAD(qusb_fd[10]), .D(GND_net_1), .E(
         qusb_ren_c), .Y(\qusb_fd_in[10] ));
     INBUF hptdc_tdi_0_ibuf (.PAD(hptdc_tdi_0), .Y(hptdc_tdi_0_c));

@@ -20,8 +20,7 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
 
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":779:14:779:28|Removing user instance DACController_1,  because it is equivalent to instance DACController_0
-@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":682:13:682:26|Removing instance BunchCounter_0 of view:work.BunchCounter(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":652:13:652:26|Removing instance BunchCounter_0 of view:work.BunchCounter(verilog) because there are no references to its outputs 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Removing sequential instance bias_voltage[13:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ControlDecoder(verilog) because there are no references to its outputs 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
@@ -210,6 +209,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 148MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Apr 07 16:17:42 2016
+# Fri Apr 08 15:30:33 2016
 
 ###########################################################]

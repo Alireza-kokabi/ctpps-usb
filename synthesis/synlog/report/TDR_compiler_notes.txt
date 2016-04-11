@@ -10,7 +10,7 @@
 @N: CL134 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v":89:4:89:9|Found RAM fifo_ram, depth=32768, width=32
 @N: CG364 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":22:7:22:10|Synthesizing module JTAG
 @N: CG364 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":9:7:9:9|Synthesizing module TDR
-@N: CG794 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":767:14:767:28|Using module DACController from library work
+@N: CG794 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":738:14:738:28|Using module DACController from library work
 @N: CL201 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Trying to extract state machine for register next_TAP_state
 @N: CL201 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":178:4:178:9|Trying to extract state machine for register instruction_0
 @N: CD720 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns

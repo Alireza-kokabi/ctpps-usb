@@ -1,7 +1,7 @@
 D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  TDR  -multisrs  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs  -osyn  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_mult.srs  -log  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\TDR_multi_srs_gen.srr 
 rc:0 success:1
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs|i|1460038659|107010
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_mult.srs|o|1460038661|83793
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\TDR_multi_srs_gen.srr|o|1460038661|586
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs|i|1460122230|104998
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_mult.srs|o|1460122232|82183
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\TDR_multi_srs_gen.srr|o|1460122232|500
 D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449221724|3007488
 D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449221726|3974144

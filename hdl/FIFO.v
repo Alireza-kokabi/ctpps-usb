@@ -63,7 +63,7 @@ module FIFO (
     output                          hptdc_serial_bypass_in;
     input                           hptdc_serial_out;
     output                          hptdc_trigger;
-    input   [31:0]                  hptdc_data;
+    inout   [31:0]                  hptdc_data;
     output                          hptdc_event_reset;
     input                           hptdc_data_ready;
     output                          hptdc_get_data;
@@ -96,7 +96,7 @@ module FIFO (
             output_ready            = 0;
         end 
         else if (( hptdc_data_ready ) &&  ! ( old_write_enable ) 
-                   && (status_cnt  != RAM_DEPTH) && (hptdc_data [31:29] == 3'b010)) 
+                   && (status_cnt  != RAM_DEPTH)) 
         begin
             fifo_ram[status_cnt]    = hptdc_data;
             status_cnt              = status_cnt + 1;

@@ -1,14 +1,14 @@
 D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe  -osyn  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs  -top  TDR  -hdllog  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\TDR_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd  -verilog  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram   -I D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\  -I D:\Microsemi\Libero_SoC_v11.7\Synplify\lib   -v2001  -devicelib  D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -encrypt  -pro  -dmgen  D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v -lib work D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v 
 rc:0 success:1
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs|o|1460038659|107010
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\TDR_compiler.srr|o|1460038659|170073
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs|o|1460122230|104998
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\TDR_compiler.srr|o|1460122230|170016
 D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd|i|1457527369|4626
 D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449221730|16359
 D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v|i|1460038543|9644
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v|i|1459756123|1084
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v|i|1460117682|1145
 D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v|i|1460035643|23747
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v|i|1460038518|5528
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v|i|1460122113|5494
 D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v|i|1458598761|15032
-D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v|i|1460038642|44248
+D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v|i|1460122196|42819
 D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\c_hdl.exe|i|1449221722|1295872
 D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe|i|1449221724|1897472

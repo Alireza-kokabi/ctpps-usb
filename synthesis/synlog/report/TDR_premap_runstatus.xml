@@ -19,7 +19,7 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="Warnings">
-<data>147</data>
+<data>146</data>
 <report_link name="more">
 <data>D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synlog\report\TDR_premap_warnings.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>148MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1460038662</data>
+<data type="timestamp">1460122233</data>
 </info>
 </job_info>
 </job_run_status>

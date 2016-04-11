@@ -19,7 +19,7 @@ VHDL syntax check successful!
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
-# Thu Apr 07 16:17:36 2016
+# Fri Apr 08 15:30:27 2016
 
 ###########################################################]
 Synopsys Verilog Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
@@ -41,7 +41,7 @@ Verilog syntax check successful!
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
-# Thu Apr 07 16:17:36 2016
+# Fri Apr 08 15:30:27 2016
 
 ###########################################################]
 @I::"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v"
@@ -56,6 +56,8 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 @I::"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v"
 @I::"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v"
 Verilog syntax check successful!
+File D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v changed - recompiling
+File D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v changed - recompiling
 @N: CG364 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":31:7:31:11|Synthesizing module Adder
 
 @W: CG133 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":59:28:59:31|No assignment to data
@@ -199,10 +201,7 @@ Verilog syntax check successful!
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit data_sent_to_hptdc is always 0, optimizing ...
 @N: CG364 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":9:7:9:9|Synthesizing module TDR
 
-@N: CG794 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":767:14:767:28|Using module DACController from library work
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":114:14:114:31|Input ccu25_strobe_out_0 is unused
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":115:14:115:31|Input ccu25_strobe_out_1 is unused
-@W: CL158 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":214:14:214:25|Inout ccu25_data_0 is unused
+@N: CG794 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v":738:14:738:28|Using module DACController from library work
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit loop_counter[3] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit loop_counter[4] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v":123:4:123:9|Register bit loop_counter[5] is always 0, optimizing ...
@@ -1054,12 +1053,13 @@ State machine has 11 reachable states with original encodings of:
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":104:36:104:44|Input data_in_1 is unused
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":107:36:107:44|Input data_in_2 is unused
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v":110:36:110:44|Input data_in_3 is unused
-@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":25:36:25:47|*Output bunch_number has undriven bits -- simulation mismatch possible.
-@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":26:36:26:47|*Output event_number has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":26:36:26:47|*Output bunch_number has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":27:36:27:47|*Output event_number has undriven bits -- simulation mismatch possible.
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":21:36:21:38|Input clk is unused
 @W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":22:36:22:38|Input rst is unused
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":23:36:23:41|Input clk_40 is unused
-@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":24:36:24:37|Input t1 is unused
+@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":23:36:23:43|Input clk_40_P is unused
+@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":24:36:24:43|Input clk_40_N is unused
+@W: CL159 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v":25:36:25:37|Input t1 is unused
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":95:4:95:9|Register bit counter[2] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":95:4:95:9|Register bit counter[3] is always 0, optimizing ...
 @W: CL189 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v":95:4:95:9|Register bit counter[4] is always 0, optimizing ...
@@ -1095,12 +1095,14 @@ State machine has 11 reachable states with original encodings of:
 
 At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 102MB peak: 147MB)
 
-# Thu Apr 07 16:17:39 2016
+# Fri Apr 08 15:30:30 2016
 
 ###########################################################]
 @N: CD720 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
 @N:"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd":24:7:24:19|Top entity is set to DACController.
-Options changed - recompiling
+
+File Dependency file is up to date.  It will not be rewritten.
+
 VHDL syntax check successful!
 @N: CD630 :"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd":24:7:24:19|Synthesizing work.daccontroller.behavioral 
 Post processing for work.daccontroller.behavioral
@@ -1129,7 +1131,7 @@ Post processing for work.daccontroller.behavioral
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
-# Thu Apr 07 16:17:39 2016
+# Fri Apr 08 15:30:30 2016
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
@@ -1144,7 +1146,7 @@ For a summary of linker messages for components that did not bind, please see lo
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Apr 07 16:17:39 2016
+# Fri Apr 08 15:30:30 2016
 
 ###########################################################]
 @END
@@ -1152,18 +1154,17 @@ Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Thu Apr 07 16:17:39 2016
+# Fri Apr 08 15:30:30 2016
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
 @N|Running in 64-bit mode
-File D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe changed - recompiling
-File D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\synthesis\synwork\TDR_comp.srs changed - recompiling
+File D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 81MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 81MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Apr 07 16:17:41 2016
+# Fri Apr 08 15:30:32 2016
 
 ###########################################################]
 Pre-mapping Report
@@ -1190,8 +1191,7 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
 
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":779:14:779:28|Removing user instance DACController_1,  because it is equivalent to instance DACController_0
-@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":682:13:682:26|Removing instance BunchCounter_0 of view:work.BunchCounter(verilog) because there are no references to its outputs 
+@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":652:13:652:26|Removing instance BunchCounter_0 of view:work.BunchCounter(verilog) because there are no references to its outputs 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Removing sequential instance bias_voltage[13:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ControlDecoder(verilog) because there are no references to its outputs 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
@@ -1380,7 +1380,7 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 148MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Apr 07 16:17:42 2016
+# Fri Apr 08 15:30:33 2016
 
 ###########################################################]
 Map & Optimize Report
@@ -1702,7 +1702,7 @@ original code -> new code
 @N: FX404 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\daccontroller.vhd":71:6:71:7|Found addmux in view:work.DACController(behavioral) inst temp_7[11:0] from un2_data_value[21:32] 
 @N: MF179 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\daccontroller.vhd":66:7:66:33|Found 14 bit by 14 bit '==' comparator, 'un3_sclockv'
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
 
 @N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Removing sequential instance ControlDecoder_0.run_number_buffer[17] in hierarchy view:work.TDR(verilog) because there are no references to its outputs 
 @A: BN291 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Boundary register ControlDecoder_0.run_number_buffer[17] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
@@ -3222,27 +3222,27 @@ Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; M
 Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 146MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 146MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 161MB peak: 163MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		     0.23ns		 431 /       240
-   2		0h:00m:02s		     1.27ns		 416 /       240
+   1		0h:00m:02s		     0.23ns		 435 /       240
+   2		0h:00m:02s		     1.27ns		 420 /       240
 @N: FP130 |Promoting Net clk_c on CLKINT  I_766 
 
 Added 0 Buffers
@@ -3253,7 +3253,7 @@ Added 0 Cells via replication
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 161MB peak: 163MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 162MB peak: 163MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 161MB peak: 163MB)
 
 
 
@@ -3278,24 +3278,24 @@ Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02
 
 Writing Analyst data base D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 163MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 158MB peak: 163MB)
 
 Writing EDIF Netlist and constraint files
 @N: BW103 |Synopsys Constraint File time units using default value of 1ns 
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 J-2015.03M-SP1-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 160MB peak: 163MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 163MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 163MB)
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 163MB)
 
 @W: MT420 |Found inferred clock TDR|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
 
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Apr 07 16:17:46 2016
+# Timing Report written on Fri Apr 08 15:30:36 2016
 #
 
 
@@ -3319,7 +3319,7 @@ Worst slack in design: 2.100
                    Requested     Estimated     Requested     Estimated               Clock        Clock              
 Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
 ---------------------------------------------------------------------------------------------------------------------
-TDR|clk            100.0 MHz     153.6 MHz     10.000        6.511         2.100     inferred     Inferred_clkgroup_0
+TDR|clk            100.0 MHz     151.6 MHz     10.000        6.595         2.100     inferred     Inferred_clkgroup_0
 =====================================================================================================================
 
 
@@ -3333,7 +3333,7 @@ Clocks             |    rise  to  rise   |    fall  to  fall   |    rise  to  fa
 ---------------------------------------------------------------------------------------------------------
 Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 ---------------------------------------------------------------------------------------------------------
-TDR|clk   TDR|clk  |  10.000      3.489  |  10.000      5.900  |  5.000       2.100  |  5.000       2.502
+TDR|clk   TDR|clk  |  10.000      3.405  |  10.000      5.900  |  5.000       2.100  |  5.000       2.502
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -3364,8 +3364,8 @@ ControlDecoder_0.send_data_to_hptdc_0        TDR|clk       SLE      Q       Cont
 JTAG_0.data_received_from_hptdc              TDR|clk       SLE      Q       JTAG_0_data_received_from_hptdc            0.108       2.502
 ControlDecoder_0.get_data_from_hptdc_0       TDR|clk       SLE      Q       ControlDecoder_0_get_data_from_hptdc_0     0.087       2.607
 JTAG_0.jtag_bus_in_use                       TDR|clk       SLE      Q       JTAG_0_jtag_bus_in_use                     0.108       2.684
+ControlDecoder_0.old_qusb_wen                TDR|clk       SLE      Q       old_qusb_wen                               0.087       3.405
 ControlDecoder_0.data_to_hptdc_0[0]          TDR|clk       SLE      Q       ControlDecoder_0_data_to_hptdc_0[0]        0.087       3.438
-ControlDecoder_0.old_qusb_wen                TDR|clk       SLE      Q       old_qusb_wen                               0.087       3.489
 ControlDecoder_0.counter_0[5]                TDR|clk       SLE      Q       counter_0[5]                               0.087       3.550
 ControlDecoder_0.jtag_instruction_0_1[1]     TDR|clk       SLE      Q       ControlDecoder_0_jtag_instruction_0[1]     0.108       3.567
 ControlDecoder_0.counter_0[1]                TDR|clk       SLE      Q       counter_0[1]                               0.087       3.568
@@ -3435,10 +3435,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ##### END OF TIMING REPORT #####]
 
 
-Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 163MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 163MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 163MB)
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 163MB)
 
 ---------------------------------------
 Resource Usage Report for TDR 
@@ -3449,7 +3449,7 @@ CLKINT          1 use
 CFG1           7 uses
 CFG2           99 uses
 CFG3           110 uses
-CFG4           171 uses
+CFG4           174 uses
 
 Carry primitives used for arithmetic functions:
 ARI1           34 uses
@@ -3460,18 +3460,18 @@ SLE            240 uses
 
 DSP Blocks:    0
 
-I/O ports: 250
-I/O primitives: 90
+I/O ports: 237
+I/O primitives: 86
 BIBUF          16 uses
 INBUF          13 uses
-OUTBUF         32 uses
+OUTBUF         28 uses
 TRIBUFF        29 uses
 
 
 Global Clock Buffers: 1
 
 
-Total LUTs:    421
+Total LUTs:    424
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -3480,13 +3480,13 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  240 + 0 + 0 + 0 = 240;
-Total number of LUTs after P&R:  421 + 0 + 0 + 0 = 421;
+Total number of LUTs after P&R:  424 + 0 + 0 + 0 = 424;
 
 Mapper successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 53MB peak: 163MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Thu Apr 07 16:17:46 2016
+# Fri Apr 08 15:30:36 2016
 
 ###########################################################]

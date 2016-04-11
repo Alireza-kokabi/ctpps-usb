@@ -3,7 +3,7 @@
 
 # Version: v11.7 11.7.0.119
 # Family: SmartFusion2 Die: M2S150 Package: 1152 FC
-# Date generated: Fri Mar 04 13:32:23 2016
+# Date generated: Fri Apr 08 15:30:04 2016
 
 # 
 # I/O constraints
@@ -18,18 +18,6 @@ set_io {dac_din_0}         \
 set_io {dac_ldac_0}        \
 	-direction Output
 
-set_io {hptdc_get_data_0} \
-	-direction Output
-
-set_io {hptdc_token_in_0} \
-	-direction Output
-
-set_io {hptdc_token_out_0} \
-	-direction Input
-
-set_io {hptdc_data_ready_0} \
-	-direction Input
-
 set_io {hptdc_tck_0}       \
 	-direction Output
 
@@ -42,53 +30,8 @@ set_io {hptdc_trstn_0}     \
 set_io {hptdc_tdo_0}       \
 	-direction Output
 
-set_io {poh_data_0}        \
-	-direction Output
-
-set_io {poh_clk_0}         \
-	-direction Output
-
-set_io {SClock_0}          \
-	-direction Output
-
-set_io {DIN_0}             \
-	-direction Output
-
-set_io {SYNC_bar_0}        \
-	-direction Output
-
-set_io {LDAC_bar_0}        \
-	-direction Output
-
 set_io {clk}               \
 	-direction Input
-
-set_io {cmd_data}          \
-	-direction Input
-
-set_io {wen}               \
-	-direction Input
-
-set_io {ifclk}             \
-	-direction Input
-
-set_io {ren}               \
-	-direction Input
-
-set_io {noe}               \
-	-direction Input
-
-set_io {hptdc_token_out_1} \
-	-direction Input
-
-set_io {hptdc_get_data_1} \
-	-direction Output
-
-set_io {hptdc_data_ready_1} \
-	-direction Input
-
-set_io {hptdc_token_in_1} \
-	-direction Output
 
 set_io {hptdc_tms_1}       \
 	-direction Output
@@ -100,24 +43,6 @@ set_io {hptdc_trstn_1}     \
 	-direction Output
 
 set_io {hptdc_tdo_1}       \
-	-direction Output
-
-set_io {hptdc_token_out_2} \
-	-direction Input
-
-set_io {hptdc_get_data_2} \
-	-direction Output
-
-set_io {hptdc_token_in_2} \
-	-direction Output
-
-set_io {hptdc_data_ready_2} \
-	-direction Input
-
-set_io {poh_data_2}        \
-	-direction Output
-
-set_io {poh_clk_2}         \
 	-direction Output
 
 set_io {hptdc_tdo_2}       \
@@ -132,18 +57,6 @@ set_io {hptdc_tck_2}       \
 set_io {hptdc_tms_2}       \
 	-direction Output
 
-set_io {hptdc_get_data_3} \
-	-direction Output
-
-set_io {hptdc_token_out_3} \
-	-direction Input
-
-set_io {hptdc_token_in_3} \
-	-direction Output
-
-set_io {hptdc_data_ready_3} \
-	-direction Input
-
 set_io {hptdc_tdo_3}       \
 	-direction Output
 
@@ -154,111 +67,6 @@ set_io {hptdc_tck_3}       \
 	-direction Output
 
 set_io {hptdc_trstn_3}     \
-	-direction Output
-
-set_io {SClock_1}          \
-	-direction Output
-
-set_io {DIN_1}             \
-	-direction Output
-
-set_io {dac_sclk_2}        \
-	-direction Output
-
-set_io {SYNC_bar_1}        \
-	-direction Output
-
-set_io {DIN_2}             \
-	-direction Output
-
-set_io {dac_sync_1}        \
-	-direction Output
-
-set_io {SYNC_bar_3}        \
-	-direction Output
-
-set_io {DIN_3}             \
-	-direction Output
-
-set_io {dac_ldac_2}        \
-	-direction Output
-
-set_io {dac_sclk_3}        \
-	-direction Output
-
-set_io {dac_din_2}         \
-	-direction Output
-
-set_io {SClock_4}          \
-	-direction Output
-
-set_io {dac_ldac_3}        \
-	-direction Output
-
-set_io {dac_sync_3}        \
-	-direction Output
-
-set_io {SClock_5}          \
-	-direction Output
-
-set_io {dac_sclk_1}        \
-	-direction Output
-
-set_io {dac_sync_2}        \
-	-direction Output
-
-set_io {dac_ldac_1}        \
-	-direction Output
-
-set_io {LDAC_bar_4}        \
-	-direction Output
-
-set_io {LDAC_bar_5}        \
-	-direction Output
-
-set_io {SYNC_bar_6}        \
-	-direction Output
-
-set_io {dac_din_1}         \
-	-direction Output
-
-set_io {LDAC_bar_6}        \
-	-direction Output
-
-set_io {dac_din_3}         \
-	-direction Output
-
-set_io {poh_data_1}        \
-	-direction Output
-
-set_io {poh_clk_1}         \
-	-direction Output
-
-set_io {poh_data_3}        \
-	-direction Output
-
-set_io {poh_clk_3}         \
-	-direction Output
-
-set_io {ccu25_strobe_out_0} \
-	-direction Output
-
-set_io {ccu25_strobe_out_2} \
-	-direction Output
-
-set_io {ccu25_strobe_out_3} \
-	-direction Output
-
-set_io {CLK0_PAD}          \
-	-direction Input
-
-set_io {DEVRST_N}          \
-	-direction Input
-
-set_io {FAB_RESET_N}       \
-	-direction Input
-
-set_io {ccu25_strobe_out_1} \
 	-direction Output
 
 set_io {hptdc_tdi_0}       \
@@ -273,10 +81,16 @@ set_io {hptdc_tdi_2}       \
 set_io {hptdc_tdi_3}       \
 	-direction Input
 
-set_io {hptdc_serial_bypass_in_0} \
+set_io {dac_sclk_0}        \
 	-direction Output
 
 set_io {hptdc_serial_in_0} \
+	-direction Output
+
+set_io {hptdc_encode_control_0} \
+	-direction Output
+
+set_io {hptdc_serial_bypass_in_0} \
 	-direction Output
 
 set_io {hptdc_event_reset_0} \
@@ -285,19 +99,37 @@ set_io {hptdc_event_reset_0} \
 set_io {hptdc_trigger_0}   \
 	-direction Output
 
+set_io {hptdc_bunch_reset_0} \
+	-direction Output
+
 set_io {hptdc_token_bypass_in_0} \
 	-direction Output
 
+set_io {hptdc_get_data_0} \
+	-direction Output
+
+set_io {hptdc_token_in_0} \
+	-direction Output
+
+set_io {hptdc_token_out_0} \
+	-direction Input
+
+set_io {hptdc_data_ready_0} \
+	-direction Input
+
 set_io {hptdc_serial_out_0} \
+	-direction Input
+
+set_io {hptdc_data_ready_1} \
 	-direction Input
 
 set_io {hptdc_serial_out_1} \
 	-direction Input
 
-set_io {hptdc_event_reset_1} \
-	-direction Output
+set_io {hptdc_token_out_1} \
+	-direction Input
 
-set_io {hptdc_token_bypass_in_1} \
+set_io {hptdc_token_in_1} \
 	-direction Output
 
 set_io {hptdc_trigger_1}   \
@@ -306,26 +138,77 @@ set_io {hptdc_trigger_1}   \
 set_io {hptdc_serial_in_1} \
 	-direction Output
 
+set_io {hptdc_event_reset_1} \
+	-direction Output
+
+set_io {hptdc_encode_control_1} \
+	-direction Output
+
 set_io {hptdc_serial_bypass_in_1} \
 	-direction Output
 
-set_io {hptdc_token_bypass_in_2} \
+set_io {hptdc_bunch_reset_1} \
 	-direction Output
 
-set_io {hptdc_event_reset_2} \
+set_io {hptdc_token_bypass_in_1} \
 	-direction Output
 
-set_io {hptdc_serial_bypass_in_2} \
+set_io {hptdc_get_data_1} \
 	-direction Output
 
-set_io {hptdc_serial_in_2} \
+set_io {hptdc_token_in_2} \
 	-direction Output
 
 set_io {hptdc_trigger_2}   \
 	-direction Output
 
+set_io {hptdc_serial_in_2} \
+	-direction Output
+
+set_io {hptdc_encode_control_2} \
+	-direction Output
+
+set_io {hptdc_bunch_reset_2} \
+	-direction Output
+
+set_io {hptdc_get_data_2} \
+	-direction Output
+
+set_io {hptdc_serial_bypass_in_2} \
+	-direction Output
+
+set_io {hptdc_event_reset_2} \
+	-direction Output
+
+set_io {hptdc_token_bypass_in_2} \
+	-direction Output
+
+set_io {hptdc_data_ready_2} \
+	-direction Input
+
 set_io {hptdc_serial_out_2} \
 	-direction Input
+
+set_io {hptdc_token_out_2} \
+	-direction Input
+
+set_io {hptdc_encode_control_3} \
+	-direction Output
+
+set_io {hptdc_token_in_3} \
+	-direction Output
+
+set_io {hptdc_serial_bypass_in_3} \
+	-direction Output
+
+set_io {hptdc_serial_in_3} \
+	-direction Output
+
+set_io {hptdc_bunch_reset_3} \
+	-direction Output
+
+set_io {hptdc_event_reset_3} \
+	-direction Output
 
 set_io {hptdc_token_bypass_in_3} \
 	-direction Output
@@ -333,680 +216,119 @@ set_io {hptdc_token_bypass_in_3} \
 set_io {hptdc_trigger_3}   \
 	-direction Output
 
-set_io {hptdc_serial_bypass_in_3} \
+set_io {hptdc_get_data_3} \
 	-direction Output
 
-set_io {hptdc_event_reset_3} \
-	-direction Output
+set_io {hptdc_token_out_3} \
+	-direction Input
 
-set_io {hptdc_serial_in_3} \
-	-direction Output
+set_io {hptdc_data_ready_3} \
+	-direction Input
 
 set_io {hptdc_serial_out_3} \
 	-direction Input
 
-set_io {orbit_number[31]} \
+set_io {t1}                \
 	-direction Input
 
-set_io {orbit_number[30]} \
+set_io {qusb_wen}          \
 	-direction Input
 
-set_io {orbit_number[29]} \
-	-direction Input
-
-set_io {orbit_number[28]} \
-	-direction Input
-
-set_io {orbit_number[27]} \
-	-direction Input
-
-set_io {orbit_number[26]} \
-	-direction Input
-
-set_io {orbit_number[25]} \
-	-direction Input
-
-set_io {orbit_number[24]} \
-	-direction Input
-
-set_io {orbit_number[23]} \
-	-direction Input
-
-set_io {orbit_number[22]} \
-	-direction Input
-
-set_io {orbit_number[21]} \
-	-direction Input
-
-set_io {orbit_number[20]} \
-	-direction Input
-
-set_io {orbit_number[19]} \
-	-direction Input
-
-set_io {orbit_number[18]} \
-	-direction Input
-
-set_io {orbit_number[17]} \
-	-direction Input
-
-set_io {orbit_number[16]} \
-	-direction Input
-
-set_io {orbit_number[15]} \
-	-direction Input
-
-set_io {orbit_number[14]} \
-	-direction Input
-
-set_io {orbit_number[13]} \
-	-direction Input
-
-set_io {orbit_number[12]} \
-	-direction Input
-
-set_io {orbit_number[11]} \
-	-direction Input
-
-set_io {orbit_number[10]} \
-	-direction Input
-
-set_io {orbit_number[9]}   \
-	-direction Input
-
-set_io {orbit_number[8]}   \
-	-direction Input
-
-set_io {orbit_number[7]}   \
-	-direction Input
-
-set_io {orbit_number[6]}   \
-	-direction Input
-
-set_io {orbit_number[5]}   \
-	-direction Input
-
-set_io {orbit_number[4]}   \
-	-direction Input
-
-set_io {orbit_number[3]}   \
-	-direction Input
-
-set_io {orbit_number[2]}   \
-	-direction Input
-
-set_io {orbit_number[1]}   \
-	-direction Input
-
-set_io {orbit_number[0]}   \
-	-direction Input
-
-set_io {pbpd[13]}          \
-	-direction Inout
-
-set_io {pbpd[12]}          \
-	-direction Inout
-
-set_io {pbpd[11]}          \
-	-direction Inout
-
-set_io {pbpd[10]}          \
-	-direction Inout
-
-set_io {pbpd[9]}           \
-	-direction Inout
-
-set_io {pbpd[8]}           \
-	-direction Inout
-
-set_io {pbpd[7]}           \
-	-direction Inout
-
-set_io {pbpd[6]}           \
-	-direction Inout
-
-set_io {pbpd[5]}           \
-	-direction Inout
-
-set_io {pbpd[4]}           \
-	-direction Inout
-
-set_io {pbpd[3]}           \
-	-direction Inout
-
-set_io {pbpd[2]}           \
-	-direction Inout
-
-set_io {pbpd[1]}           \
-	-direction Inout
-
-set_io {pbpd[0]}           \
-	-direction Inout
-
-set_io {gpifadr[7]}        \
-	-direction Input
-
-set_io {gpifadr[6]}        \
-	-direction Input
-
-set_io {gpifadr[5]}        \
-	-direction Input
-
-set_io {gpifadr[4]}        \
-	-direction Input
-
-set_io {gpifadr[3]}        \
-	-direction Input
-
-set_io {gpifadr[2]}        \
-	-direction Input
-
-set_io {gpifadr[1]}        \
-	-direction Input
-
-set_io {gpifadr[0]}        \
-	-direction Input
-
-set_io {hptdc_data_1[31]} \
-	-direction Input
-
-set_io {hptdc_data_1[30]} \
-	-direction Input
-
-set_io {hptdc_data_1[29]} \
-	-direction Input
-
-set_io {hptdc_data_1[28]} \
-	-direction Input
-
-set_io {hptdc_data_1[27]} \
-	-direction Input
-
-set_io {hptdc_data_1[26]} \
-	-direction Input
-
-set_io {hptdc_data_1[25]} \
-	-direction Input
-
-set_io {hptdc_data_1[24]} \
-	-direction Input
-
-set_io {hptdc_data_1[23]} \
-	-direction Input
-
-set_io {hptdc_data_1[22]} \
-	-direction Input
-
-set_io {hptdc_data_1[21]} \
-	-direction Input
-
-set_io {hptdc_data_1[20]} \
-	-direction Input
-
-set_io {hptdc_data_1[19]} \
-	-direction Input
-
-set_io {hptdc_data_1[18]} \
-	-direction Input
-
-set_io {hptdc_data_1[17]} \
-	-direction Input
-
-set_io {hptdc_data_1[16]} \
-	-direction Input
-
-set_io {hptdc_data_1[15]} \
-	-direction Input
-
-set_io {hptdc_data_1[14]} \
-	-direction Input
-
-set_io {hptdc_data_1[13]} \
-	-direction Input
-
-set_io {hptdc_data_1[12]} \
-	-direction Input
-
-set_io {hptdc_data_1[11]} \
-	-direction Input
-
-set_io {hptdc_data_1[10]} \
-	-direction Input
-
-set_io {hptdc_data_1[9]}   \
-	-direction Input
-
-set_io {hptdc_data_1[8]}   \
-	-direction Input
-
-set_io {hptdc_data_1[7]}   \
-	-direction Input
-
-set_io {hptdc_data_1[6]}   \
-	-direction Input
-
-set_io {hptdc_data_1[5]}   \
-	-direction Input
-
-set_io {hptdc_data_1[4]}   \
-	-direction Input
-
-set_io {hptdc_data_1[3]}   \
-	-direction Input
-
-set_io {hptdc_data_1[2]}   \
-	-direction Input
-
-set_io {hptdc_data_1[1]}   \
-	-direction Input
-
-set_io {hptdc_data_1[0]}   \
-	-direction Input
-
-set_io {hptdc_data_2[31]} \
-	-direction Input
-
-set_io {hptdc_data_2[30]} \
-	-direction Input
-
-set_io {hptdc_data_2[29]} \
-	-direction Input
-
-set_io {hptdc_data_2[28]} \
-	-direction Input
-
-set_io {hptdc_data_2[27]} \
-	-direction Input
-
-set_io {hptdc_data_2[26]} \
-	-direction Input
-
-set_io {hptdc_data_2[25]} \
-	-direction Input
-
-set_io {hptdc_data_2[24]} \
-	-direction Input
-
-set_io {hptdc_data_2[23]} \
-	-direction Input
-
-set_io {hptdc_data_2[22]} \
-	-direction Input
-
-set_io {hptdc_data_2[21]} \
-	-direction Input
-
-set_io {hptdc_data_2[20]} \
-	-direction Input
-
-set_io {hptdc_data_2[19]} \
-	-direction Input
-
-set_io {hptdc_data_2[18]} \
-	-direction Input
-
-set_io {hptdc_data_2[17]} \
-	-direction Input
-
-set_io {hptdc_data_2[16]} \
-	-direction Input
-
-set_io {hptdc_data_2[15]} \
-	-direction Input
-
-set_io {hptdc_data_2[14]} \
-	-direction Input
-
-set_io {hptdc_data_2[13]} \
-	-direction Input
-
-set_io {hptdc_data_2[12]} \
-	-direction Input
-
-set_io {hptdc_data_2[11]} \
-	-direction Input
-
-set_io {hptdc_data_2[10]} \
-	-direction Input
-
-set_io {hptdc_data_2[9]}   \
-	-direction Input
-
-set_io {hptdc_data_2[8]}   \
-	-direction Input
-
-set_io {hptdc_data_2[7]}   \
-	-direction Input
-
-set_io {hptdc_data_2[6]}   \
-	-direction Input
-
-set_io {hptdc_data_2[5]}   \
-	-direction Input
-
-set_io {hptdc_data_2[4]}   \
-	-direction Input
-
-set_io {hptdc_data_2[3]}   \
-	-direction Input
-
-set_io {hptdc_data_2[2]}   \
-	-direction Input
-
-set_io {hptdc_data_2[1]}   \
-	-direction Input
-
-set_io {hptdc_data_2[0]}   \
-	-direction Input
-
-set_io {hptdc_data_3[31]} \
-	-direction Input
-
-set_io {hptdc_data_3[30]} \
-	-direction Input
-
-set_io {hptdc_data_3[29]} \
-	-direction Input
-
-set_io {hptdc_data_3[28]} \
-	-direction Input
-
-set_io {hptdc_data_3[27]} \
-	-direction Input
-
-set_io {hptdc_data_3[26]} \
-	-direction Input
-
-set_io {hptdc_data_3[25]} \
-	-direction Input
-
-set_io {hptdc_data_3[24]} \
-	-direction Input
-
-set_io {hptdc_data_3[23]} \
-	-direction Input
-
-set_io {hptdc_data_3[22]} \
-	-direction Input
-
-set_io {hptdc_data_3[21]} \
-	-direction Input
-
-set_io {hptdc_data_3[20]} \
-	-direction Input
-
-set_io {hptdc_data_3[19]} \
-	-direction Input
-
-set_io {hptdc_data_3[18]} \
-	-direction Input
-
-set_io {hptdc_data_3[17]} \
-	-direction Input
-
-set_io {hptdc_data_3[16]} \
-	-direction Input
-
-set_io {hptdc_data_3[15]} \
-	-direction Input
-
-set_io {hptdc_data_3[14]} \
-	-direction Input
-
-set_io {hptdc_data_3[13]} \
-	-direction Input
-
-set_io {hptdc_data_3[12]} \
-	-direction Input
-
-set_io {hptdc_data_3[11]} \
-	-direction Input
-
-set_io {hptdc_data_3[10]} \
-	-direction Input
-
-set_io {hptdc_data_3[9]}   \
-	-direction Input
-
-set_io {hptdc_data_3[8]}   \
-	-direction Input
-
-set_io {hptdc_data_3[7]}   \
-	-direction Input
-
-set_io {hptdc_data_3[6]}   \
-	-direction Input
-
-set_io {hptdc_data_3[5]}   \
-	-direction Input
-
-set_io {hptdc_data_3[4]}   \
-	-direction Input
-
-set_io {hptdc_data_3[3]}   \
-	-direction Input
-
-set_io {hptdc_data_3[2]}   \
-	-direction Input
-
-set_io {hptdc_data_3[1]}   \
-	-direction Input
-
-set_io {hptdc_data_3[0]}   \
-	-direction Input
-
-set_io {hptdc_data_0[31]} \
-	-direction Input
-
-set_io {hptdc_data_0[30]} \
-	-direction Input
-
-set_io {hptdc_data_0[29]} \
-	-direction Input
-
-set_io {hptdc_data_0[28]} \
-	-direction Input
-
-set_io {hptdc_data_0[27]} \
-	-direction Input
-
-set_io {hptdc_data_0[26]} \
-	-direction Input
-
-set_io {hptdc_data_0[25]} \
-	-direction Input
-
-set_io {hptdc_data_0[24]} \
-	-direction Input
-
-set_io {hptdc_data_0[23]} \
-	-direction Input
-
-set_io {hptdc_data_0[22]} \
-	-direction Input
-
-set_io {hptdc_data_0[21]} \
-	-direction Input
-
-set_io {hptdc_data_0[20]} \
-	-direction Input
-
-set_io {hptdc_data_0[19]} \
-	-direction Input
-
-set_io {hptdc_data_0[18]} \
-	-direction Input
-
-set_io {hptdc_data_0[17]} \
-	-direction Input
-
-set_io {hptdc_data_0[16]} \
-	-direction Input
-
-set_io {hptdc_data_0[15]} \
-	-direction Input
-
-set_io {hptdc_data_0[14]} \
-	-direction Input
-
-set_io {hptdc_data_0[13]} \
-	-direction Input
-
-set_io {hptdc_data_0[12]} \
-	-direction Input
-
-set_io {hptdc_data_0[11]} \
-	-direction Input
-
-set_io {hptdc_data_0[10]} \
-	-direction Input
-
-set_io {hptdc_data_0[9]}   \
-	-direction Input
-
-set_io {hptdc_data_0[8]}   \
-	-direction Input
-
-set_io {hptdc_data_0[7]}   \
-	-direction Input
-
-set_io {hptdc_data_0[6]}   \
-	-direction Input
-
-set_io {hptdc_data_0[5]}   \
-	-direction Input
-
-set_io {hptdc_data_0[4]}   \
-	-direction Input
-
-set_io {hptdc_data_0[3]}   \
-	-direction Input
-
-set_io {hptdc_data_0[2]}   \
-	-direction Input
-
-set_io {hptdc_data_0[1]}   \
-	-direction Input
-
-set_io {hptdc_data_0[0]}   \
-	-direction Input
-
-set_io {ccu25_data_3[7]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[6]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[5]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[4]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[3]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[2]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[1]}   \
-	-direction Inout
-
-set_io {ccu25_data_3[0]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[7]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[6]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[5]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[4]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[3]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[2]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[1]}   \
-	-direction Inout
-
-set_io {ccu25_data_2[0]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[7]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[6]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[5]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[4]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[3]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[2]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[1]}   \
-	-direction Inout
-
-set_io {ccu25_data_1[0]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[7]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[6]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[5]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[4]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[3]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[2]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[1]}   \
-	-direction Inout
-
-set_io {ccu25_data_0[0]}   \
-	-direction Inout
-
-set_io {hptdc_bunch_reset_0} \
+set_io {qusb_ifclk}        \
 	-direction Output
 
-set_io {hptdc_bunch_reset_1} \
-	-direction Output
+set_io {qusb_ren}          \
+	-direction Input
 
-set_io {hptdc_bunch_reset_2} \
-	-direction Output
+set_io {rst}               \
+	-direction Input
 
-set_io {hptdc_bunch_reset_3} \
-	-direction Output
+set_io {qusb_fd[15]}       \
+	-direction Inout
+
+set_io {qusb_fd[14]}       \
+	-direction Inout
+
+set_io {qusb_fd[13]}       \
+	-direction Inout
+
+set_io {qusb_fd[12]}       \
+	-direction Inout
+
+set_io {qusb_fd[11]}       \
+	-direction Inout
+
+set_io {qusb_fd[10]}       \
+	-direction Inout
+
+set_io {qusb_fd[9]}        \
+	-direction Inout
+
+set_io {qusb_fd[8]}        \
+	-direction Inout
+
+set_io {qusb_fd[7]}        \
+	-direction Inout
+
+set_io {qusb_fd[6]}        \
+	-direction Inout
+
+set_io {qusb_fd[5]}        \
+	-direction Inout
+
+set_io {qusb_fd[4]}        \
+	-direction Inout
+
+set_io {qusb_fd[3]}        \
+	-direction Inout
+
+set_io {qusb_fd[2]}        \
+	-direction Inout
+
+set_io {qusb_fd[1]}        \
+	-direction Inout
+
+set_io {qusb_fd[0]}        \
+	-direction Inout
+
+set_io {clk_40_P}          \
+	-direction Input
+
+set_io {clk_40_N}          \
+	-direction Input
+
+set_io {qusb_gpifadr[8]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[7]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[6]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[5]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[4]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[3]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[2]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[1]}   \
+	-direction Input
+
+set_io {qusb_gpifadr[0]}   \
+	-direction Input
+
+set_io {hptdc_error}       \
+	-direction Input
 
 set_io {hptdc_error_0}     \
 	-direction Input
-
-set_io {hptdc_encode_control_0} \
-	-direction Output
-
-set_io {hptdc_encode_control_1} \
-	-direction Output
 
 set_io {hptdc_error_1}     \
 	-direction Input
@@ -1014,14 +336,386 @@ set_io {hptdc_error_1}     \
 set_io {hptdc_error_2}     \
 	-direction Input
 
-set_io {hptdc_encode_control_2} \
-	-direction Output
+set_io {hptdc_data[31]}    \
+	-direction Inout
 
-set_io {hptdc_error_3}     \
-	-direction Input
+set_io {hptdc_data[30]}    \
+	-direction Inout
 
-set_io {hptdc_encode_control_3} \
-	-direction Output
+set_io {hptdc_data[29]}    \
+	-direction Inout
 
-set_io {dac_sclk_0}        \
-	-direction Output
+set_io {hptdc_data[28]}    \
+	-direction Inout
+
+set_io {hptdc_data[27]}    \
+	-direction Inout
+
+set_io {hptdc_data[26]}    \
+	-direction Inout
+
+set_io {hptdc_data[25]}    \
+	-direction Inout
+
+set_io {hptdc_data[24]}    \
+	-direction Inout
+
+set_io {hptdc_data[23]}    \
+	-direction Inout
+
+set_io {hptdc_data[22]}    \
+	-direction Inout
+
+set_io {hptdc_data[21]}    \
+	-direction Inout
+
+set_io {hptdc_data[20]}    \
+	-direction Inout
+
+set_io {hptdc_data[19]}    \
+	-direction Inout
+
+set_io {hptdc_data[18]}    \
+	-direction Inout
+
+set_io {hptdc_data[17]}    \
+	-direction Inout
+
+set_io {hptdc_data[16]}    \
+	-direction Inout
+
+set_io {hptdc_data[15]}    \
+	-direction Inout
+
+set_io {hptdc_data[14]}    \
+	-direction Inout
+
+set_io {hptdc_data[13]}    \
+	-direction Inout
+
+set_io {hptdc_data[12]}    \
+	-direction Inout
+
+set_io {hptdc_data[11]}    \
+	-direction Inout
+
+set_io {hptdc_data[10]}    \
+	-direction Inout
+
+set_io {hptdc_data[9]}     \
+	-direction Inout
+
+set_io {hptdc_data[8]}     \
+	-direction Inout
+
+set_io {hptdc_data[7]}     \
+	-direction Inout
+
+set_io {hptdc_data[6]}     \
+	-direction Inout
+
+set_io {hptdc_data[5]}     \
+	-direction Inout
+
+set_io {hptdc_data[4]}     \
+	-direction Inout
+
+set_io {hptdc_data[3]}     \
+	-direction Inout
+
+set_io {hptdc_data[2]}     \
+	-direction Inout
+
+set_io {hptdc_data[1]}     \
+	-direction Inout
+
+set_io {hptdc_data[0]}     \
+	-direction Inout
+
+set_io {hptdc_data_0[31]} \
+	-direction Inout
+
+set_io {hptdc_data_0[30]} \
+	-direction Inout
+
+set_io {hptdc_data_0[29]} \
+	-direction Inout
+
+set_io {hptdc_data_0[28]} \
+	-direction Inout
+
+set_io {hptdc_data_0[27]} \
+	-direction Inout
+
+set_io {hptdc_data_0[26]} \
+	-direction Inout
+
+set_io {hptdc_data_0[25]} \
+	-direction Inout
+
+set_io {hptdc_data_0[24]} \
+	-direction Inout
+
+set_io {hptdc_data_0[23]} \
+	-direction Inout
+
+set_io {hptdc_data_0[22]} \
+	-direction Inout
+
+set_io {hptdc_data_0[21]} \
+	-direction Inout
+
+set_io {hptdc_data_0[20]} \
+	-direction Inout
+
+set_io {hptdc_data_0[19]} \
+	-direction Inout
+
+set_io {hptdc_data_0[18]} \
+	-direction Inout
+
+set_io {hptdc_data_0[17]} \
+	-direction Inout
+
+set_io {hptdc_data_0[16]} \
+	-direction Inout
+
+set_io {hptdc_data_0[15]} \
+	-direction Inout
+
+set_io {hptdc_data_0[14]} \
+	-direction Inout
+
+set_io {hptdc_data_0[13]} \
+	-direction Inout
+
+set_io {hptdc_data_0[12]} \
+	-direction Inout
+
+set_io {hptdc_data_0[11]} \
+	-direction Inout
+
+set_io {hptdc_data_0[10]} \
+	-direction Inout
+
+set_io {hptdc_data_0[9]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[8]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[7]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[6]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[5]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[4]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[3]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[2]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[1]}   \
+	-direction Inout
+
+set_io {hptdc_data_0[0]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[31]} \
+	-direction Inout
+
+set_io {hptdc_data_1[30]} \
+	-direction Inout
+
+set_io {hptdc_data_1[29]} \
+	-direction Inout
+
+set_io {hptdc_data_1[28]} \
+	-direction Inout
+
+set_io {hptdc_data_1[27]} \
+	-direction Inout
+
+set_io {hptdc_data_1[26]} \
+	-direction Inout
+
+set_io {hptdc_data_1[25]} \
+	-direction Inout
+
+set_io {hptdc_data_1[24]} \
+	-direction Inout
+
+set_io {hptdc_data_1[23]} \
+	-direction Inout
+
+set_io {hptdc_data_1[22]} \
+	-direction Inout
+
+set_io {hptdc_data_1[21]} \
+	-direction Inout
+
+set_io {hptdc_data_1[20]} \
+	-direction Inout
+
+set_io {hptdc_data_1[19]} \
+	-direction Inout
+
+set_io {hptdc_data_1[18]} \
+	-direction Inout
+
+set_io {hptdc_data_1[17]} \
+	-direction Inout
+
+set_io {hptdc_data_1[16]} \
+	-direction Inout
+
+set_io {hptdc_data_1[15]} \
+	-direction Inout
+
+set_io {hptdc_data_1[14]} \
+	-direction Inout
+
+set_io {hptdc_data_1[13]} \
+	-direction Inout
+
+set_io {hptdc_data_1[12]} \
+	-direction Inout
+
+set_io {hptdc_data_1[11]} \
+	-direction Inout
+
+set_io {hptdc_data_1[10]} \
+	-direction Inout
+
+set_io {hptdc_data_1[9]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[8]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[7]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[6]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[5]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[4]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[3]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[2]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[1]}   \
+	-direction Inout
+
+set_io {hptdc_data_1[0]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[31]} \
+	-direction Inout
+
+set_io {hptdc_data_2[30]} \
+	-direction Inout
+
+set_io {hptdc_data_2[29]} \
+	-direction Inout
+
+set_io {hptdc_data_2[28]} \
+	-direction Inout
+
+set_io {hptdc_data_2[27]} \
+	-direction Inout
+
+set_io {hptdc_data_2[26]} \
+	-direction Inout
+
+set_io {hptdc_data_2[25]} \
+	-direction Inout
+
+set_io {hptdc_data_2[24]} \
+	-direction Inout
+
+set_io {hptdc_data_2[23]} \
+	-direction Inout
+
+set_io {hptdc_data_2[22]} \
+	-direction Inout
+
+set_io {hptdc_data_2[21]} \
+	-direction Inout
+
+set_io {hptdc_data_2[20]} \
+	-direction Inout
+
+set_io {hptdc_data_2[19]} \
+	-direction Inout
+
+set_io {hptdc_data_2[18]} \
+	-direction Inout
+
+set_io {hptdc_data_2[17]} \
+	-direction Inout
+
+set_io {hptdc_data_2[16]} \
+	-direction Inout
+
+set_io {hptdc_data_2[15]} \
+	-direction Inout
+
+set_io {hptdc_data_2[14]} \
+	-direction Inout
+
+set_io {hptdc_data_2[13]} \
+	-direction Inout
+
+set_io {hptdc_data_2[12]} \
+	-direction Inout
+
+set_io {hptdc_data_2[11]} \
+	-direction Inout
+
+set_io {hptdc_data_2[10]} \
+	-direction Inout
+
+set_io {hptdc_data_2[9]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[8]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[7]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[6]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[5]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[4]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[3]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[2]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[1]}   \
+	-direction Inout
+
+set_io {hptdc_data_2[0]}   \
+	-direction Inout

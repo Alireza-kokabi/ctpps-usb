@@ -1,0 +1,630 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.7 11.7.0.119
+# Family: SmartFusion2 , Die: M2S150 , Package: 1152 FC
+# Date generated: Fri Apr 08 14:15:17 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+set_iobank Bank0       \
+    -vcci 2.50         \
+    -vref 1.25         \
+    -vrefpins { H31 }  \
+    -fixed yes
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io dac_din_0       \
+    -pinname AJ8       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io dac_ldac_0      \
+    -pinname AK8       \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io dac_sclk_0      \
+    -pinname AJ10      \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io dac_sync_0      \
+    -pinname AK10      \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_bunch_reset_0  \
+    -pinname R11            \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_bunch_reset_1  \
+    -pinname P9             \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_bunch_reset_2  \
+    -pinname T11            \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_bunch_reset_3  \
+    -pinname T12            \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_data_ready_0  \
+    -pinname K4            \
+    -fixed yes             \
+    -iostd LVTTL           \
+    -DIRECTION INPUT
+
+
+set_io hptdc_data_ready_1  \
+    -pinname U10           \
+    -fixed yes             \
+    -iostd LVTTL           \
+    -DIRECTION INPUT
+
+
+set_io hptdc_data_ready_2  \
+    -pinname U6            \
+    -fixed yes             \
+    -iostd LVTTL           \
+    -DIRECTION INPUT
+
+
+set_io hptdc_data_ready_3  \
+    -pinname R23           \
+    -fixed yes             \
+    -iostd LVTTL           \
+    -DIRECTION INPUT
+
+
+set_io hptdc_encode_control_0  \
+    -pinname P12               \
+    -fixed yes                 \
+    -iostd LVTTL               \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_encode_control_1  \
+    -pinname P6                \
+    -fixed yes                 \
+    -iostd LVTTL               \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_encode_control_2  \
+    -pinname R2                \
+    -fixed yes                 \
+    -iostd LVTTL               \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_encode_control_3  \
+    -pinname N31               \
+    -fixed yes                 \
+    -iostd LVTTL               \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_event_reset_0  \
+    -pinname AA10           \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_event_reset_1  \
+    -pinname AC9            \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_event_reset_2  \
+    -pinname AB10           \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_event_reset_3  \
+    -pinname AA11           \
+    -fixed yes              \
+    -iostd LVTTL            \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_get_data_0  \
+    -pinname J4          \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_get_data_1  \
+    -pinname J2          \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_get_data_2  \
+    -pinname U5          \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_get_data_3  \
+    -pinname R24         \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_bypass_in_0  \
+    -pinname AA8                 \
+    -fixed yes                   \
+    -iostd LVTTL                 \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_bypass_in_1  \
+    -pinname AA12                \
+    -fixed yes                   \
+    -iostd LVTTL                 \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_bypass_in_2  \
+    -pinname AB8                 \
+    -fixed yes                   \
+    -iostd LVTTL                 \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_bypass_in_3  \
+    -pinname AA9                 \
+    -fixed yes                   \
+    -iostd LVTTL                 \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_in_0  \
+    -pinname D1           \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_in_1  \
+    -pinname L5           \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_in_2  \
+    -pinname V11          \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_serial_in_3  \
+    -pinname P28          \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tck_0     \
+    -pinname AB1       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tck_1     \
+    -pinname AC5       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tck_2     \
+    -pinname AJ2       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tck_3     \
+    -pinname AJ3       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tdi_0    \
+    -pinname AJ6      \
+    -fixed yes        \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io hptdc_tdo_0     \
+    -pinname AH6       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tdo_1     \
+    -pinname AE6       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tdo_2     \
+    -pinname AG6       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tdo_3     \
+    -pinname AD7       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tms_0     \
+    -pinname AJ5       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tms_1     \
+    -pinname AH3       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tms_2     \
+    -pinname AF5       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_tms_3     \
+    -pinname AF7       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_bypass_in_0  \
+    -pinname AD3                \
+    -fixed yes                  \
+    -iostd LVTTL                \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_bypass_in_1  \
+    -pinname AD4                \
+    -fixed yes                  \
+    -iostd LVTTL                \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_bypass_in_2  \
+    -pinname AC4                \
+    -fixed yes                  \
+    -iostd LVTTL                \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_bypass_in_3  \
+    -pinname AC3                \
+    -fixed yes                  \
+    -iostd LVTTL                \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_in_0  \
+    -pinname AB3         \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_in_1  \
+    -pinname AA4         \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_in_2  \
+    -pinname AA3         \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_in_3  \
+    -pinname AA2         \
+    -fixed yes           \
+    -iostd LVTTL         \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_token_out_0  \
+    -pinname AC1          \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION INPUT
+
+
+set_io hptdc_token_out_1  \
+    -pinname AD1          \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION INPUT
+
+
+set_io hptdc_token_out_2  \
+    -pinname AD2          \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION INPUT
+
+
+set_io hptdc_token_out_3  \
+    -pinname AE4          \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -DIRECTION INPUT
+
+
+set_io hptdc_trigger_0  \
+    -pinname G2         \
+    -fixed yes          \
+    -iostd LVTTL        \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trigger_1  \
+    -pinname M7         \
+    -fixed yes          \
+    -iostd LVTTL        \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trigger_2  \
+    -pinname W11        \
+    -fixed yes          \
+    -iostd LVTTL        \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trigger_3  \
+    -pinname P30        \
+    -fixed yes          \
+    -iostd LVTTL        \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trstn_0   \
+    -pinname AH5       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trstn_1   \
+    -pinname AG4       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trstn_2   \
+    -pinname AG3       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io hptdc_trstn_3   \
+    -pinname AG7       \
+    -fixed yes         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io {qusb_fd[0]}   \
+    -pinname AF27     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[1]}   \
+    -pinname AE27     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[2]}   \
+    -pinname AD25     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[3]}   \
+    -pinname AC25     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[4]}   \
+    -pinname AD24     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[5]}   \
+    -pinname AC24     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[6]}   \
+    -pinname AC23     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[7]}   \
+    -pinname AB25     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[8]}   \
+    -pinname AD33     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[9]}   \
+    -pinname AC33     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[10]}  \
+    -pinname AA33     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[11]}  \
+    -pinname Y33      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[12]}  \
+    -pinname W33      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[13]}  \
+    -pinname V33      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[14]}  \
+    -pinname U34      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io {qusb_fd[15]}  \
+    -pinname T34      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INOUT
+
+
+set_io qusb_ifclk      \
+    -pinname AB23      \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io qusb_ren       \
+    -pinname V24      \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INPUT
+
+
+set_io qusb_wen       \
+    -pinname AB29     \
+    -fixed yes        \
+    -iostd LVCMOS25   \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

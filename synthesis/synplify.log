@@ -4,7 +4,7 @@ sourcing D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\message_override.tcl
 Starting:    D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\mbin\synbatch.exe
 Install:     D:\Microsemi\Libero_SoC_v11.7\Synplify
 Hostname:    PCLIP3
-Date:        Thu Apr 07 16:17:36 2016
+Date:        Fri Apr 08 15:30:27 2016
 Version:     J-2015.03M-SP1-2
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log TDR_syn.tcl
@@ -83,7 +83,7 @@ Copied D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis
 
 fpga_mapper Completed with warnings
 Return Code: 1
-Run Time:0h:00m:04s
+Run Time:0h:00m:03s
 
 Complete: Map on TDR_syn|synthesis
 

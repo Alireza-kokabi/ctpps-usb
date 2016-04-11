@@ -14,6 +14,6 @@ set_def {VCCI_3.3_VOLTR} {COM}
 set_def USE_TCGEN 1
 set_def NETLIST_TYPE EDIF
 set_name TDR
-set_workdir {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR}
-set_log     {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\Final2\designer\TDR\TDR_sdc.log}
+set_workdir {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR}
+set_log     {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR\TDR_sdc.log}
 set_design_state pre_layout
