@@ -4,45 +4,45 @@ Product Version J-2015.03M-SP1-2
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
-@L: D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR_scck.rpt 
-Printing clock  summary report in "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR_scck.rpt" file 
+@L: D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR_scck.rpt 
+Printing clock  summary report in "D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 116MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 116MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 116MB)
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 115MB peak: 116MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 115MB peak: 117MB)
 
-@N: BN115 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":652:13:652:26|Removing instance BunchCounter_0 of view:work.BunchCounter(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Removing sequential instance bias_voltage[13:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ControlDecoder(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance data_received_from_hptdc of view:PrimLib.dffe(prim) in hierarchy view:work.JTAG_2(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance jtag_bus_in_use of view:PrimLib.dff(prim) in hierarchy view:work.JTAG_2(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance data_received_from_hptdc of view:PrimLib.dffe(prim) in hierarchy view:work.JTAG_1(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance jtag_bus_in_use of view:PrimLib.dff(prim) in hierarchy view:work.JTAG_1(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance data_received_from_hptdc of view:PrimLib.dffe(prim) in hierarchy view:work.JTAG_0(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance jtag_bus_in_use of view:PrimLib.dff(prim) in hierarchy view:work.JTAG_0(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_3(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_2(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_1(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_0(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
-@N: BN362 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
-syn_allowed_resources : blockrams=236  set on top level netlist TDR
+@N: BN115 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\component\work\tdr\tdr.v":652:13:652:26|Removing instance BunchCounter_0 of view:work.BunchCounter(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Removing sequential instance bias_voltage[13:0] of view:PrimLib.dffe(prim) in hierarchy view:work.ControlDecoder(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance data_out[31:0] of view:PrimLib.dffe(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance data_received_from_hptdc of view:PrimLib.dffe(prim) in hierarchy view:work.JTAG_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance jtag_bus_in_use of view:PrimLib.dff(prim) in hierarchy view:work.JTAG_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance data_received_from_hptdc of view:PrimLib.dffe(prim) in hierarchy view:work.JTAG_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance jtag_bus_in_use of view:PrimLib.dff(prim) in hierarchy view:work.JTAG_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance data_received_from_hptdc of view:PrimLib.dffe(prim) in hierarchy view:work.JTAG_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance jtag_bus_in_use of view:PrimLib.dff(prim) in hierarchy view:work.JTAG_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Removing sequential instance data_out_1[60:59] of view:PrimLib.sdffrse(prim) in hierarchy view:work.Adder_0(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_3(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_2(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_1(verilog) because there are no references to its outputs 
+@N: BN362 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":89:4:89:9|Removing sequential instance fifo_ram[31:0] of view:PrimLib.ram1(prim) in hierarchy view:work.FIFO_0(verilog) because there are no references to its outputs 
+syn_allowed_resources : blockrams=69  set on top level netlist TDR
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
 
 
 
@@ -55,7 +55,7 @@ Clock       Frequency     Period        Type         Group
 TDR|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
 ========================================================================
 
-@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Found inferred clock TDR|clk which controls 1219 sequential elements including Adder_0.counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Found inferred clock TDR|clk which controls 1219 sequential elements including Adder_0.counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 @W: MO111 :|Tristate driver Adder_0_address_out_t[0] on net Adder_0_address_out[0] has its enable tied to GND (module TDR) 
@@ -203,12 +203,12 @@ Finished Pre Mapping Phase.
 @W: MO111 :|Tristate driver hptdc_event_reset_3_t on net hptdc_event_reset_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_bunch_reset_3_t on net hptdc_bunch_reset_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_encode_control_3_t on net hptdc_encode_control_3 has its enable tied to GND (module TDR) 
-@N: BN225 |Writing default property annotation file D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR.sap.
+@N: BN225 |Writing default property annotation file D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR.sap.
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 148MB)
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 79MB peak: 148MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Apr 08 15:30:33 2016
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Wed Apr 13 18:41:58 2016
 
 ###########################################################]

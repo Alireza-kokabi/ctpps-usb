@@ -1,4 +1,4 @@
-@W: MT530 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Found inferred clock TDR|clk which controls 1219 sequential elements including Adder_0.counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":95:4:95:9|Found inferred clock TDR|clk which controls 1219 sequential elements including Adder_0.counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[0] on net Adder_0_address_out[0] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[1] on net Adder_0_address_out[1] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[2] on net Adder_0_address_out[2] has its enable tied to GND (module TDR) 

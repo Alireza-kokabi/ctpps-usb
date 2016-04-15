@@ -1,36 +1,36 @@
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":50:36:50:58|Tristate driver data_ready_for_transmit on net data_ready_for_transmit has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":47:36:47:52|Tristate driver transmit_complete on net transmit_complete has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_1 on net address_out_1 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_2 on net address_out_2 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_3 on net address_out_3 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_4 on net address_out_4 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_5 on net address_out_5 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_6 on net address_out_6 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_7 on net address_out_7 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_8 on net address_out_8 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_9 on net address_out_9 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_10 on net address_out_10 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_11 on net address_out_11 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_12 on net address_out_12 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_13 on net address_out_13 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_14 on net address_out_14 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_15 on net address_out_15 has its enable tied to GND (module Adder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":59:36:59:55|Tristate driver hptdc_encode_control on net hptdc_encode_control has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":60:36:60:52|Tristate driver hptdc_bunch_reset on net hptdc_bunch_reset has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":67:36:67:52|Tristate driver hptdc_event_reset on net hptdc_event_reset has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":65:36:65:48|Tristate driver hptdc_trigger on net hptdc_trigger has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":63:36:63:57|Tristate driver hptdc_serial_bypass_in on net hptdc_serial_bypass_in has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":62:36:62:50|Tristate driver hptdc_serial_in on net hptdc_serial_in has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":61:36:61:56|Tristate driver hptdc_token_bypass_in on net hptdc_token_bypass_in has its enable tied to GND (module FIFO) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":112:36:112:59|Tristate driver data_transmit_complete_3 on net data_transmit_complete_3 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":109:36:109:59|Tristate driver data_transmit_complete_2 on net data_transmit_complete_2 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":106:36:106:59|Tristate driver data_transmit_complete_1 on net data_transmit_complete_1 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":103:36:103:59|Tristate driver data_transmit_complete_0 on net data_transmit_complete_0 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":59:36:59:53|Tristate driver transmit_request_3 on net transmit_request_3 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":55:36:55:53|Tristate driver transmit_request_2 on net transmit_request_2 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":51:36:51:53|Tristate driver transmit_request_1 on net transmit_request_1 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":47:36:47:53|Tristate driver transmit_request_0 on net transmit_request_0 has its enable tied to GND (module ControlDecoder) 
-@W: MO111 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":38:36:38:45|Tristate driver qusb_ifclk on net qusb_ifclk has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":50:36:50:58|Tristate driver data_ready_for_transmit on net data_ready_for_transmit has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":47:36:47:52|Tristate driver transmit_complete on net transmit_complete has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_1 on net address_out_1 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_2 on net address_out_2 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_3 on net address_out_3 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_4 on net address_out_4 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_5 on net address_out_5 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_6 on net address_out_6 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_7 on net address_out_7 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_8 on net address_out_8 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_9 on net address_out_9 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_10 on net address_out_10 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_11 on net address_out_11 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_12 on net address_out_12 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_13 on net address_out_13 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_14 on net address_out_14 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\adder.v":40:36:40:46|Tristate driver address_out_15 on net address_out_15 has its enable tied to GND (module Adder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":59:36:59:55|Tristate driver hptdc_encode_control on net hptdc_encode_control has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":60:36:60:52|Tristate driver hptdc_bunch_reset on net hptdc_bunch_reset has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":67:36:67:52|Tristate driver hptdc_event_reset on net hptdc_event_reset has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":65:36:65:48|Tristate driver hptdc_trigger on net hptdc_trigger has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":63:36:63:57|Tristate driver hptdc_serial_bypass_in on net hptdc_serial_bypass_in has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":62:36:62:50|Tristate driver hptdc_serial_in on net hptdc_serial_in has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\fifo.v":61:36:61:56|Tristate driver hptdc_token_bypass_in on net hptdc_token_bypass_in has its enable tied to GND (module FIFO) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":112:36:112:59|Tristate driver data_transmit_complete_3 on net data_transmit_complete_3 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":109:36:109:59|Tristate driver data_transmit_complete_2 on net data_transmit_complete_2 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":106:36:106:59|Tristate driver data_transmit_complete_1 on net data_transmit_complete_1 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":103:36:103:59|Tristate driver data_transmit_complete_0 on net data_transmit_complete_0 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":59:36:59:53|Tristate driver transmit_request_3 on net transmit_request_3 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":55:36:55:53|Tristate driver transmit_request_2 on net transmit_request_2 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":51:36:51:53|Tristate driver transmit_request_1 on net transmit_request_1 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":47:36:47:53|Tristate driver transmit_request_0 on net transmit_request_0 has its enable tied to GND (module ControlDecoder) 
+@W: MO111 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":38:36:38:45|Tristate driver qusb_ifclk on net qusb_ifclk has its enable tied to GND (module ControlDecoder) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[0] on net Adder_0_address_out[0] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[1] on net Adder_0_address_out[1] has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver Adder_0_address_out_t[2] on net Adder_0_address_out[2] has its enable tied to GND (module TDR) 
@@ -176,14 +176,14 @@
 @W: MO111 :|Tristate driver hptdc_event_reset_3_t on net hptdc_event_reset_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_bunch_reset_3_t on net hptdc_bunch_reset_3 has its enable tied to GND (module TDR) 
 @W: MO111 :|Tristate driver hptdc_encode_control_3_t on net hptdc_encode_control_3 has its enable tied to GND (module TDR) 
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_3.trstn_pad_o,  because it is equivalent to instance JTAG_2.trstn_pad_o
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_2.trstn_pad_o,  because it is equivalent to instance JTAG_1.trstn_pad_o
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_1.trstn_pad_o,  because it is equivalent to instance JTAG_0.trstn_pad_o
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_3.data_length,  because it is equivalent to instance JTAG_2.data_length
-@W: BN132 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_2.data_length,  because it is equivalent to instance JTAG_1.data_length
-@W: MO160 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[6] is always 0, optimizing ...
-@W: MO160 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[5] is always 0, optimizing ...
-@W: MO160 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[4] is always 0, optimizing ...
-@W: MO160 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[3] is always 0, optimizing ...
-@W: MO160 :"d:\dropali\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[2] is always 0, optimizing ...
+@W: BN132 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_3.trstn_pad_o,  because it is equivalent to instance JTAG_2.trstn_pad_o
+@W: BN132 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_2.trstn_pad_o,  because it is equivalent to instance JTAG_1.trstn_pad_o
+@W: BN132 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_1.trstn_pad_o,  because it is equivalent to instance JTAG_0.trstn_pad_o
+@W: BN132 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_3.data_length,  because it is equivalent to instance JTAG_2.data_length
+@W: BN132 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\jtag.v":123:4:123:9|Removing sequential instance JTAG_2.data_length,  because it is equivalent to instance JTAG_1.data_length
+@W: MO160 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[6] is always 0, optimizing ...
+@W: MO160 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[5] is always 0, optimizing ...
+@W: MO160 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[4] is always 0, optimizing ...
+@W: MO160 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[3] is always 0, optimizing ...
+@W: MO160 :"d:\dropbox\documents\projects\firmware\source\ctpps-usb\hdl\controldecoder.v":178:4:178:9|Register bit ControlDecoder_0.lathed_data_from_hptdc_0[2] is always 0, optimizing ...
 @W: MT420 |Found inferred clock TDR|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"

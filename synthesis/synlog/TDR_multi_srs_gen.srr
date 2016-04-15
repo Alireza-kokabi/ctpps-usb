@@ -1,10 +1,11 @@
 Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
 @N|Running in 64-bit mode
+File D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe changed - recompiling
 File D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\synwork\TDR_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 81MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 79MB peak: 80MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Apr 08 15:30:32 2016
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Apr 13 18:41:50 2016
 
 ###########################################################]

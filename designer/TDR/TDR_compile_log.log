@@ -195,7 +195,7 @@ Error: PDC-01: port name doesn't exist in the netlist or is not connected to an 
 Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io hptdc_error_2 -direction Input
 Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io hptdc_data[31] -direction Inout
 Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io hptdc_data[30] -direction Inout
-INFO: Reading User PDC file D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/constraint/io/TDR.pdc. 151 error(s) and 0 warning(s)
+INFO: Reading User PDC file D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/constraint/io/TDR.pdc. 151 error(s) and 0 warning(s)
 Error:  The command 'compile' failed.
 Error:  Line 113
 Error running script

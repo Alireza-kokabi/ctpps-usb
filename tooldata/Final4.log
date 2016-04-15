@@ -7,10 +7,10 @@ Preferred HDL Type: Verilog
                   Device Details
 #-----------------------------------------------------
 
-Part Number    : M2S150-FC1152
+Part Number    : M2S060T-VF400
 Family         : SmartFusion2
-Die            : M2S150
-Package        : 1152 FC
+Die            : M2S060T
+Package        : 400 VF
 Speed          : STD
 Core Voltage   : 1.2
 Range          : COM

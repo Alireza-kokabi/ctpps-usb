@@ -1,20 +1,20 @@
 #--  Synopsys, Inc.
 #--  Version J-2015.03M-SP1-2
-#--  Project file D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\scratchproject.prs
+#--  Project file D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/Adder.v"
-add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/BunchCounter.v"
-add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/ControlDecoder.v"
-add_file -vhdl -lib work "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/DACController.vhd"
-add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/FIFO.v"
-add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/JTAG.v"
-add_file -verilog "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/component/work/TDR/TDR.v"
+add_file -verilog "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/Adder.v"
+add_file -verilog "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/BunchCounter.v"
+add_file -verilog "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/ControlDecoder.v"
+add_file -vhdl -lib work "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/DACController.vhd"
+add_file -verilog "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/FIFO.v"
+add_file -verilog "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/hdl/JTAG.v"
+add_file -verilog "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/component/work/TDR/TDR.v"
 
 
 
 #implementation: "synthesis"
-impl -add D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis -type fpga
+impl -add D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis -type fpga
 
 #
 #implementation attributes
@@ -23,8 +23,8 @@ set_option -vlog_std v2001
 
 #device options
 set_option -technology SmartFusion2
-set_option -part M2S150
-set_option -package FC1152
+set_option -part M2S060T
+set_option -package VF400
 set_option -speed_grade STD
 set_option -part_companion ""
 
@@ -69,5 +69,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "D:/DropAli/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/synthesis/TDR.edn"
+project -result_file "D:/Dropbox/Documents/Projects/Firmware/Source/ctpps-usb/synthesis/TDR.edn"
 impl -active "synthesis"

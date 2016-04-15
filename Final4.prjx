@@ -6,8 +6,8 @@ KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY UseConstraintFlowTechnology "FALSE"
 KEY VendorTechnology_Family "SmartFusion2"
-KEY VendorTechnology_Die "PA4M12000_N"
-KEY VendorTechnology_Package "fc1152"
+KEY VendorTechnology_Die "PA4M6000"
+KEY VendorTechnology_Package "vf400"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
@@ -20,7 +20,7 @@ KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
 KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
-KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M12000_N"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M6000"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
 KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
@@ -29,7 +29,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb"
+KEY ProjectLocation "D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -56,192 +56,177 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.0.113\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1429007687"
-SIZE="508"
+TIME="1460712284"
+SIZE="494"
 IS_READONLY="TRUE"
 IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Core_sb\Core_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1460038373"
+TIME="1460712284"
 SIZE="1201"
 ENDFILE
 VALUE "<project>\component\work\MSS\Core_sb_MSS_TMP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459754659"
+TIME="1460712284"
 SIZE="21328"
 ENDFILE
 VALUE "<project>\component\work\TDR\TDR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1460122197"
+TIME="1460712284"
 SIZE="17010"
 ENDFILE
 VALUE "<project>\component\work\TDR\TDR.v,hdl"
 STATE="utd"
-TIME="1460122196"
-SIZE="42819"
+TIME="1460712284"
+SIZE="41873"
 PARENT="<project>\component\work\TDR\TDR.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\TDR_sb\TDR_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1429100655"
+TIME="1460712284"
 SIZE="3930"
 ENDFILE
 VALUE "<project>\constraint\fp\TDR.fp.pdc,fp_pdc"
 STATE="utd"
-TIME="1460117717"
+TIME="1460712284"
 SIZE="338"
 ENDFILE
 VALUE "<project>\constraint\io\TDR.io.pdc,io_pdc"
 STATE="utd"
-TIME="1460117717"
-SIZE="12537"
+TIME="1460712284"
+SIZE="11907"
 ENDFILE
 VALUE "<project>\constraint\io\TDR.pdc,io_pdc"
 STATE="utd"
-TIME="1460122204"
-SIZE="12438"
+TIME="1460712284"
+SIZE="11717"
 ENDFILE
 VALUE "<project>\designer\impl1\TDR.ide_des,ide_des"
 STATE="utd"
-TIME="1460112872"
-SIZE="525"
+TIME="1460712284"
+SIZE="511"
 ENDFILE
 VALUE "<project>\designer\impl1\TDR_sb.ide_des,ide_des"
 STATE="utd"
-TIME="1446392656"
-SIZE="209"
+TIME="1460712284"
+SIZE="201"
 ENDFILE
 VALUE "<project>\hdl\Adder.v,hdl"
 STATE="utd"
-TIME="1460038543"
-SIZE="9644"
+TIME="1460712284"
+SIZE="9412"
 ENDFILE
 VALUE "<project>\hdl\BiasController.v,hdl"
 STATE="utd"
-TIME="1446389655"
-SIZE="4621"
+TIME="1460712284"
+SIZE="4489"
 ENDFILE
 VALUE "<project>\hdl\BiasController.vhd,hdl"
 STATE="utd"
-TIME="1446390123"
-SIZE="4616"
+TIME="1460712284"
+SIZE="4484"
 ENDFILE
 VALUE "<project>\hdl\BunchCounter.v,hdl"
 STATE="utd"
-TIME="1460117682"
-SIZE="1145"
+TIME="1460712284"
+SIZE="1102"
 ENDFILE
 VALUE "<project>\hdl\CCU25Interface.v,hdl"
 STATE="utd"
-TIME="1444495450"
-SIZE="1881"
+TIME="1460712284"
+SIZE="1820"
 ENDFILE
 VALUE "<project>\hdl\ControlDecoder.v,hdl"
 STATE="utd"
-TIME="1460035643"
-SIZE="23747"
+TIME="1460712284"
+SIZE="24234"
 ENDFILE
 VALUE "<project>\hdl\DACController.vhd,hdl"
 STATE="utd"
-TIME="1457523769"
-SIZE="4626"
+TIME="1460712284"
+SIZE="4494"
 ENDFILE
 VALUE "<project>\hdl\FIFO.v,hdl"
 STATE="utd"
-TIME="1460122113"
-SIZE="5494"
+TIME="1460712284"
+SIZE="5356"
 ENDFILE
 VALUE "<project>\hdl\I2C.v,hdl"
 STATE="utd"
-TIME="1459865904"
-SIZE="3326"
+TIME="1460712284"
+SIZE="3231"
 ENDFILE
 VALUE "<project>\hdl\JTAG.v,hdl"
 STATE="utd"
-TIME="1458595161"
-SIZE="15032"
+TIME="1460712284"
+SIZE="14689"
 ENDFILE
 VALUE "<project>\hdl\ParallelPortHPTDC.v,hdl"
 STATE="utd"
-TIME="1457441038"
-SIZE="2538"
+TIME="1460712284"
+SIZE="2469"
 ENDFILE
 VALUE "<project>\hdl\ProgramCombiner.v,hdl"
 STATE="utd"
-TIME="1423232756"
-SIZE="10616"
+TIME="1460712284"
+SIZE="10387"
 ENDFILE
 VALUE "<project>\hdl\SerialReciever.v,hdl"
 STATE="utd"
-TIME="1428948818"
-SIZE="2118"
+TIME="1460712284"
+SIZE="2048"
 ENDFILE
 VALUE "<project>\hdl\SerialSynchronizer.v,hdl"
 STATE="utd"
-TIME="1428948975"
-SIZE="1979"
+TIME="1460712284"
+SIZE="1910"
 ENDFILE
 VALUE "<project>\hdl\SerialTransmitter.v,hdl"
 STATE="utd"
-TIME="1446400504"
-SIZE="2774"
+TIME="1460712284"
+SIZE="2692"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1460038391"
-SIZE="159"
+TIME="1460712284"
+SIZE="154"
 ENDFILE
 VALUE "<project>\synthesis\synwork\TDR_comp.so,so"
 STATE="utd"
-TIME="1428422622"
-SIZE="159"
+TIME="1460712284"
+SIZE="154"
 ENDFILE
 VALUE "<project>\synthesis\TDR.edn,syn_edn"
-STATE="utd"
-TIME="1460111682"
-SIZE="479437"
+STATE="ood"
+TIME="1460712284"
+SIZE="468795"
 ENDFILE
 VALUE "<project>\synthesis\TDR.so,so"
 STATE="utd"
-TIME="1460111683"
-SIZE="239"
+TIME="1460712284"
+SIZE="225"
 ENDFILE
 VALUE "<project>\synthesis\TDR.v,syn_hdl"
-STATE="utd"
-TIME="1460111690"
-SIZE="175015"
+STATE="ood"
+TIME="1460712284"
+SIZE="171730"
 ENDFILE
 VALUE "<project>\synthesis\TDR_sdc.sdc,syn_sdc"
-STATE="utd"
-TIME="1460111682"
-SIZE="886"
+STATE="ood"
+TIME="1460712284"
+SIZE="836"
 ENDFILE
 VALUE "<project>\synthesis\TDR_syn.prj,prj"
 STATE="utd"
-TIME="1460111683"
-SIZE="2278"
+TIME="1460729562"
+SIZE="2974"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
-LIST "TDR::work"
-FILE "<project>\component\work\TDR\TDR.v,hdl"
-LIST ProjectState5.1
-LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\TDR.edn,syn_edn)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
-ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -302,7 +287,7 @@ LIST Profiles
 NAME="SoftConsole"
 FUNCTION="SoftwareIDE"
 TOOL="SoftConsole"
-LOCATION="D:\Microsemi\Libero_SoC_v11.7\SoftConsole\Eclipse\eclipse.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\SoftConsole\Eclipse\eclipse.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -311,7 +296,7 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\synplify_pro.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\synplify_pro.exe"
 PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
 BATCH=1
 LICENSE=""
@@ -320,7 +305,7 @@ EndProfile
 NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
-LOCATION="D:\Microsemi\Libero_SoC_v11.7\Model\win32acoem\modelsim.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\Model\win32acoem\modelsim.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -329,7 +314,7 @@ EndProfile
 NAME="FlashPro"
 FUNCTION="Program"
 TOOL="FlashPro"
-LOCATION="D:\Microsemi\Libero_SoC_v11.7\Designer\bin\flashpro.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\Designer\bin\flashpro.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -338,7 +323,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="D:\Microsemi\Libero_SoC_v11.7\Identify\bin\identify_debugger.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -346,18 +331,6 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "TDR::work"
-LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\TDR.edn,syn_edn)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -371,18 +344,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Compile:TDR_compile_log.log
 StartPage;StartPage;0
-SmartDesign;TDR;0
-HDL;hdl\ControlDecoder.v;0
-HDL;hdl\Adder.v;0
-HDL;hdl\FIFO.v;0
-HDL;constraint\io\TDR.io.pdc;0
-HDL;hdl\BunchCounter.v;0
-HDL;constraint\io\TDR.pdc;0
-HDL;hdl\JTAG.v;0
-ACTIVEVIEW;hdl\ControlDecoder.v
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Adder::work","hdl\Adder.v","FALSE","FALSE"

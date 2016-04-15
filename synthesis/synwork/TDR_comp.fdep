@@ -1,36 +1,36 @@
-#OPTIONS:"|-mixedhdl|-modhint|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_verilog_hintfile|-top|TDR|-layerid|0|-orig_srs|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\TDR_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib|-v2001|-devicelib|D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_ver.exe":1449221726
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_verilog_hintfile":1460038390
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v":1449221730
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\hypermods.v":1449221734
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\umr_capim.v":1449221734
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_objects.v":1449221734
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_pipes.svh":1449221734
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\Adder.v":1460038543
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\BunchCounter.v":1460117682
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\ControlDecoder.v":1460035643
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\FIFO.v":1460122113
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\JTAG.v":1458598761
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\component\\work\\TDR\\TDR.v":1460122196
-#OPTIONS:"|-mixedhdl|-top|work.DACController|-mpparams|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\TDR_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449221726
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\hyperents.vhd":1449221732
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\DACController.vhd":1457527369
-0			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v" verilog
-1			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v" verilog
-2			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v" verilog
-3			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v" verilog
-4			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v" verilog
-5			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v" verilog
-6			"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd" vhdl
+#OPTIONS:"|-mixedhdl|-modhint|D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_verilog_hintfile|-top|TDR|-layerid|0|-orig_srs|D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\TDR_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_ver.exe":1449221726
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_verilog_hintfile":1460565684
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v":1449221730
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\hypermods.v":1449221734
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\umr_capim.v":1449221734
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_objects.v":1449221734
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_pipes.svh":1449221734
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\Adder.v":1460038543
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\BunchCounter.v":1460117682
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\ControlDecoder.v":1460381755
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\FIFO.v":1460122113
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\JTAG.v":1458598761
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\component\\work\\TDR\\TDR.v":1460122196
+#OPTIONS:"|-mixedhdl|-top|work.DACController|-mpparams|D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\synthesis\\synwork\\TDR_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449221726
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\hyperents.vhd":1449221732
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\DACController.vhd":1457527369
+0			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\Adder.v" verilog
+1			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\BunchCounter.v" verilog
+2			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\ControlDecoder.v" verilog
+3			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\FIFO.v" verilog
+4			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\JTAG.v" verilog
+5			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\component\work\TDR\TDR.v" verilog
+6			"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\hdl\DACController.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1

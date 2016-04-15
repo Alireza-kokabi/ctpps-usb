@@ -1,15 +1,15 @@
 %%% protect protected_file
 #OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449221726
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449221732
-#CUR:"D:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449221732
-#CUR:"D:\\DropAli\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\DACController.vhd":1457527369
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449221726
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449221732
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449221732
+#CUR:"D:\\Dropbox\\Documents\\Projects\\Firmware\\Source\\ctpps-usb\\hdl\\DACController.vhd":1457527369
 @E8lFkRDC7BqBFsM0FCDDsH
 DLssN$FRIsH	
 M0bkR	ODRF4

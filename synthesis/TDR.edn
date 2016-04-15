@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2016 4 8 15 30 36)
+      (timeStamp 2016 4 13 18 42 23)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "J-2015.03M-SP1-2, mapper mapact, Build 1659R"))
      )
@@ -9211,5 +9211,5 @@
     )
   )
   (design TDR (cellRef TDR (libraryRef work))
-	(property PART (string "m2s150fc1152std") (owner "Microsemi")))
+	(property PART (string "m2s060tvf400std") (owner "Microsemi")))
 )

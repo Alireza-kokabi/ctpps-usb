@@ -25,11 +25,11 @@ set_compile_info \
 set_compile_info \
     -category {"Device Selection"} \
     -name {"Device"} \
-    -value {"M2S150"}
+    -value {"M2S060T"}
 set_compile_info \
     -category {"Device Selection"} \
     -name {"Package"} \
-    -value {"1152 FC"}
+    -value {"400 VF"}
 set_compile_info \
     -category {"Device Selection"} \
     -name {"Speed Grade"} \
@@ -81,15 +81,15 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR.edn"}
+    -value {"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\synthesis\TDR.edn"}
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\io\TDR.pdc"}
+    -value {"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\io\TDR.pdc"}
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\fp\TDR.fp.pdc"}
+    -value {"D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\fp\TDR.fp.pdc"}
 set_compile_info \
     -category {"Options"} \
     -name {"Merge User SDC file(s) with Existing Timing Constraints"} \
@@ -111,11 +111,11 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR} \
+    -desdir {D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\designer\TDR} \
     -design TDR \
     -fam SmartFusion2 \
-    -die PA4M12000_N \
-    -pkg fc1152 \
-    -pdc_file {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\io\TDR.pdc} \
-    -pdc_file {D:\DropAli\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\fp\TDR.fp.pdc} \
+    -die PA4M6000 \
+    -pkg vf400 \
+    -pdc_file {D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\io\TDR.pdc} \
+    -pdc_file {D:\Dropbox\Documents\Projects\Firmware\Source\ctpps-usb\constraint\fp\TDR.fp.pdc} \
     -merge_pdc 0
