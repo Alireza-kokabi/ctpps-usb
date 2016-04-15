@@ -73,15 +73,8 @@ SIZE="21328"
 ENDFILE
 VALUE "<project>\component\work\TDR\TDR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1460712284"
-SIZE="17010"
-ENDFILE
-VALUE "<project>\component\work\TDR\TDR.v,hdl"
-STATE="utd"
-TIME="1460712284"
-SIZE="41873"
-PARENT="<project>\component\work\TDR\TDR.cxf"
-IS_READONLY="TRUE"
+TIME="1460731253"
+SIZE="17141"
 ENDFILE
 VALUE "<project>\component\work\TDR_sb\TDR_sb.cxf,actgen_cxf"
 STATE="utd"
@@ -345,7 +338,8 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;TDR;0
+ACTIVEVIEW;TDR
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Adder::work","hdl\Adder.v","FALSE","FALSE"
@@ -365,6 +359,8 @@ ENDLIST
 LIST "FIFO::work","hdl\FIFO.v","FALSE","FALSE"
 ENDLIST
 LIST "I2CslaveWith8bitsIO::work","hdl\I2C.v","FALSE","FALSE"
+ENDLIST
+LIST "IO::work","","FALSE","FALSE"
 ENDLIST
 LIST "JTAG::work","hdl\JTAG.v","FALSE","FALSE"
 ENDLIST
@@ -449,7 +445,8 @@ LIST "SerialSynchronizer::work","hdl\SerialSynchronizer.v","FALSE","FALSE"
 ENDLIST
 LIST "SerialTransmitter::work","hdl\SerialTransmitter.v","FALSE","FALSE"
 ENDLIST
-LIST "TDR::work","component\work\TDR\TDR.v","TRUE","FALSE"
+LIST "TDR::work","component\work\TDR\TDR.cxf","TRUE","FALSE"
+SUBBLOCK "IO::work","","FALSE","FALSE"
 SUBBLOCK "Adder::work","hdl\Adder.v","FALSE","FALSE"
 SUBBLOCK "BunchCounter::work","hdl\BunchCounter.v","FALSE","FALSE"
 SUBBLOCK "ControlDecoder::work","hdl\ControlDecoder.v","FALSE","FALSE"
