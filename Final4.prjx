@@ -73,8 +73,8 @@ SIZE="21328"
 ENDFILE
 VALUE "<project>\component\work\TDR\TDR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1460731253"
-SIZE="17141"
+TIME="1460737103"
+SIZE="16801"
 ENDFILE
 VALUE "<project>\component\work\TDR_sb\TDR_sb.cxf,actgen_cxf"
 STATE="utd"
@@ -143,8 +143,8 @@ SIZE="4494"
 ENDFILE
 VALUE "<project>\hdl\FIFO.v,hdl"
 STATE="utd"
-TIME="1460712284"
-SIZE="5356"
+TIME="1460736770"
+SIZE="5494"
 ENDFILE
 VALUE "<project>\hdl\I2C.v,hdl"
 STATE="utd"
@@ -339,6 +339,8 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 StartPage;StartPage;0
 SmartDesign;TDR;0
+HDL;hdl\ControlDecoder.v;0
+HDL;hdl\FIFO.v;0
 ACTIVEVIEW;TDR
 ENDLIST
 LIST ModuleSubBlockList

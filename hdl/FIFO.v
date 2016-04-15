@@ -63,7 +63,7 @@ module FIFO (
     output                          hptdc_serial_bypass_in;
     input                           hptdc_serial_out;
     output                          hptdc_trigger;
-    inout   [31:0]                  hptdc_data;
+    input   [31:0]                  hptdc_data;
     output                          hptdc_event_reset;
     input                           hptdc_data_ready;
     output                          hptdc_get_data;
