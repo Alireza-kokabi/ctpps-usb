@@ -16,12 +16,11 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////// 
 
-module BunchCounter( clk, rst, clk_40_P, clk_40_N, t1, bunch_number, event_number);
+module BunchCounter( clk, rst, clk_40, t1, bunch_number, event_number);
 
     input                           clk;
     input                           rst;
-    input                           clk_40_P;
-    input                           clk_40_N;
+    input                           clk_40;
     input                           t1;
     output      [15:0]              bunch_number;
     output      [23:0]              event_number;
